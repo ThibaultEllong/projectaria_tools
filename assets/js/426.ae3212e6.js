@@ -1,6 +1,6 @@
 "use strict";
-exports.id = 635;
-exports.ids = [635];
+exports.id = 426;
+exports.ids = [426];
 exports.modules = {
 
 /***/ 21176:
@@ -30,7 +30,7 @@ var map = __webpack_require__(52341);
 var range = __webpack_require__(91395);
 // EXTERNAL MODULE: ./node_modules/dagre-d3-es/src/graphlib/index.js
 var graphlib = __webpack_require__(697);
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/data/list.js
+;// ./node_modules/dagre-d3-es/src/dagre/data/list.js
 /*
  * Simple doubly linked list implementation derived from Cormen, et al.,
  * "Introduction to Algorithms".
@@ -87,7 +87,7 @@ function filterOutLinks(k, v) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/greedy-fas.js
+;// ./node_modules/dagre-d3-es/src/dagre/greedy-fas.js
 
 
 
@@ -215,7 +215,7 @@ function assignBucket(buckets, zeroIdx, entry) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/acyclic.js
+;// ./node_modules/dagre-d3-es/src/dagre/acyclic.js
 
 
 
@@ -285,7 +285,7 @@ var pick = __webpack_require__(81942);
 var defaults = __webpack_require__(23068);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isSymbol.js
 var isSymbol = __webpack_require__(61882);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseExtremum.js
+;// ./node_modules/lodash-es/_baseExtremum.js
 
 
 /**
@@ -319,7 +319,7 @@ function baseExtremum(array, iteratee, comparator) {
 
 /* harmony default export */ const _baseExtremum = (baseExtremum);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseGt.js
+;// ./node_modules/lodash-es/_baseGt.js
 /**
  * The base implementation of `_.gt` which doesn't coerce arguments.
  *
@@ -337,7 +337,7 @@ function baseGt(value, other) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/identity.js
 var identity = __webpack_require__(29008);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/max.js
+;// ./node_modules/lodash-es/max.js
 
 
 
@@ -368,7 +368,7 @@ function max(array) {
 
 /* harmony default export */ const lodash_es_max = (max);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/last.js
+;// ./node_modules/lodash-es/last.js
 /**
  * Gets the last element of `array`.
  *
@@ -396,7 +396,7 @@ var _baseAssignValue = __webpack_require__(52528);
 var _baseForOwn = __webpack_require__(79841);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseIteratee.js + 16 modules
 var _baseIteratee = __webpack_require__(49574);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/mapValues.js
+;// ./node_modules/lodash-es/mapValues.js
 
 
 
@@ -443,7 +443,7 @@ function mapValues(object, iteratee) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isUndefined.js
 var isUndefined = __webpack_require__(69592);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseLt.js
+;// ./node_modules/lodash-es/_baseLt.js
 /**
  * The base implementation of `_.lt` which doesn't coerce arguments.
  *
@@ -459,7 +459,7 @@ function baseLt(value, other) {
 
 /* harmony default export */ const _baseLt = (baseLt);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/min.js
+;// ./node_modules/lodash-es/min.js
 
 
 
@@ -492,7 +492,7 @@ function min(array) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_root.js
 var _root = __webpack_require__(41917);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/now.js
+;// ./node_modules/lodash-es/now.js
 
 
 /**
@@ -517,7 +517,7 @@ var now = function() {
 
 /* harmony default export */ const lodash_es_now = (now);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/util.js
+;// ./node_modules/dagre-d3-es/src/dagre/util.js
 
 
 
@@ -754,7 +754,7 @@ function notime(name, fn) {
   return fn();
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/add-border-segments.js
+;// ./node_modules/dagre-d3-es/src/dagre/add-border-segments.js
 
 
 
@@ -792,7 +792,7 @@ function add_border_segments_addBorderNode(g, prop, prefix, sg, sgNode, rank) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/coordinate-system.js
+;// ./node_modules/dagre-d3-es/src/dagre/coordinate-system.js
 
 
 
@@ -869,7 +869,7 @@ function swapXYOne(attrs) {
   attrs.y = x;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/normalize.js
+;// ./node_modules/dagre-d3-es/src/dagre/normalize.js
 
 
 
@@ -962,7 +962,7 @@ function normalize_undo(g) {
   });
 }
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/minBy.js
+;// ./node_modules/lodash-es/minBy.js
 
 
 
@@ -998,7 +998,7 @@ function minBy(array, iteratee) {
 
 /* harmony default export */ const lodash_es_minBy = (minBy);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/rank/util.js
+;// ./node_modules/dagre-d3-es/src/dagre/rank/util.js
 
 
 
@@ -1063,7 +1063,7 @@ function slack(g, e) {
   return g.node(e.w).rank - g.node(e.v).rank - g.edge(e).minlen;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/rank/feasible-tree.js
+;// ./node_modules/dagre-d3-es/src/dagre/rank/feasible-tree.js
 
 
 
@@ -1156,7 +1156,7 @@ function shiftRanks(t, g, delta) {
 var isArrayLike = __webpack_require__(38446);
 // EXTERNAL MODULE: ./node_modules/lodash-es/keys.js
 var keys = __webpack_require__(27422);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_createFind.js
+;// ./node_modules/lodash-es/_createFind.js
 
 
 
@@ -1187,7 +1187,7 @@ function createFind(findIndexFunc) {
 var _baseFindIndex = __webpack_require__(25707);
 // EXTERNAL MODULE: ./node_modules/lodash-es/toFinite.js + 3 modules
 var toFinite = __webpack_require__(74342);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/toInteger.js
+;// ./node_modules/lodash-es/toInteger.js
 
 
 /**
@@ -1225,7 +1225,7 @@ function toInteger(value) {
 
 /* harmony default export */ const lodash_es_toInteger = (toInteger);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/findIndex.js
+;// ./node_modules/lodash-es/findIndex.js
 
 
 
@@ -1282,7 +1282,7 @@ function findIndex(array, predicate, fromIndex) {
 
 /* harmony default export */ const lodash_es_findIndex = (findIndex);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/find.js
+;// ./node_modules/lodash-es/find.js
 
 
 
@@ -1328,7 +1328,7 @@ var find = _createFind(lodash_es_findIndex);
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/filter.js + 1 modules
 var filter = __webpack_require__(11662);
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/dijkstra.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/dijkstra.js
 
 
 
@@ -1395,7 +1395,7 @@ function runDijkstra(g, source, weightFn, edgeFn) {
   return results;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/dijkstra-all.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/dijkstra-all.js
 
 
 
@@ -1411,7 +1411,7 @@ function dijkstraAll(g, weightFunc, edgeFunc) {
   );
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/floyd-warshall.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/floyd-warshall.js
 
 
 
@@ -1478,7 +1478,7 @@ var _baseGetTag = __webpack_require__(88496);
 var isArray = __webpack_require__(92049);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isObjectLike.js
 var isObjectLike = __webpack_require__(53098);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/isString.js
+;// ./node_modules/lodash-es/isString.js
 
 
 
@@ -1512,7 +1512,7 @@ function isString(value) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseProperty.js
 var _baseProperty = __webpack_require__(70805);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_asciiSize.js
+;// ./node_modules/lodash-es/_asciiSize.js
 
 
 /**
@@ -1526,7 +1526,7 @@ var asciiSize = (0,_baseProperty/* default */.A)('length');
 
 /* harmony default export */ const _asciiSize = (asciiSize);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_hasUnicode.js
+;// ./node_modules/lodash-es/_hasUnicode.js
 /** Used to compose unicode character classes. */
 var rsAstralRange = '\\ud800-\\udfff',
     rsComboMarksRange = '\\u0300-\\u036f',
@@ -1554,7 +1554,7 @@ function hasUnicode(string) {
 
 /* harmony default export */ const _hasUnicode = (hasUnicode);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_unicodeSize.js
+;// ./node_modules/lodash-es/_unicodeSize.js
 /** Used to compose unicode character classes. */
 var _unicodeSize_rsAstralRange = '\\ud800-\\udfff',
     _unicodeSize_rsComboMarksRange = '\\u0300-\\u036f',
@@ -1600,7 +1600,7 @@ function unicodeSize(string) {
 
 /* harmony default export */ const _unicodeSize = (unicodeSize);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_stringSize.js
+;// ./node_modules/lodash-es/_stringSize.js
 
 
 
@@ -1620,7 +1620,7 @@ function stringSize(string) {
 
 /* harmony default export */ const _stringSize = (stringSize);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/size.js
+;// ./node_modules/lodash-es/size.js
 
 
 
@@ -1668,7 +1668,7 @@ function size(collection) {
 
 /* harmony default export */ const lodash_es_size = (size);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/topsort.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/topsort.js
 
 
 
@@ -1706,7 +1706,7 @@ function topsort_topsort(g) {
 function topsort_CycleException() {}
 topsort_CycleException.prototype = new Error(); // must be an instance of Error to pass testing
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/is-acyclic.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/is-acyclic.js
 
 
 
@@ -1723,7 +1723,7 @@ function isAcyclic(g) {
   return true;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/dfs.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/dfs.js
 
 
 
@@ -1771,7 +1771,7 @@ function doDfs(g, v, postorder, visited, navigation, acc) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/postorder.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/postorder.js
 
 
 
@@ -1780,7 +1780,7 @@ function postorder(g, vs) {
   return dfs(g, vs, 'post');
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/preorder.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/preorder.js
 
 
 
@@ -1791,7 +1791,7 @@ function preorder(g, vs) {
 
 // EXTERNAL MODULE: ./node_modules/dagre-d3-es/src/graphlib/graph.js + 9 modules
 var graph = __webpack_require__(73046);
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/prim.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/prim.js
 
 
 
@@ -1845,7 +1845,7 @@ function prim(g, weightFunc) {
   return result;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/alg/index.js
+;// ./node_modules/dagre-d3-es/src/graphlib/alg/index.js
 
 
 
@@ -1860,7 +1860,7 @@ function prim(g, weightFunc) {
 
 
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/rank/network-simplex.js
+;// ./node_modules/dagre-d3-es/src/dagre/rank/network-simplex.js
 
 
 
@@ -2098,7 +2098,7 @@ function isDescendant(tree, vLabel, rootLabel) {
   return rootLabel.low <= vLabel.lim && vLabel.lim <= rootLabel.lim;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/rank/index.js
+;// ./node_modules/dagre-d3-es/src/dagre/rank/index.js
 
 
 
@@ -2156,7 +2156,7 @@ function networkSimplexRanker(g) {
 var values = __webpack_require__(38207);
 // EXTERNAL MODULE: ./node_modules/lodash-es/reduce.js + 2 modules
 var reduce = __webpack_require__(89463);
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/nesting-graph.js
+;// ./node_modules/dagre-d3-es/src/dagre/nesting-graph.js
 
 
 
@@ -2297,7 +2297,7 @@ function cleanup(g) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseClone.js + 15 modules
 var _baseClone = __webpack_require__(91641);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/cloneDeep.js
+;// ./node_modules/lodash-es/cloneDeep.js
 
 
 /** Used to compose bitmasks for cloning. */
@@ -2328,7 +2328,7 @@ function cloneDeep(value) {
 
 /* harmony default export */ const lodash_es_cloneDeep = (cloneDeep);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/add-subgraph-constraints.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/add-subgraph-constraints.js
 
 
 
@@ -2383,7 +2383,7 @@ function addSubgraphConstraints(g, cg, vs) {
   */
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/build-layer-graph.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/build-layer-graph.js
 
 
 
@@ -2463,7 +2463,7 @@ function createRootNode(g) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_assignValue.js
 var _assignValue = __webpack_require__(52851);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseZipObject.js
+;// ./node_modules/lodash-es/_baseZipObject.js
 /**
  * This base implementation of `_.zipObject` which assigns values using `assignFunc`.
  *
@@ -2488,7 +2488,7 @@ function baseZipObject(props, values, assignFunc) {
 
 /* harmony default export */ const _baseZipObject = (baseZipObject);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/zipObject.js
+;// ./node_modules/lodash-es/zipObject.js
 
 
 
@@ -2522,7 +2522,7 @@ var _arrayMap = __webpack_require__(45572);
 var _baseGet = __webpack_require__(66318);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseMap.js
 var _baseMap = __webpack_require__(52568);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseSortBy.js
+;// ./node_modules/lodash-es/_baseSortBy.js
 /**
  * The base implementation of `_.sortBy` which uses `comparer` to define the
  * sort order of `array` and replaces criteria objects with their corresponding
@@ -2547,7 +2547,7 @@ function baseSortBy(array, comparer) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseUnary.js
 var _baseUnary = __webpack_require__(52789);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_compareAscending.js
+;// ./node_modules/lodash-es/_compareAscending.js
 
 
 /**
@@ -2590,7 +2590,7 @@ function compareAscending(value, other) {
 
 /* harmony default export */ const _compareAscending = (compareAscending);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_compareMultiple.js
+;// ./node_modules/lodash-es/_compareMultiple.js
 
 
 /**
@@ -2636,7 +2636,7 @@ function compareMultiple(object, other, orders) {
 
 /* harmony default export */ const _compareMultiple = (compareMultiple);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseOrderBy.js
+;// ./node_modules/lodash-es/_baseOrderBy.js
 
 
 
@@ -2691,7 +2691,7 @@ function baseOrderBy(collection, iteratees, orders) {
 var _baseRest = __webpack_require__(24326);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_isIterateeCall.js
 var _isIterateeCall = __webpack_require__(6832);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/sortBy.js
+;// ./node_modules/lodash-es/sortBy.js
 
 
 
@@ -2741,7 +2741,7 @@ var sortBy = (0,_baseRest/* default */.A)(function(collection, iteratees) {
 
 /* harmony default export */ const lodash_es_sortBy = (sortBy);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/cross-count.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/cross-count.js
 
 
 
@@ -2825,7 +2825,7 @@ function twoLayerCrossCount(g, northLayer, southLayer) {
   return cc;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/init-order.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/init-order.js
 
 
 
@@ -2871,7 +2871,7 @@ function initOrder(g) {
   return layers;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/barycenter.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/barycenter.js
 
 
 
@@ -2904,7 +2904,7 @@ function barycenter(g, movable) {
   });
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/resolve-conflicts.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/resolve-conflicts.js
 
 
 
@@ -3034,7 +3034,7 @@ function mergeEntries(target, source) {
   source.merged = true;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/sort.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/sort.js
 
 
 
@@ -3095,7 +3095,7 @@ function compareWithBias(bias) {
   };
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/sort-subgraph.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/sort-subgraph.js
 
 
 
@@ -3175,7 +3175,7 @@ function mergeBarycenters(target, other) {
   }
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/order/index.js
+;// ./node_modules/dagre-d3-es/src/dagre/order/index.js
 
 
 
@@ -3254,7 +3254,7 @@ function assignOrder(g, layering) {
   });
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/parent-dummy-chains.js
+;// ./node_modules/dagre-d3-es/src/dagre/parent-dummy-chains.js
 
 
 
@@ -3344,7 +3344,7 @@ function parent_dummy_chains_postorder(g) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_castFunction.js
 var _castFunction = __webpack_require__(99922);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/forOwn.js
+;// ./node_modules/lodash-es/forOwn.js
 
 
 
@@ -3386,7 +3386,7 @@ function forOwn(object, iteratee) {
 var _baseFor = __webpack_require__(4574);
 // EXTERNAL MODULE: ./node_modules/lodash-es/keysIn.js + 2 modules
 var keysIn = __webpack_require__(55615);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/forIn.js
+;// ./node_modules/lodash-es/forIn.js
 
 
 
@@ -3427,7 +3427,7 @@ function forIn(object, iteratee) {
 
 /* harmony default export */ const lodash_es_forIn = (forIn);
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/position/bk.js
+;// ./node_modules/dagre-d3-es/src/dagre/position/bk.js
 
 
 
@@ -3841,7 +3841,7 @@ function width(g, v) {
   return g.node(v).width;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/position/index.js
+;// ./node_modules/dagre-d3-es/src/dagre/position/index.js
 
 
 
@@ -3874,7 +3874,7 @@ function positionY(g) {
   });
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/layout.js
+;// ./node_modules/dagre-d3-es/src/dagre/layout.js
 
 
 
@@ -4342,7 +4342,7 @@ function canonicalize(attrs) {
   return newAttrs;
 }
 
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/dagre/index.js
+;// ./node_modules/dagre-d3-es/src/dagre/index.js
 
 
 
@@ -4386,7 +4386,7 @@ var _baseRest = __webpack_require__(24326);
 var _SetCache = __webpack_require__(62062);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseFindIndex.js
 var _baseFindIndex = __webpack_require__(25707);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsNaN.js
+;// ./node_modules/lodash-es/_baseIsNaN.js
 /**
  * The base implementation of `_.isNaN` without support for number objects.
  *
@@ -4400,7 +4400,7 @@ function baseIsNaN(value) {
 
 /* harmony default export */ const _baseIsNaN = (baseIsNaN);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_strictIndexOf.js
+;// ./node_modules/lodash-es/_strictIndexOf.js
 /**
  * A specialized version of `_.indexOf` which performs strict equality
  * comparisons of values, i.e. `===`.
@@ -4425,7 +4425,7 @@ function strictIndexOf(array, value, fromIndex) {
 
 /* harmony default export */ const _strictIndexOf = (strictIndexOf);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIndexOf.js
+;// ./node_modules/lodash-es/_baseIndexOf.js
 
 
 
@@ -4447,7 +4447,7 @@ function baseIndexOf(array, value, fromIndex) {
 
 /* harmony default export */ const _baseIndexOf = (baseIndexOf);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_arrayIncludes.js
+;// ./node_modules/lodash-es/_arrayIncludes.js
 
 
 /**
@@ -4466,7 +4466,7 @@ function arrayIncludes(array, value) {
 
 /* harmony default export */ const _arrayIncludes = (arrayIncludes);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_arrayIncludesWith.js
+;// ./node_modules/lodash-es/_arrayIncludesWith.js
 /**
  * This function is like `arrayIncludes` except that it accepts a comparator.
  *
@@ -4494,7 +4494,7 @@ function arrayIncludesWith(array, value, comparator) {
 var _cacheHas = __webpack_require__(64099);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_Set.js
 var _Set = __webpack_require__(39857);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/noop.js
+;// ./node_modules/lodash-es/noop.js
 /**
  * This method returns `undefined`.
  *
@@ -4515,7 +4515,7 @@ function noop() {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_setToArray.js
 var _setToArray = __webpack_require__(29959);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_createSet.js
+;// ./node_modules/lodash-es/_createSet.js
 
 
 
@@ -4536,7 +4536,7 @@ var createSet = !(_Set/* default */.A && (1 / (0,_setToArray/* default */.A)(new
 
 /* harmony default export */ const _createSet = (createSet);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseUniq.js
+;// ./node_modules/lodash-es/_baseUniq.js
 
 
 
@@ -4612,7 +4612,7 @@ function baseUniq(array, iteratee, comparator) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isArrayLikeObject.js
 var isArrayLikeObject = __webpack_require__(53533);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/union.js
+;// ./node_modules/lodash-es/union.js
 
 
 
@@ -4644,7 +4644,7 @@ var union = (0,_baseRest/* default */.A)(function(arrays) {
 var values = __webpack_require__(38207);
 // EXTERNAL MODULE: ./node_modules/lodash-es/reduce.js + 2 modules
 var reduce = __webpack_require__(89463);
-;// CONCATENATED MODULE: ./node_modules/dagre-d3-es/src/graphlib/graph.js
+;// ./node_modules/dagre-d3-es/src/graphlib/graph.js
 
 
 var DEFAULT_EDGE_NAME = '\x00';
@@ -5178,84 +5178,6 @@ const version = '2.1.9-pre';
 
 /***/ }),
 
-/***/ 14075:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   M: () => (/* binding */ write)
-/* harmony export */ });
-/* unused harmony export read */
-/* harmony import */ var lodash_es__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(69592);
-/* harmony import */ var lodash_es__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(50053);
-/* harmony import */ var lodash_es__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(52341);
-/* harmony import */ var _graph_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(73046);
-
-
-
-
-
-function write(g) {
-  var json = {
-    options: {
-      directed: g.isDirected(),
-      multigraph: g.isMultigraph(),
-      compound: g.isCompound(),
-    },
-    nodes: writeNodes(g),
-    edges: writeEdges(g),
-  };
-  if (!lodash_es__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A(g.graph())) {
-    json.value = lodash_es__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A(g.graph());
-  }
-  return json;
-}
-
-function writeNodes(g) {
-  return lodash_es__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A(g.nodes(), function (v) {
-    var nodeValue = g.node(v);
-    var parent = g.parent(v);
-    var node = { v: v };
-    if (!lodash_es__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A(nodeValue)) {
-      node.value = nodeValue;
-    }
-    if (!lodash_es__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A(parent)) {
-      node.parent = parent;
-    }
-    return node;
-  });
-}
-
-function writeEdges(g) {
-  return lodash_es__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .A(g.edges(), function (e) {
-    var edgeValue = g.edge(e);
-    var edge = { v: e.v, w: e.w };
-    if (!lodash_es__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A(e.name)) {
-      edge.name = e.name;
-    }
-    if (!lodash_es__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A(edgeValue)) {
-      edge.value = edgeValue;
-    }
-    return edge;
-  });
-}
-
-function read(json) {
-  var g = new Graph(json.options).setGraph(json.value);
-  _.each(json.nodes, function (entry) {
-    g.setNode(entry.v, entry.value);
-    if (entry.parent) {
-      g.setParent(entry.v, entry.parent);
-    }
-  });
-  _.each(json.edges, function (entry) {
-    g.setEdge({ v: entry.v, w: entry.w, name: entry.name }, entry.value);
-  });
-  return g;
-}
-
-
-/***/ }),
-
 /***/ 62062:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -5267,7 +5189,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_MapCache.js + 14 modules
 var _MapCache = __webpack_require__(29471);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_setCacheAdd.js
+;// ./node_modules/lodash-es/_setCacheAdd.js
 /** Used to stand-in for `undefined` hash values. */
 var HASH_UNDEFINED = '__lodash_hash_undefined__';
 
@@ -5288,7 +5210,7 @@ function setCacheAdd(value) {
 
 /* harmony default export */ const _setCacheAdd = (setCacheAdd);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_setCacheHas.js
+;// ./node_modules/lodash-es/_setCacheHas.js
 /**
  * Checks if `value` is in the array cache.
  *
@@ -5304,7 +5226,7 @@ function setCacheHas(value) {
 
 /* harmony default export */ const _setCacheHas = (setCacheHas);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_SetCache.js
+;// ./node_modules/lodash-es/_SetCache.js
 
 
 
@@ -5483,7 +5405,7 @@ var _assignValue = __webpack_require__(52851);
 var _copyObject = __webpack_require__(22031);
 // EXTERNAL MODULE: ./node_modules/lodash-es/keys.js
 var keys = __webpack_require__(27422);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseAssign.js
+;// ./node_modules/lodash-es/_baseAssign.js
 
 
 
@@ -5504,7 +5426,7 @@ function baseAssign(object, source) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/keysIn.js + 2 modules
 var keysIn = __webpack_require__(55615);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseAssignIn.js
+;// ./node_modules/lodash-es/_baseAssignIn.js
 
 
 
@@ -5529,7 +5451,7 @@ var _cloneBuffer = __webpack_require__(80154);
 var _copyArray = __webpack_require__(39759);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_getSymbols.js
 var _getSymbols = __webpack_require__(14792);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_copySymbols.js
+;// ./node_modules/lodash-es/_copySymbols.js
 
 
 
@@ -5553,7 +5475,7 @@ var _arrayPush = __webpack_require__(76912);
 var _getPrototype = __webpack_require__(15647);
 // EXTERNAL MODULE: ./node_modules/lodash-es/stubArray.js
 var stubArray = __webpack_require__(13153);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_getSymbolsIn.js
+;// ./node_modules/lodash-es/_getSymbolsIn.js
 
 
 
@@ -5580,7 +5502,7 @@ var getSymbolsIn = !nativeGetSymbols ? stubArray/* default */.A : function(objec
 
 /* harmony default export */ const _getSymbolsIn = (getSymbolsIn);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_copySymbolsIn.js
+;// ./node_modules/lodash-es/_copySymbolsIn.js
 
 
 
@@ -5602,7 +5524,7 @@ function copySymbolsIn(source, object) {
 var _getAllKeys = __webpack_require__(19042);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseGetAllKeys.js
 var _baseGetAllKeys = __webpack_require__(33831);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_getAllKeysIn.js
+;// ./node_modules/lodash-es/_getAllKeysIn.js
 
 
 
@@ -5623,7 +5545,7 @@ function getAllKeysIn(object) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_getTag.js + 3 modules
 var _getTag = __webpack_require__(9779);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_initCloneArray.js
+;// ./node_modules/lodash-es/_initCloneArray.js
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
 
@@ -5653,7 +5575,7 @@ function initCloneArray(array) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_cloneArrayBuffer.js
 var _cloneArrayBuffer = __webpack_require__(90565);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_cloneDataView.js
+;// ./node_modules/lodash-es/_cloneDataView.js
 
 
 /**
@@ -5671,7 +5593,7 @@ function cloneDataView(dataView, isDeep) {
 
 /* harmony default export */ const _cloneDataView = (cloneDataView);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_cloneRegExp.js
+;// ./node_modules/lodash-es/_cloneRegExp.js
 /** Used to match `RegExp` flags from their coerced string values. */
 var reFlags = /\w*$/;
 
@@ -5692,7 +5614,7 @@ function cloneRegExp(regexp) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_Symbol.js
 var _Symbol = __webpack_require__(241);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_cloneSymbol.js
+;// ./node_modules/lodash-es/_cloneSymbol.js
 
 
 /** Used to convert symbols to primitives and strings. */
@@ -5714,7 +5636,7 @@ function cloneSymbol(symbol) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_cloneTypedArray.js
 var _cloneTypedArray = __webpack_require__(1801);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_initCloneByTag.js
+;// ./node_modules/lodash-es/_initCloneByTag.js
 
 
 
@@ -5801,7 +5723,7 @@ var isArray = __webpack_require__(92049);
 var isBuffer = __webpack_require__(99912);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isObjectLike.js
 var isObjectLike = __webpack_require__(53098);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsMap.js
+;// ./node_modules/lodash-es/_baseIsMap.js
 
 
 
@@ -5825,7 +5747,7 @@ function baseIsMap(value) {
 var _baseUnary = __webpack_require__(52789);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_nodeUtil.js
 var _nodeUtil = __webpack_require__(64841);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/isMap.js
+;// ./node_modules/lodash-es/isMap.js
 
 
 
@@ -5856,7 +5778,7 @@ var isMap = nodeIsMap ? (0,_baseUnary/* default */.A)(nodeIsMap) : _baseIsMap;
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isObject.js
 var isObject = __webpack_require__(23149);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsSet.js
+;// ./node_modules/lodash-es/_baseIsSet.js
 
 
 
@@ -5876,7 +5798,7 @@ function baseIsSet(value) {
 
 /* harmony default export */ const _baseIsSet = (baseIsSet);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/isSet.js
+;// ./node_modules/lodash-es/isSet.js
 
 
 
@@ -5905,7 +5827,7 @@ var isSet = nodeIsSet ? (0,_baseUnary/* default */.A)(nodeIsSet) : _baseIsSet;
 
 /* harmony default export */ const lodash_es_isSet = (isSet);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseClone.js
+;// ./node_modules/lodash-es/_baseClone.js
 
 
 
@@ -6089,7 +6011,7 @@ __webpack_require__.d(__webpack_exports__, {
 var _baseForOwn = __webpack_require__(79841);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isArrayLike.js
 var isArrayLike = __webpack_require__(38446);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_createBaseEach.js
+;// ./node_modules/lodash-es/_createBaseEach.js
 
 
 /**
@@ -6123,7 +6045,7 @@ function createBaseEach(eachFunc, fromRight) {
 
 /* harmony default export */ const _createBaseEach = (createBaseEach);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseEach.js
+;// ./node_modules/lodash-es/_baseEach.js
 
 
 
@@ -6193,7 +6115,7 @@ var _Symbol = __webpack_require__(241);
 var isArguments = __webpack_require__(52274);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isArray.js
 var isArray = __webpack_require__(92049);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_isFlattenable.js
+;// ./node_modules/lodash-es/_isFlattenable.js
 
 
 
@@ -6215,7 +6137,7 @@ function isFlattenable(value) {
 
 /* harmony default export */ const _isFlattenable = (isFlattenable);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseFlatten.js
+;// ./node_modules/lodash-es/_baseFlatten.js
 
 
 
@@ -6367,7 +6289,7 @@ __webpack_require__.d(__webpack_exports__, {
 var _Stack = __webpack_require__(11754);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_SetCache.js + 2 modules
 var _SetCache = __webpack_require__(62062);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_arraySome.js
+;// ./node_modules/lodash-es/_arraySome.js
 /**
  * A specialized version of `_.some` for arrays without support for iteratee
  * shorthands.
@@ -6394,7 +6316,7 @@ function arraySome(array, predicate) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_cacheHas.js
 var _cacheHas = __webpack_require__(64099);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_equalArrays.js
+;// ./node_modules/lodash-es/_equalArrays.js
 
 
 
@@ -6486,7 +6408,7 @@ var _Symbol = __webpack_require__(241);
 var _Uint8Array = __webpack_require__(43988);
 // EXTERNAL MODULE: ./node_modules/lodash-es/eq.js
 var eq = __webpack_require__(66984);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_mapToArray.js
+;// ./node_modules/lodash-es/_mapToArray.js
 /**
  * Converts `map` to its key-value pairs.
  *
@@ -6508,7 +6430,7 @@ function mapToArray(map) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_setToArray.js
 var _setToArray = __webpack_require__(29959);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_equalByTag.js
+;// ./node_modules/lodash-es/_equalByTag.js
 
 
 
@@ -6624,7 +6546,7 @@ function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_getAllKeys.js
 var _getAllKeys = __webpack_require__(19042);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_equalObjects.js
+;// ./node_modules/lodash-es/_equalObjects.js
 
 
 /** Used to compose bitmasks for value comparisons. */
@@ -6724,7 +6646,7 @@ var isArray = __webpack_require__(92049);
 var isBuffer = __webpack_require__(99912);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isTypedArray.js + 1 modules
 var isTypedArray = __webpack_require__(33858);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsEqualDeep.js
+;// ./node_modules/lodash-es/_baseIsEqualDeep.js
 
 
 
@@ -6811,7 +6733,7 @@ function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isObjectLike.js
 var isObjectLike = __webpack_require__(53098);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsEqual.js
+;// ./node_modules/lodash-es/_baseIsEqual.js
 
 
 
@@ -6841,7 +6763,7 @@ function baseIsEqual(value, other, bitmask, customizer, stack) {
 
 /* harmony default export */ const _baseIsEqual = (baseIsEqual);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIsMatch.js
+;// ./node_modules/lodash-es/_baseIsMatch.js
 
 
 
@@ -6907,7 +6829,7 @@ function baseIsMatch(object, source, matchData, customizer) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isObject.js
 var isObject = __webpack_require__(23149);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_isStrictComparable.js
+;// ./node_modules/lodash-es/_isStrictComparable.js
 
 
 /**
@@ -6926,7 +6848,7 @@ function isStrictComparable(value) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/keys.js
 var keys = __webpack_require__(27422);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_getMatchData.js
+;// ./node_modules/lodash-es/_getMatchData.js
 
 
 
@@ -6952,7 +6874,7 @@ function getMatchData(object) {
 
 /* harmony default export */ const _getMatchData = (getMatchData);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_matchesStrictComparable.js
+;// ./node_modules/lodash-es/_matchesStrictComparable.js
 /**
  * A specialized version of `matchesProperty` for source values suitable
  * for strict equality comparisons, i.e. `===`.
@@ -6974,7 +6896,7 @@ function matchesStrictComparable(key, srcValue) {
 
 /* harmony default export */ const _matchesStrictComparable = (matchesStrictComparable);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseMatches.js
+;// ./node_modules/lodash-es/_baseMatches.js
 
 
 
@@ -7000,7 +6922,7 @@ function baseMatches(source) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseGet.js
 var _baseGet = __webpack_require__(66318);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/get.js
+;// ./node_modules/lodash-es/get.js
 
 
 /**
@@ -7041,7 +6963,7 @@ var hasIn = __webpack_require__(39188);
 var _isKey = __webpack_require__(86586);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_toKey.js
 var _toKey = __webpack_require__(30901);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseMatchesProperty.js
+;// ./node_modules/lodash-es/_baseMatchesProperty.js
 
 
 
@@ -7080,7 +7002,7 @@ function baseMatchesProperty(path, srcValue) {
 var identity = __webpack_require__(29008);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseProperty.js
 var _baseProperty = __webpack_require__(70805);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_basePropertyDeep.js
+;// ./node_modules/lodash-es/_basePropertyDeep.js
 
 
 /**
@@ -7098,7 +7020,7 @@ function basePropertyDeep(path) {
 
 /* harmony default export */ const _basePropertyDeep = (basePropertyDeep);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/property.js
+;// ./node_modules/lodash-es/property.js
 
 
 
@@ -7132,7 +7054,7 @@ function property(path) {
 
 /* harmony default export */ const lodash_es_property = (property);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseIteratee.js
+;// ./node_modules/lodash-es/_baseIteratee.js
 
 
 
@@ -7289,7 +7211,7 @@ var isArray = __webpack_require__(92049);
 var _isKey = __webpack_require__(86586);
 // EXTERNAL MODULE: ./node_modules/lodash-es/memoize.js
 var memoize = __webpack_require__(46632);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_memoizeCapped.js
+;// ./node_modules/lodash-es/_memoizeCapped.js
 
 
 /** Used as the maximum memoize cache size. */
@@ -7317,7 +7239,7 @@ function memoizeCapped(func) {
 
 /* harmony default export */ const _memoizeCapped = (memoizeCapped);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_stringToPath.js
+;// ./node_modules/lodash-es/_stringToPath.js
 
 
 /** Used to match property names within property paths. */
@@ -7348,7 +7270,7 @@ var stringToPath = _memoizeCapped(function(string) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/toString.js + 1 modules
 var lodash_es_toString = __webpack_require__(28894);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_castPath.js
+;// ./node_modules/lodash-es/_castPath.js
 
 
 
@@ -7601,53 +7523,6 @@ function toKey(value) {
 
 /***/ }),
 
-/***/ 50053:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _baseClone_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(91641);
-
-
-/** Used to compose bitmasks for cloning. */
-var CLONE_SYMBOLS_FLAG = 4;
-
-/**
- * Creates a shallow clone of `value`.
- *
- * **Note:** This method is loosely based on the
- * [structured clone algorithm](https://mdn.io/Structured_clone_algorithm)
- * and supports cloning arrays, array buffers, booleans, date objects, maps,
- * numbers, `Object` objects, regexes, sets, strings, symbols, and typed
- * arrays. The own enumerable properties of `arguments` objects are cloned
- * as plain objects. An empty object is returned for uncloneable values such
- * as error objects, functions, DOM nodes, and WeakMaps.
- *
- * @static
- * @memberOf _
- * @since 0.1.0
- * @category Lang
- * @param {*} value The value to clone.
- * @returns {*} Returns the cloned value.
- * @see _.cloneDeep
- * @example
- *
- * var objects = [{ 'a': 1 }, { 'b': 2 }];
- *
- * var shallow = _.clone(objects);
- * console.log(shallow[0] === objects[0]);
- * // => true
- */
-function clone(value) {
-  return (0,_baseClone_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(value, CLONE_SYMBOLS_FLAG);
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clone);
-
-
-/***/ }),
-
 /***/ 23068:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -7739,7 +7614,7 @@ __webpack_require__.d(__webpack_exports__, {
 var _arrayFilter = __webpack_require__(2634);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseEach.js + 1 modules
 var _baseEach = __webpack_require__(6240);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseFilter.js
+;// ./node_modules/lodash-es/_baseFilter.js
 
 
 /**
@@ -7766,7 +7641,7 @@ function baseFilter(collection, predicate) {
 var _baseIteratee = __webpack_require__(49574);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isArray.js
 var isArray = __webpack_require__(92049);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/filter.js
+;// ./node_modules/lodash-es/filter.js
 
 
 
@@ -7920,7 +7795,7 @@ __webpack_require__.d(__webpack_exports__, {
   A: () => (/* binding */ lodash_es_has)
 });
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseHas.js
+;// ./node_modules/lodash-es/_baseHas.js
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
 
@@ -7943,7 +7818,7 @@ function baseHas(object, key) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_hasPath.js
 var _hasPath = __webpack_require__(85054);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/has.js
+;// ./node_modules/lodash-es/has.js
 
 
 
@@ -7992,7 +7867,7 @@ __webpack_require__.d(__webpack_exports__, {
   A: () => (/* binding */ lodash_es_hasIn)
 });
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseHasIn.js
+;// ./node_modules/lodash-es/_baseHasIn.js
 /**
  * The base implementation of `_.hasIn` without support for deep paths.
  *
@@ -8009,7 +7884,7 @@ function baseHasIn(object, key) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_hasPath.js
 var _hasPath = __webpack_require__(85054);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/hasIn.js
+;// ./node_modules/lodash-es/hasIn.js
 
 
 
@@ -8259,7 +8134,7 @@ var _isIndex = __webpack_require__(25353);
 var isObject = __webpack_require__(23149);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_toKey.js
 var _toKey = __webpack_require__(30901);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseSet.js
+;// ./node_modules/lodash-es/_baseSet.js
 
 
 
@@ -8312,7 +8187,7 @@ function baseSet(object, path, value, customizer) {
 
 /* harmony default export */ const _baseSet = (baseSet);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_basePickBy.js
+;// ./node_modules/lodash-es/_basePickBy.js
 
 
 
@@ -8346,7 +8221,7 @@ function basePickBy(object, paths, predicate) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/hasIn.js + 1 modules
 var hasIn = __webpack_require__(39188);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_basePick.js
+;// ./node_modules/lodash-es/_basePick.js
 
 
 
@@ -8373,7 +8248,7 @@ var flatten = __webpack_require__(34098);
 var _overRest = __webpack_require__(76875);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_setToString.js + 2 modules
 var _setToString = __webpack_require__(67525);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_flatRest.js
+;// ./node_modules/lodash-es/_flatRest.js
 
 
 
@@ -8391,7 +8266,7 @@ function flatRest(func) {
 
 /* harmony default export */ const _flatRest = (flatRest);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/pick.js
+;// ./node_modules/lodash-es/pick.js
 
 
 
@@ -8430,7 +8305,7 @@ __webpack_require__.d(__webpack_exports__, {
   A: () => (/* binding */ lodash_es_range)
 });
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseRange.js
+;// ./node_modules/lodash-es/_baseRange.js
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeCeil = Math.ceil,
     nativeMax = Math.max;
@@ -8464,7 +8339,7 @@ function baseRange(start, end, step, fromRight) {
 var _isIterateeCall = __webpack_require__(6832);
 // EXTERNAL MODULE: ./node_modules/lodash-es/toFinite.js + 3 modules
 var toFinite = __webpack_require__(74342);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_createRange.js
+;// ./node_modules/lodash-es/_createRange.js
 
 
 
@@ -8496,7 +8371,7 @@ function createRange(fromRight) {
 
 /* harmony default export */ const _createRange = (createRange);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/range.js
+;// ./node_modules/lodash-es/range.js
 
 
 /**
@@ -8556,7 +8431,7 @@ __webpack_require__.d(__webpack_exports__, {
   A: () => (/* binding */ lodash_es_reduce)
 });
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_arrayReduce.js
+;// ./node_modules/lodash-es/_arrayReduce.js
 /**
  * A specialized version of `_.reduce` for arrays without support for
  * iteratee shorthands.
@@ -8588,7 +8463,7 @@ function arrayReduce(array, iteratee, accumulator, initAccum) {
 var _baseEach = __webpack_require__(6240);
 // EXTERNAL MODULE: ./node_modules/lodash-es/_baseIteratee.js + 16 modules
 var _baseIteratee = __webpack_require__(49574);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseReduce.js
+;// ./node_modules/lodash-es/_baseReduce.js
 /**
  * The base implementation of `_.reduce` and `_.reduceRight`, without support
  * for iteratee shorthands, which iterates over `collection` using `eachFunc`.
@@ -8615,7 +8490,7 @@ function baseReduce(collection, iteratee, accumulator, initAccum, eachFunc) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/isArray.js
 var isArray = __webpack_require__(92049);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/reduce.js
+;// ./node_modules/lodash-es/reduce.js
 
 
 
@@ -8713,7 +8588,7 @@ __webpack_require__.d(__webpack_exports__, {
   A: () => (/* binding */ lodash_es_toFinite)
 });
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_trimmedEndIndex.js
+;// ./node_modules/lodash-es/_trimmedEndIndex.js
 /** Used to match a single whitespace character. */
 var reWhitespace = /\s/;
 
@@ -8734,7 +8609,7 @@ function trimmedEndIndex(string) {
 
 /* harmony default export */ const _trimmedEndIndex = (trimmedEndIndex);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseTrim.js
+;// ./node_modules/lodash-es/_baseTrim.js
 
 
 /** Used to match leading whitespace. */
@@ -8759,7 +8634,7 @@ function baseTrim(string) {
 var isObject = __webpack_require__(23149);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isSymbol.js
 var isSymbol = __webpack_require__(61882);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/toNumber.js
+;// ./node_modules/lodash-es/toNumber.js
 
 
 
@@ -8825,7 +8700,7 @@ function toNumber(value) {
 
 /* harmony default export */ const lodash_es_toNumber = (toNumber);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/toFinite.js
+;// ./node_modules/lodash-es/toFinite.js
 
 
 /** Used as references for various `Number` constants. */
@@ -8889,7 +8764,7 @@ var _arrayMap = __webpack_require__(45572);
 var isArray = __webpack_require__(92049);
 // EXTERNAL MODULE: ./node_modules/lodash-es/isSymbol.js
 var isSymbol = __webpack_require__(61882);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseToString.js
+;// ./node_modules/lodash-es/_baseToString.js
 
 
 
@@ -8928,7 +8803,7 @@ function baseToString(value) {
 
 /* harmony default export */ const _baseToString = (baseToString);
 
-;// CONCATENATED MODULE: ./node_modules/lodash-es/toString.js
+;// ./node_modules/lodash-es/toString.js
 
 
 /**
@@ -9011,7 +8886,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/_arrayMap.js
 var _arrayMap = __webpack_require__(45572);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/_baseValues.js
+;// ./node_modules/lodash-es/_baseValues.js
 
 
 /**
@@ -9034,7 +8909,7 @@ function baseValues(object, props) {
 
 // EXTERNAL MODULE: ./node_modules/lodash-es/keys.js
 var keys = __webpack_require__(27422);
-;// CONCATENATED MODULE: ./node_modules/lodash-es/values.js
+;// ./node_modules/lodash-es/values.js
 
 
 
@@ -9073,22 +8948,20 @@ function values(object) {
 
 /***/ }),
 
-/***/ 18635:
+/***/ 87426:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   diagram: () => (/* binding */ diagram)
 /* harmony export */ });
-/* harmony import */ var _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(63626);
+/* harmony import */ var _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(63626);
 /* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26312);
-/* harmony import */ var dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(697);
-/* harmony import */ var _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(99702);
-/* harmony import */ var _index_01f381cb_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(12983);
-/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(74353);
-/* harmony import */ var _braintree_sanitize_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16750);
-/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(99418);
-/* harmony import */ var dagre_d3_es_src_dagre_index_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(21176);
-/* harmony import */ var dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(14075);
+/* harmony import */ var dagre_d3_es_src_dagre_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21176);
+/* harmony import */ var dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(697);
+/* harmony import */ var _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(99702);
+/* harmony import */ var dayjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(74353);
+/* harmony import */ var _braintree_sanitize_url__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(16750);
+/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(99418);
 
 
 
@@ -9103,6543 +8976,351 @@ function values(object) {
 
 
 
-
-
-
-
-
-const sanitizeText = (txt) => _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.e.sanitizeText(txt, (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)());
-let conf = {
-  dividerMargin: 10,
-  padding: 5,
-  textHeight: 10,
-  curve: void 0
-};
-const addNamespaces = function(namespaces, g, _id, diagObj) {
-  const keys = Object.keys(namespaces);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("keys:", keys);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info(namespaces);
-  keys.forEach(function(id) {
-    var _a, _b;
-    const vertex = namespaces[id];
-    const shape = "rect";
-    const node = {
-      shape,
-      id: vertex.id,
-      domId: vertex.domId,
-      labelText: sanitizeText(vertex.id),
-      labelStyle: "",
-      style: "fill: none; stroke: black",
-      // TODO V10: Flowchart ? Keeping flowchart for backwards compatibility. Remove in next major release
-      padding: ((_a = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart) == null ? void 0 : _a.padding) ?? ((_b = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().class) == null ? void 0 : _b.padding)
-    };
-    g.setNode(vertex.id, node);
-    addClasses(vertex.classes, g, _id, diagObj, vertex.id);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("setNode", node);
-  });
-};
-const addClasses = function(classes, g, _id, diagObj, parent) {
-  const keys = Object.keys(classes);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("keys:", keys);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info(classes);
-  keys.filter((id) => classes[id].parent == parent).forEach(function(id) {
-    var _a, _b;
-    const vertex = classes[id];
-    const cssClassStr = vertex.cssClasses.join(" ");
-    const styles2 = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.k)(vertex.styles);
-    const vertexText = vertex.label ?? vertex.id;
-    const radius = 0;
-    const shape = "class_box";
-    const node = {
-      labelStyle: styles2.labelStyle,
-      shape,
-      labelText: sanitizeText(vertexText),
-      classData: vertex,
-      rx: radius,
-      ry: radius,
-      class: cssClassStr,
-      style: styles2.style,
-      id: vertex.id,
-      domId: vertex.domId,
-      tooltip: diagObj.db.getTooltip(vertex.id, parent) || "",
-      haveCallback: vertex.haveCallback,
-      link: vertex.link,
-      width: vertex.type === "group" ? 500 : void 0,
-      type: vertex.type,
-      // TODO V10: Flowchart ? Keeping flowchart for backwards compatibility. Remove in next major release
-      padding: ((_a = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart) == null ? void 0 : _a.padding) ?? ((_b = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().class) == null ? void 0 : _b.padding)
-    };
-    g.setNode(vertex.id, node);
-    if (parent) {
-      g.setParent(vertex.id, parent);
+let edgeCount = 0;
+const drawEdge = function(elem, path, relation, conf, diagObj) {
+  const getRelationType = function(type) {
+    switch (type) {
+      case diagObj.db.relationType.AGGREGATION:
+        return "aggregation";
+      case diagObj.db.relationType.EXTENSION:
+        return "extension";
+      case diagObj.db.relationType.COMPOSITION:
+        return "composition";
+      case diagObj.db.relationType.DEPENDENCY:
+        return "dependency";
+      case diagObj.db.relationType.LOLLIPOP:
+        return "lollipop";
     }
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("setNode", node);
-  });
-};
-const addNotes = function(notes, g, startEdgeId, classes) {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info(notes);
-  notes.forEach(function(note, i) {
-    var _a, _b;
-    const vertex = note;
-    const cssNoteStr = "";
-    const styles2 = { labelStyle: "", style: "" };
-    const vertexText = vertex.text;
-    const radius = 0;
-    const shape = "note";
-    const node = {
-      labelStyle: styles2.labelStyle,
-      shape,
-      labelText: sanitizeText(vertexText),
-      noteData: vertex,
-      rx: radius,
-      ry: radius,
-      class: cssNoteStr,
-      style: styles2.style,
-      id: vertex.id,
-      domId: vertex.id,
-      tooltip: "",
-      type: "note",
-      // TODO V10: Flowchart ? Keeping flowchart for backwards compatibility. Remove in next major release
-      padding: ((_a = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart) == null ? void 0 : _a.padding) ?? ((_b = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().class) == null ? void 0 : _b.padding)
-    };
-    g.setNode(vertex.id, node);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("setNode", node);
-    if (!vertex.class || !(vertex.class in classes)) {
-      return;
-    }
-    const edgeId = startEdgeId + i;
-    const edgeData = {
-      id: `edgeNote${edgeId}`,
-      //Set relationship style and line type
-      classes: "relation",
-      pattern: "dotted",
-      // Set link type for rendering
-      arrowhead: "none",
-      //Set edge extra labels
-      startLabelRight: "",
-      endLabelLeft: "",
-      //Set relation arrow types
-      arrowTypeStart: "none",
-      arrowTypeEnd: "none",
-      style: "fill:none",
-      labelStyle: "",
-      curve: (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.n)(conf.curve, d3__WEBPACK_IMPORTED_MODULE_0__/* .curveLinear */ .lUB)
-    };
-    g.setEdge(vertex.id, vertex.class, edgeData, edgeId);
-  });
-};
-const addRelations = function(relations, g) {
-  const conf2 = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart;
-  let cnt = 0;
-  relations.forEach(function(edge) {
-    var _a;
-    cnt++;
-    const edgeData = {
-      //Set relationship style and line type
-      classes: "relation",
-      pattern: edge.relation.lineType == 1 ? "dashed" : "solid",
-      id: `id_${edge.id1}_${edge.id2}_${cnt}`,
-      // Set link type for rendering
-      arrowhead: edge.type === "arrow_open" ? "none" : "normal",
-      //Set edge extra labels
-      startLabelRight: edge.relationTitle1 === "none" ? "" : edge.relationTitle1,
-      endLabelLeft: edge.relationTitle2 === "none" ? "" : edge.relationTitle2,
-      //Set relation arrow types
-      arrowTypeStart: getArrowMarker(edge.relation.type1),
-      arrowTypeEnd: getArrowMarker(edge.relation.type2),
-      style: "fill:none",
-      labelStyle: "",
-      curve: (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.n)(conf2 == null ? void 0 : conf2.curve, d3__WEBPACK_IMPORTED_MODULE_0__/* .curveLinear */ .lUB)
-    };
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info(edgeData, edge);
-    if (edge.style !== void 0) {
-      const styles2 = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.k)(edge.style);
-      edgeData.style = styles2.style;
-      edgeData.labelStyle = styles2.labelStyle;
-    }
-    edge.text = edge.title;
-    if (edge.text === void 0) {
-      if (edge.style !== void 0) {
-        edgeData.arrowheadStyle = "fill: #333";
-      }
-    } else {
-      edgeData.arrowheadStyle = "fill: #333";
-      edgeData.labelpos = "c";
-      if (((_a = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart) == null ? void 0 : _a.htmlLabels) ?? (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().htmlLabels) {
-        edgeData.labelType = "html";
-        edgeData.label = '<span class="edgeLabel">' + edge.text + "</span>";
-      } else {
-        edgeData.labelType = "text";
-        edgeData.label = edge.text.replace(_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.e.lineBreakRegex, "\n");
-        if (edge.style === void 0) {
-          edgeData.style = edgeData.style || "stroke: #333; stroke-width: 1.5px;fill:none";
-        }
-        edgeData.labelStyle = edgeData.labelStyle.replace("color:", "fill:");
-      }
-    }
-    g.setEdge(edge.id1, edge.id2, edgeData, cnt);
-  });
-};
-const setConf = function(cnf) {
-  conf = {
-    ...conf,
-    ...cnf
   };
+  path.points = path.points.filter((p) => !Number.isNaN(p.y));
+  const lineData = path.points;
+  const lineFunction = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .line */ .n8j)().x(function(d) {
+    return d.x;
+  }).y(function(d) {
+    return d.y;
+  }).curve(d3__WEBPACK_IMPORTED_MODULE_0__/* .curveBasis */ .qrM);
+  const svgPath = elem.append("path").attr("d", lineFunction(lineData)).attr("id", "edge" + edgeCount).attr("class", "relation");
+  let url = "";
+  if (conf.arrowMarkerAbsolute) {
+    url = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.search;
+    url = url.replace(/\(/g, "\\(");
+    url = url.replace(/\)/g, "\\)");
+  }
+  if (relation.relation.lineType == 1) {
+    svgPath.attr("class", "relation dashed-line");
+  }
+  if (relation.relation.lineType == 10) {
+    svgPath.attr("class", "relation dotted-line");
+  }
+  if (relation.relation.type1 !== "none") {
+    svgPath.attr(
+      "marker-start",
+      "url(" + url + "#" + getRelationType(relation.relation.type1) + "Start)"
+    );
+  }
+  if (relation.relation.type2 !== "none") {
+    svgPath.attr(
+      "marker-end",
+      "url(" + url + "#" + getRelationType(relation.relation.type2) + "End)"
+    );
+  }
+  let x, y;
+  const l = path.points.length;
+  let labelPosition = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.u.calcLabelPosition(path.points);
+  x = labelPosition.x;
+  y = labelPosition.y;
+  let p1_card_x, p1_card_y;
+  let p2_card_x, p2_card_y;
+  if (l % 2 !== 0 && l > 1) {
+    let cardinality_1_point = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.u.calcCardinalityPosition(
+      relation.relation.type1 !== "none",
+      path.points,
+      path.points[0]
+    );
+    let cardinality_2_point = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.u.calcCardinalityPosition(
+      relation.relation.type2 !== "none",
+      path.points,
+      path.points[l - 1]
+    );
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("cardinality_1_point " + JSON.stringify(cardinality_1_point));
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("cardinality_2_point " + JSON.stringify(cardinality_2_point));
+    p1_card_x = cardinality_1_point.x;
+    p1_card_y = cardinality_1_point.y;
+    p2_card_x = cardinality_2_point.x;
+    p2_card_y = cardinality_2_point.y;
+  }
+  if (relation.title !== void 0) {
+    const g = elem.append("g").attr("class", "classLabel");
+    const label = g.append("text").attr("class", "label").attr("x", x).attr("y", y).attr("fill", "red").attr("text-anchor", "middle").text(relation.title);
+    window.label = label;
+    const bounds = label.node().getBBox();
+    g.insert("rect", ":first-child").attr("class", "box").attr("x", bounds.x - conf.padding / 2).attr("y", bounds.y - conf.padding / 2).attr("width", bounds.width + conf.padding).attr("height", bounds.height + conf.padding);
+  }
+  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.info("Rendering relation " + JSON.stringify(relation));
+  if (relation.relationTitle1 !== void 0 && relation.relationTitle1 !== "none") {
+    const g = elem.append("g").attr("class", "cardinality");
+    g.append("text").attr("class", "type1").attr("x", p1_card_x).attr("y", p1_card_y).attr("fill", "black").attr("font-size", "6").text(relation.relationTitle1);
+  }
+  if (relation.relationTitle2 !== void 0 && relation.relationTitle2 !== "none") {
+    const g = elem.append("g").attr("class", "cardinality");
+    g.append("text").attr("class", "type2").attr("x", p2_card_x).attr("y", p2_card_y).attr("fill", "black").attr("font-size", "6").text(relation.relationTitle2);
+  }
+  edgeCount++;
 };
-const draw = async function(text, id, _version, diagObj) {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("Drawing class - ", id);
-  const conf2 = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().flowchart ?? (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().class;
-  const securityLevel = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.c)().securityLevel;
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info("config:", conf2);
-  const nodeSpacing = (conf2 == null ? void 0 : conf2.nodeSpacing) ?? 50;
-  const rankSpacing = (conf2 == null ? void 0 : conf2.rankSpacing) ?? 50;
-  const g = new dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_1__/* .Graph */ .T({
-    multigraph: true,
-    compound: true
-  }).setGraph({
-    rankdir: diagObj.db.getDirection(),
-    nodesep: nodeSpacing,
-    ranksep: rankSpacing,
-    marginx: 8,
-    marginy: 8
-  }).setDefaultEdgeLabel(function() {
-    return {};
+const drawClass = function(elem, classDef, conf, diagObj) {
+  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("Rendering class ", classDef, conf);
+  const id = classDef.id;
+  const classInfo = {
+    id,
+    label: classDef.id,
+    width: 0,
+    height: 0
+  };
+  const g = elem.append("g").attr("id", diagObj.db.lookUpDomId(id)).attr("class", "classGroup");
+  let title;
+  if (classDef.link) {
+    title = g.append("svg:a").attr("xlink:href", classDef.link).attr("target", classDef.linkTarget).append("text").attr("y", conf.textHeight + conf.padding).attr("x", 0);
+  } else {
+    title = g.append("text").attr("y", conf.textHeight + conf.padding).attr("x", 0);
+  }
+  let isFirst = true;
+  classDef.annotations.forEach(function(member) {
+    const titleText2 = title.append("tspan").text("«" + member + "»");
+    if (!isFirst) {
+      titleText2.attr("dy", conf.textHeight);
+    }
+    isFirst = false;
   });
-  const namespaces = diagObj.db.getNamespaces();
-  const classes = diagObj.db.getClasses();
-  const relations = diagObj.db.getRelations();
-  const notes = diagObj.db.getNotes();
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.l.info(relations);
-  addNamespaces(namespaces, g, id, diagObj);
-  addClasses(classes, g, id, diagObj);
-  addRelations(relations, g);
-  addNotes(notes, g, relations.length + 1, classes);
+  let classTitleString = getClassTitleString(classDef);
+  const classTitle = title.append("tspan").text(classTitleString).attr("class", "title");
+  if (!isFirst) {
+    classTitle.attr("dy", conf.textHeight);
+  }
+  const titleHeight = title.node().getBBox().height;
+  let membersLine;
+  let membersBox;
+  let methodsLine;
+  if (classDef.members.length > 0) {
+    membersLine = g.append("line").attr("x1", 0).attr("y1", conf.padding + titleHeight + conf.dividerMargin / 2).attr("y2", conf.padding + titleHeight + conf.dividerMargin / 2);
+    const members = g.append("text").attr("x", conf.padding).attr("y", titleHeight + conf.dividerMargin + conf.textHeight).attr("fill", "white").attr("class", "classText");
+    isFirst = true;
+    classDef.members.forEach(function(member) {
+      addTspan(members, member, isFirst, conf);
+      isFirst = false;
+    });
+    membersBox = members.node().getBBox();
+  }
+  if (classDef.methods.length > 0) {
+    methodsLine = g.append("line").attr("x1", 0).attr("y1", conf.padding + titleHeight + conf.dividerMargin + membersBox.height).attr("y2", conf.padding + titleHeight + conf.dividerMargin + membersBox.height);
+    const methods = g.append("text").attr("x", conf.padding).attr("y", titleHeight + 2 * conf.dividerMargin + membersBox.height + conf.textHeight).attr("fill", "white").attr("class", "classText");
+    isFirst = true;
+    classDef.methods.forEach(function(method) {
+      addTspan(methods, method, isFirst, conf);
+      isFirst = false;
+    });
+  }
+  const classBox = g.node().getBBox();
+  var cssClassStr = " ";
+  if (classDef.cssClasses.length > 0) {
+    cssClassStr = cssClassStr + classDef.cssClasses.join(" ");
+  }
+  const rect = g.insert("rect", ":first-child").attr("x", 0).attr("y", 0).attr("width", classBox.width + 2 * conf.padding).attr("height", classBox.height + conf.padding + 0.5 * conf.dividerMargin).attr("class", cssClassStr);
+  const rectWidth = rect.node().getBBox().width;
+  title.node().childNodes.forEach(function(x) {
+    x.setAttribute("x", (rectWidth - x.getBBox().width) / 2);
+  });
+  if (classDef.tooltip) {
+    title.insert("title").text(classDef.tooltip);
+  }
+  if (membersLine) {
+    membersLine.attr("x2", rectWidth);
+  }
+  if (methodsLine) {
+    methodsLine.attr("x2", rectWidth);
+  }
+  classInfo.width = rectWidth;
+  classInfo.height = classBox.height + conf.padding + 0.5 * conf.dividerMargin;
+  return classInfo;
+};
+const getClassTitleString = function(classDef) {
+  let classTitleString = classDef.id;
+  if (classDef.type) {
+    classTitleString += "<" + (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.x)(classDef.type) + ">";
+  }
+  return classTitleString;
+};
+const drawNote = function(elem, note, conf, diagObj) {
+  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("Rendering note ", note, conf);
+  const id = note.id;
+  const noteInfo = {
+    id,
+    text: note.text,
+    width: 0,
+    height: 0
+  };
+  const g = elem.append("g").attr("id", id).attr("class", "classGroup");
+  let text = g.append("text").attr("y", conf.textHeight + conf.padding).attr("x", 0);
+  const lines = JSON.parse(`"${note.text}"`).split("\n");
+  lines.forEach(function(line2) {
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug(`Adding line: ${line2}`);
+    text.append("tspan").text(line2).attr("class", "title").attr("dy", conf.textHeight);
+  });
+  const noteBox = g.node().getBBox();
+  const rect = g.insert("rect", ":first-child").attr("x", 0).attr("y", 0).attr("width", noteBox.width + 2 * conf.padding).attr(
+    "height",
+    noteBox.height + lines.length * conf.textHeight + conf.padding + 0.5 * conf.dividerMargin
+  );
+  const rectWidth = rect.node().getBBox().width;
+  text.node().childNodes.forEach(function(x) {
+    x.setAttribute("x", (rectWidth - x.getBBox().width) / 2);
+  });
+  noteInfo.width = rectWidth;
+  noteInfo.height = noteBox.height + lines.length * conf.textHeight + conf.padding + 0.5 * conf.dividerMargin;
+  return noteInfo;
+};
+const addTspan = function(textEl, member, isFirst, conf) {
+  const { displayText, cssStyle } = member.getDisplayDetails();
+  const tSpan = textEl.append("tspan").attr("x", conf.padding).text(displayText);
+  if (cssStyle !== "") {
+    tSpan.attr("style", member.cssStyle);
+  }
+  if (!isFirst) {
+    tSpan.attr("dy", conf.textHeight);
+  }
+};
+const svgDraw = {
+  getClassTitleString,
+  drawClass,
+  drawEdge,
+  drawNote
+};
+let idCache = {};
+const padding = 20;
+const getGraphId = function(label) {
+  const foundEntry = Object.entries(idCache).find((entry) => entry[1].label === label);
+  if (foundEntry) {
+    return foundEntry[0];
+  }
+};
+const insertMarkers = function(elem) {
+  elem.append("defs").append("marker").attr("id", "extensionStart").attr("class", "extension").attr("refX", 0).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 1,7 L18,13 V 1 Z");
+  elem.append("defs").append("marker").attr("id", "extensionEnd").attr("refX", 19).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 1,1 V 13 L18,7 Z");
+  elem.append("defs").append("marker").attr("id", "compositionStart").attr("class", "extension").attr("refX", 0).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
+  elem.append("defs").append("marker").attr("id", "compositionEnd").attr("refX", 19).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
+  elem.append("defs").append("marker").attr("id", "aggregationStart").attr("class", "extension").attr("refX", 0).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
+  elem.append("defs").append("marker").attr("id", "aggregationEnd").attr("refX", 19).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
+  elem.append("defs").append("marker").attr("id", "dependencyStart").attr("class", "extension").attr("refX", 0).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 5,7 L9,13 L1,7 L9,1 Z");
+  elem.append("defs").append("marker").attr("id", "dependencyEnd").attr("refX", 19).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L14,7 L9,1 Z");
+};
+const draw = function(text, id, _version, diagObj) {
+  const conf = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.c)().class;
+  idCache = {};
+  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.info("Rendering diagram " + text);
+  const securityLevel = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.c)().securityLevel;
   let sandboxElement;
   if (securityLevel === "sandbox") {
     sandboxElement = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)("#i" + id);
   }
   const root = securityLevel === "sandbox" ? (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(sandboxElement.nodes()[0].contentDocument.body) : (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)("body");
-  const svg = root.select(`[id="${id}"]`);
-  const element = root.select("#" + id + " g");
-  await (0,_index_01f381cb_js__WEBPACK_IMPORTED_MODULE_8__.r)(
-    element,
-    g,
-    ["aggregation", "extension", "composition", "dependency", "lollipop"],
-    "classDiagram",
-    id
-  );
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.u.insertTitle(svg, "classTitleText", (conf2 == null ? void 0 : conf2.titleTopMargin) ?? 5, diagObj.db.getDiagramTitle());
-  (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_7__.o)(g, svg, conf2 == null ? void 0 : conf2.diagramPadding, conf2 == null ? void 0 : conf2.useMaxWidth);
-  if (!(conf2 == null ? void 0 : conf2.htmlLabels)) {
-    const doc = securityLevel === "sandbox" ? sandboxElement.nodes()[0].contentDocument : document;
-    const labels = doc.querySelectorAll('[id="' + id + '"] .edgeLabel .label');
-    for (const label of labels) {
-      const dim = label.getBBox();
-      const rect = doc.createElementNS("http://www.w3.org/2000/svg", "rect");
-      rect.setAttribute("rx", 0);
-      rect.setAttribute("ry", 0);
-      rect.setAttribute("width", dim.width);
-      rect.setAttribute("height", dim.height);
-      label.insertBefore(rect, label.firstChild);
+  const diagram2 = root.select(`[id='${id}']`);
+  insertMarkers(diagram2);
+  const g = new dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_2__/* .Graph */ .T({
+    multigraph: true
+  });
+  g.setGraph({
+    isMultiGraph: true
+  });
+  g.setDefaultEdgeLabel(function() {
+    return {};
+  });
+  const classes = diagObj.db.getClasses();
+  const keys = Object.keys(classes);
+  for (const key of keys) {
+    const classDef = classes[key];
+    const node = svgDraw.drawClass(diagram2, classDef, conf, diagObj);
+    idCache[node.id] = node;
+    g.setNode(node.id, node);
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.info("Org height: " + node.height);
+  }
+  const relations = diagObj.db.getRelations();
+  relations.forEach(function(relation) {
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.info(
+      // cspell:ignore tjoho
+      "tjoho" + getGraphId(relation.id1) + getGraphId(relation.id2) + JSON.stringify(relation)
+    );
+    g.setEdge(
+      getGraphId(relation.id1),
+      getGraphId(relation.id2),
+      {
+        relation
+      },
+      relation.title || "DEFAULT"
+    );
+  });
+  const notes = diagObj.db.getNotes();
+  notes.forEach(function(note) {
+    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug(`Adding note: ${JSON.stringify(note)}`);
+    const node = svgDraw.drawNote(diagram2, note, conf, diagObj);
+    idCache[node.id] = node;
+    g.setNode(node.id, node);
+    if (note.class && note.class in classes) {
+      g.setEdge(
+        note.id,
+        getGraphId(note.class),
+        {
+          relation: {
+            id1: note.id,
+            id2: note.class,
+            relation: {
+              type1: "none",
+              type2: "none",
+              lineType: 10
+            }
+          }
+        },
+        "DEFAULT"
+      );
     }
-  }
+  });
+  (0,dagre_d3_es_src_dagre_index_js__WEBPACK_IMPORTED_MODULE_1__/* .layout */ .Zp)(g);
+  g.nodes().forEach(function(v) {
+    if (v !== void 0 && g.node(v) !== void 0) {
+      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("Node " + v + ": " + JSON.stringify(g.node(v)));
+      root.select("#" + (diagObj.db.lookUpDomId(v) || v)).attr(
+        "transform",
+        "translate(" + (g.node(v).x - g.node(v).width / 2) + "," + (g.node(v).y - g.node(v).height / 2) + " )"
+      );
+    }
+  });
+  g.edges().forEach(function(e) {
+    if (e !== void 0 && g.edge(e) !== void 0) {
+      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(g.edge(e)));
+      svgDraw.drawEdge(diagram2, g.edge(e), g.edge(e).relation, conf, diagObj);
+    }
+  });
+  const svgBounds = diagram2.node().getBBox();
+  const width = svgBounds.width + padding * 2;
+  const height = svgBounds.height + padding * 2;
+  (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.i)(diagram2, height, width, conf.useMaxWidth);
+  const vBox = `${svgBounds.x - padding} ${svgBounds.y - padding} ${width} ${height}`;
+  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_6__.l.debug(`viewBox ${vBox}`);
+  diagram2.attr("viewBox", vBox);
 };
-function getArrowMarker(type) {
-  let marker;
-  switch (type) {
-    case 0:
-      marker = "aggregation";
-      break;
-    case 1:
-      marker = "extension";
-      break;
-    case 2:
-      marker = "composition";
-      break;
-    case 3:
-      marker = "dependency";
-      break;
-    case 4:
-      marker = "lollipop";
-      break;
-    default:
-      marker = "none";
-  }
-  return marker;
-}
 const renderer = {
-  setConf,
   draw
 };
 const diagram = {
-  parser: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_9__.p,
-  db: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_9__.d,
+  parser: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_7__.p,
+  db: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_7__.d,
   renderer,
-  styles: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_9__.s,
+  styles: _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_7__.s,
   init: (cnf) => {
     if (!cnf.class) {
       cnf.class = {};
     }
     cnf.class.arrowMarkerAbsolute = cnf.arrowMarkerAbsolute;
-    _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_9__.d.clear();
+    _styles_b83b31c9_js__WEBPACK_IMPORTED_MODULE_7__.d.clear();
   }
-};
-
-
-
-/***/ }),
-
-/***/ 91185:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  a: () => (/* binding */ createText),
-  c: () => (/* binding */ computeDimensionOfText)
-});
-
-// NAMESPACE OBJECT: ./node_modules/mermaid/node_modules/micromark/lib/constructs.js
-var constructs_namespaceObject = {};
-__webpack_require__.r(constructs_namespaceObject);
-__webpack_require__.d(constructs_namespaceObject, {
-  attentionMarkers: () => (attentionMarkers),
-  contentInitial: () => (contentInitial),
-  disable: () => (disable),
-  document: () => (constructs_document),
-  flow: () => (constructs_flow),
-  flowInitial: () => (flowInitial),
-  insideSpan: () => (insideSpan),
-  string: () => (constructs_string),
-  text: () => (constructs_text)
-});
-
-// EXTERNAL MODULE: ./node_modules/mermaid/dist/mermaid-6dc72991.js + 8 modules
-var mermaid_6dc72991 = __webpack_require__(99702);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/mdast-util-to-string/lib/index.js
-/**
- * @typedef {import('mdast').Root|import('mdast').Content} Node
- *
- * @typedef Options
- *   Configuration (optional).
- * @property {boolean | null | undefined} [includeImageAlt=true]
- *   Whether to use `alt` for `image`s.
- * @property {boolean | null | undefined} [includeHtml=true]
- *   Whether to use `value` of HTML.
- */
-
-/** @type {Options} */
-const emptyOptions = {}
-
-/**
- * Get the text content of a node or list of nodes.
- *
- * Prefers the node’s plain-text fields, otherwise serializes its children,
- * and if the given value is an array, serialize the nodes in it.
- *
- * @param {unknown} value
- *   Thing to serialize, typically `Node`.
- * @param {Options | null | undefined} [options]
- *   Configuration (optional).
- * @returns {string}
- *   Serialized `value`.
- */
-function lib_toString(value, options) {
-  const settings = options || emptyOptions
-  const includeImageAlt =
-    typeof settings.includeImageAlt === 'boolean'
-      ? settings.includeImageAlt
-      : true
-  const includeHtml =
-    typeof settings.includeHtml === 'boolean' ? settings.includeHtml : true
-
-  return one(value, includeImageAlt, includeHtml)
-}
-
-/**
- * One node or several nodes.
- *
- * @param {unknown} value
- *   Thing to serialize.
- * @param {boolean} includeImageAlt
- *   Include image `alt`s.
- * @param {boolean} includeHtml
- *   Include HTML.
- * @returns {string}
- *   Serialized node.
- */
-function one(value, includeImageAlt, includeHtml) {
-  if (node(value)) {
-    if ('value' in value) {
-      return value.type === 'html' && !includeHtml ? '' : value.value
-    }
-
-    if (includeImageAlt && 'alt' in value && value.alt) {
-      return value.alt
-    }
-
-    if ('children' in value) {
-      return lib_all(value.children, includeImageAlt, includeHtml)
-    }
-  }
-
-  if (Array.isArray(value)) {
-    return lib_all(value, includeImageAlt, includeHtml)
-  }
-
-  return ''
-}
-
-/**
- * Serialize a list of nodes.
- *
- * @param {Array<unknown>} values
- *   Thing to serialize.
- * @param {boolean} includeImageAlt
- *   Include image `alt`s.
- * @param {boolean} includeHtml
- *   Include HTML.
- * @returns {string}
- *   Serialized nodes.
- */
-function lib_all(values, includeImageAlt, includeHtml) {
-  /** @type {Array<string>} */
-  const result = []
-  let index = -1
-
-  while (++index < values.length) {
-    result[index] = one(values[index], includeImageAlt, includeHtml)
-  }
-
-  return result.join('')
-}
-
-/**
- * Check if `value` looks like a node.
- *
- * @param {unknown} value
- *   Thing.
- * @returns {value is Node}
- *   Whether `value` is a node.
- */
-function node(value) {
-  return Boolean(value && typeof value === 'object')
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-util-combine-extensions/index.js
-var micromark_util_combine_extensions = __webpack_require__(5389);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark-util-character/lib/unicode-punctuation-regex.js
-// This module is generated by `script/`.
-//
-// CommonMark handles attention (emphasis, strong) markers based on what comes
-// before or after them.
-// One such difference is if those characters are Unicode punctuation.
-// This script is generated from the Unicode data.
-
-/**
- * Regular expression that matches a unicode punctuation character.
- */
-const unicodePunctuationRegex =
-  /[!-\/:-@\[-`\{-~\xA1\xA7\xAB\xB6\xB7\xBB\xBF\u037E\u0387\u055A-\u055F\u0589\u058A\u05BE\u05C0\u05C3\u05C6\u05F3\u05F4\u0609\u060A\u060C\u060D\u061B\u061D-\u061F\u066A-\u066D\u06D4\u0700-\u070D\u07F7-\u07F9\u0830-\u083E\u085E\u0964\u0965\u0970\u09FD\u0A76\u0AF0\u0C77\u0C84\u0DF4\u0E4F\u0E5A\u0E5B\u0F04-\u0F12\u0F14\u0F3A-\u0F3D\u0F85\u0FD0-\u0FD4\u0FD9\u0FDA\u104A-\u104F\u10FB\u1360-\u1368\u1400\u166E\u169B\u169C\u16EB-\u16ED\u1735\u1736\u17D4-\u17D6\u17D8-\u17DA\u1800-\u180A\u1944\u1945\u1A1E\u1A1F\u1AA0-\u1AA6\u1AA8-\u1AAD\u1B5A-\u1B60\u1B7D\u1B7E\u1BFC-\u1BFF\u1C3B-\u1C3F\u1C7E\u1C7F\u1CC0-\u1CC7\u1CD3\u2010-\u2027\u2030-\u2043\u2045-\u2051\u2053-\u205E\u207D\u207E\u208D\u208E\u2308-\u230B\u2329\u232A\u2768-\u2775\u27C5\u27C6\u27E6-\u27EF\u2983-\u2998\u29D8-\u29DB\u29FC\u29FD\u2CF9-\u2CFC\u2CFE\u2CFF\u2D70\u2E00-\u2E2E\u2E30-\u2E4F\u2E52-\u2E5D\u3001-\u3003\u3008-\u3011\u3014-\u301F\u3030\u303D\u30A0\u30FB\uA4FE\uA4FF\uA60D-\uA60F\uA673\uA67E\uA6F2-\uA6F7\uA874-\uA877\uA8CE\uA8CF\uA8F8-\uA8FA\uA8FC\uA92E\uA92F\uA95F\uA9C1-\uA9CD\uA9DE\uA9DF\uAA5C-\uAA5F\uAADE\uAADF\uAAF0\uAAF1\uABEB\uFD3E\uFD3F\uFE10-\uFE19\uFE30-\uFE52\uFE54-\uFE61\uFE63\uFE68\uFE6A\uFE6B\uFF01-\uFF03\uFF05-\uFF0A\uFF0C-\uFF0F\uFF1A\uFF1B\uFF1F\uFF20\uFF3B-\uFF3D\uFF3F\uFF5B\uFF5D\uFF5F-\uFF65]/
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark-util-character/index.js
-/**
- * @typedef {import('micromark-util-types').Code} Code
- */
-
-
-
-/**
- * Check whether the character code represents an ASCII alpha (`a` through `z`,
- * case insensitive).
- *
- * An **ASCII alpha** is an ASCII upper alpha or ASCII lower alpha.
- *
- * An **ASCII upper alpha** is a character in the inclusive range U+0041 (`A`)
- * to U+005A (`Z`).
- *
- * An **ASCII lower alpha** is a character in the inclusive range U+0061 (`a`)
- * to U+007A (`z`).
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiAlpha = regexCheck(/[A-Za-z]/)
-
-/**
- * Check whether the character code represents an ASCII alphanumeric (`a`
- * through `z`, case insensitive, or `0` through `9`).
- *
- * An **ASCII alphanumeric** is an ASCII digit (see `asciiDigit`) or ASCII alpha
- * (see `asciiAlpha`).
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiAlphanumeric = regexCheck(/[\dA-Za-z]/)
-
-/**
- * Check whether the character code represents an ASCII atext.
- *
- * atext is an ASCII alphanumeric (see `asciiAlphanumeric`), or a character in
- * the inclusive ranges U+0023 NUMBER SIGN (`#`) to U+0027 APOSTROPHE (`'`),
- * U+002A ASTERISK (`*`), U+002B PLUS SIGN (`+`), U+002D DASH (`-`), U+002F
- * SLASH (`/`), U+003D EQUALS TO (`=`), U+003F QUESTION MARK (`?`), U+005E
- * CARET (`^`) to U+0060 GRAVE ACCENT (`` ` ``), or U+007B LEFT CURLY BRACE
- * (`{`) to U+007E TILDE (`~`).
- *
- * See:
- * **\[RFC5322]**:
- * [Internet Message Format](https://tools.ietf.org/html/rfc5322).
- * P. Resnick.
- * IETF.
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiAtext = regexCheck(/[#-'*+\--9=?A-Z^-~]/)
-
-/**
- * Check whether a character code is an ASCII control character.
- *
- * An **ASCII control** is a character in the inclusive range U+0000 NULL (NUL)
- * to U+001F (US), or U+007F (DEL).
- *
- * @param {Code} code
- *   Code.
- * @returns {boolean}
- *   Whether it matches.
- */
-function asciiControl(code) {
-  return (
-    // Special whitespace codes (which have negative values), C0 and Control
-    // character DEL
-    code !== null && (code < 32 || code === 127)
-  )
-}
-
-/**
- * Check whether the character code represents an ASCII digit (`0` through `9`).
- *
- * An **ASCII digit** is a character in the inclusive range U+0030 (`0`) to
- * U+0039 (`9`).
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiDigit = regexCheck(/\d/)
-
-/**
- * Check whether the character code represents an ASCII hex digit (`a` through
- * `f`, case insensitive, or `0` through `9`).
- *
- * An **ASCII hex digit** is an ASCII digit (see `asciiDigit`), ASCII upper hex
- * digit, or an ASCII lower hex digit.
- *
- * An **ASCII upper hex digit** is a character in the inclusive range U+0041
- * (`A`) to U+0046 (`F`).
- *
- * An **ASCII lower hex digit** is a character in the inclusive range U+0061
- * (`a`) to U+0066 (`f`).
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiHexDigit = regexCheck(/[\dA-Fa-f]/)
-
-/**
- * Check whether the character code represents ASCII punctuation.
- *
- * An **ASCII punctuation** is a character in the inclusive ranges U+0021
- * EXCLAMATION MARK (`!`) to U+002F SLASH (`/`), U+003A COLON (`:`) to U+0040 AT
- * SIGN (`@`), U+005B LEFT SQUARE BRACKET (`[`) to U+0060 GRAVE ACCENT
- * (`` ` ``), or U+007B LEFT CURLY BRACE (`{`) to U+007E TILDE (`~`).
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const asciiPunctuation = regexCheck(/[!-/:-@[-`{-~]/)
-
-/**
- * Check whether a character code is a markdown line ending.
- *
- * A **markdown line ending** is the virtual characters M-0003 CARRIAGE RETURN
- * LINE FEED (CRLF), M-0004 LINE FEED (LF) and M-0005 CARRIAGE RETURN (CR).
- *
- * In micromark, the actual character U+000A LINE FEED (LF) and U+000D CARRIAGE
- * RETURN (CR) are replaced by these virtual characters depending on whether
- * they occurred together.
- *
- * @param {Code} code
- *   Code.
- * @returns {boolean}
- *   Whether it matches.
- */
-function markdownLineEnding(code) {
-  return code !== null && code < -2
-}
-
-/**
- * Check whether a character code is a markdown line ending (see
- * `markdownLineEnding`) or markdown space (see `markdownSpace`).
- *
- * @param {Code} code
- *   Code.
- * @returns {boolean}
- *   Whether it matches.
- */
-function markdownLineEndingOrSpace(code) {
-  return code !== null && (code < 0 || code === 32)
-}
-
-/**
- * Check whether a character code is a markdown space.
- *
- * A **markdown space** is the concrete character U+0020 SPACE (SP) and the
- * virtual characters M-0001 VIRTUAL SPACE (VS) and M-0002 HORIZONTAL TAB (HT).
- *
- * In micromark, the actual character U+0009 CHARACTER TABULATION (HT) is
- * replaced by one M-0002 HORIZONTAL TAB (HT) and between 0 and 3 M-0001 VIRTUAL
- * SPACE (VS) characters, depending on the column at which the tab occurred.
- *
- * @param {Code} code
- *   Code.
- * @returns {boolean}
- *   Whether it matches.
- */
-function markdownSpace(code) {
-  return code === -2 || code === -1 || code === 32
-}
-
-// Size note: removing ASCII from the regex and using `asciiPunctuation` here
-// In fact adds to the bundle size.
-/**
- * Check whether the character code represents Unicode punctuation.
- *
- * A **Unicode punctuation** is a character in the Unicode `Pc` (Punctuation,
- * Connector), `Pd` (Punctuation, Dash), `Pe` (Punctuation, Close), `Pf`
- * (Punctuation, Final quote), `Pi` (Punctuation, Initial quote), `Po`
- * (Punctuation, Other), or `Ps` (Punctuation, Open) categories, or an ASCII
- * punctuation (see `asciiPunctuation`).
- *
- * See:
- * **\[UNICODE]**:
- * [The Unicode Standard](https://www.unicode.org/versions/).
- * Unicode Consortium.
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const unicodePunctuation = regexCheck(unicodePunctuationRegex)
-
-/**
- * Check whether the character code represents Unicode whitespace.
- *
- * Note that this does handle micromark specific markdown whitespace characters.
- * See `markdownLineEndingOrSpace` to check that.
- *
- * A **Unicode whitespace** is a character in the Unicode `Zs` (Separator,
- * Space) category, or U+0009 CHARACTER TABULATION (HT), U+000A LINE FEED (LF),
- * U+000C (FF), or U+000D CARRIAGE RETURN (CR) (**\[UNICODE]**).
- *
- * See:
- * **\[UNICODE]**:
- * [The Unicode Standard](https://www.unicode.org/versions/).
- * Unicode Consortium.
- *
- * @param code
- *   Code.
- * @returns
- *   Whether it matches.
- */
-const unicodeWhitespace = regexCheck(/\s/)
-
-/**
- * Create a code check from a regex.
- *
- * @param {RegExp} regex
- * @returns {(code: Code) => boolean}
- */
-function regexCheck(regex) {
-  return check
-
-  /**
-   * Check whether a code matches the bound regex.
-   *
-   * @param {Code} code
-   *   Character code.
-   * @returns {boolean}
-   *   Whether the character code matches the bound regex.
-   */
-  function check(code) {
-    return code !== null && regex.test(String.fromCharCode(code))
-  }
-}
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark-factory-space/index.js
-/**
- * @typedef {import('micromark-util-types').Effects} Effects
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').TokenType} TokenType
- */
-
-
-
-// To do: implement `spaceOrTab`, `spaceOrTabMinMax`, `spaceOrTabWithOptions`.
-
-/**
- * Parse spaces and tabs.
- *
- * There is no `nok` parameter:
- *
- * *   spaces in markdown are often optional, in which case this factory can be
- *     used and `ok` will be switched to whether spaces were found or not
- * *   one line ending or space can be detected with `markdownSpace(code)` right
- *     before using `factorySpace`
- *
- * ###### Examples
- *
- * Where `␉` represents a tab (plus how much it expands) and `␠` represents a
- * single space.
- *
- * ```markdown
- * ␉
- * ␠␠␠␠
- * ␉␠
- * ```
- *
- * @param {Effects} effects
- *   Context.
- * @param {State} ok
- *   State switched to when successful.
- * @param {TokenType} type
- *   Type (`' \t'`).
- * @param {number | undefined} [max=Infinity]
- *   Max (exclusive).
- * @returns
- *   Start state.
- */
-function factorySpace(effects, ok, type, max) {
-  const limit = max ? max - 1 : Number.POSITIVE_INFINITY
-  let size = 0
-  return start
-
-  /** @type {State} */
-  function start(code) {
-    if (markdownSpace(code)) {
-      effects.enter(type)
-      return prefix(code)
-    }
-    return ok(code)
-  }
-
-  /** @type {State} */
-  function prefix(code) {
-    if (markdownSpace(code) && size++ < limit) {
-      effects.consume(code)
-      return prefix
-    }
-    effects.exit(type)
-    return ok(code)
-  }
-}
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/initialize/content.js
-/**
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').Initializer} Initializer
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').Token} Token
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- */
-
-
-
-/** @type {InitialConstruct} */
-const content = {
-  tokenize: initializeContent
-}
-
-/**
- * @this {TokenizeContext}
- * @type {Initializer}
- */
-function initializeContent(effects) {
-  const contentStart = effects.attempt(
-    this.parser.constructs.contentInitial,
-    afterContentStartConstruct,
-    paragraphInitial
-  )
-  /** @type {Token} */
-  let previous
-  return contentStart
-
-  /** @type {State} */
-  function afterContentStartConstruct(code) {
-    if (code === null) {
-      effects.consume(code)
-      return
-    }
-    effects.enter('lineEnding')
-    effects.consume(code)
-    effects.exit('lineEnding')
-    return factorySpace(effects, contentStart, 'linePrefix')
-  }
-
-  /** @type {State} */
-  function paragraphInitial(code) {
-    effects.enter('paragraph')
-    return lineStart(code)
-  }
-
-  /** @type {State} */
-  function lineStart(code) {
-    const token = effects.enter('chunkText', {
-      contentType: 'text',
-      previous
-    })
-    if (previous) {
-      previous.next = token
-    }
-    previous = token
-    return data(code)
-  }
-
-  /** @type {State} */
-  function data(code) {
-    if (code === null) {
-      effects.exit('chunkText')
-      effects.exit('paragraph')
-      effects.consume(code)
-      return
-    }
-    if (markdownLineEnding(code)) {
-      effects.consume(code)
-      effects.exit('chunkText')
-      return lineStart
-    }
-
-    // Data.
-    effects.consume(code)
-    return data
-  }
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-util-chunked/index.js
-var micromark_util_chunked = __webpack_require__(82777);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/initialize/document.js
-/**
- * @typedef {import('micromark-util-types').Construct} Construct
- * @typedef {import('micromark-util-types').ContainerState} ContainerState
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').Initializer} Initializer
- * @typedef {import('micromark-util-types').Point} Point
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').Token} Token
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- * @typedef {import('micromark-util-types').Tokenizer} Tokenizer
- */
-
-/**
- * @typedef {[Construct, ContainerState]} StackItem
- */
-
-
-
-
-/** @type {InitialConstruct} */
-const document_document = {
-  tokenize: initializeDocument
-}
-
-/** @type {Construct} */
-const containerConstruct = {
-  tokenize: tokenizeContainer
-}
-
-/**
- * @this {TokenizeContext}
- * @type {Initializer}
- */
-function initializeDocument(effects) {
-  const self = this
-  /** @type {Array<StackItem>} */
-  const stack = []
-  let continued = 0
-  /** @type {TokenizeContext | undefined} */
-  let childFlow
-  /** @type {Token | undefined} */
-  let childToken
-  /** @type {number} */
-  let lineStartOffset
-  return start
-
-  /** @type {State} */
-  function start(code) {
-    // First we iterate through the open blocks, starting with the root
-    // document, and descending through last children down to the last open
-    // block.
-    // Each block imposes a condition that the line must satisfy if the block is
-    // to remain open.
-    // For example, a block quote requires a `>` character.
-    // A paragraph requires a non-blank line.
-    // In this phase we may match all or just some of the open blocks.
-    // But we cannot close unmatched blocks yet, because we may have a lazy
-    // continuation line.
-    if (continued < stack.length) {
-      const item = stack[continued]
-      self.containerState = item[1]
-      return effects.attempt(
-        item[0].continuation,
-        documentContinue,
-        checkNewContainers
-      )(code)
-    }
-
-    // Done.
-    return checkNewContainers(code)
-  }
-
-  /** @type {State} */
-  function documentContinue(code) {
-    continued++
-
-    // Note: this field is called `_closeFlow` but it also closes containers.
-    // Perhaps a good idea to rename it but it’s already used in the wild by
-    // extensions.
-    if (self.containerState._closeFlow) {
-      self.containerState._closeFlow = undefined
-      if (childFlow) {
-        closeFlow()
-      }
-
-      // Note: this algorithm for moving events around is similar to the
-      // algorithm when dealing with lazy lines in `writeToChild`.
-      const indexBeforeExits = self.events.length
-      let indexBeforeFlow = indexBeforeExits
-      /** @type {Point | undefined} */
-      let point
-
-      // Find the flow chunk.
-      while (indexBeforeFlow--) {
-        if (
-          self.events[indexBeforeFlow][0] === 'exit' &&
-          self.events[indexBeforeFlow][1].type === 'chunkFlow'
-        ) {
-          point = self.events[indexBeforeFlow][1].end
-          break
-        }
-      }
-      exitContainers(continued)
-
-      // Fix positions.
-      let index = indexBeforeExits
-      while (index < self.events.length) {
-        self.events[index][1].end = Object.assign({}, point)
-        index++
-      }
-
-      // Inject the exits earlier (they’re still also at the end).
-      (0,micromark_util_chunked/* splice */.m)(
-        self.events,
-        indexBeforeFlow + 1,
-        0,
-        self.events.slice(indexBeforeExits)
-      )
-
-      // Discard the duplicate exits.
-      self.events.length = index
-      return checkNewContainers(code)
-    }
-    return start(code)
-  }
-
-  /** @type {State} */
-  function checkNewContainers(code) {
-    // Next, after consuming the continuation markers for existing blocks, we
-    // look for new block starts (e.g. `>` for a block quote).
-    // If we encounter a new block start, we close any blocks unmatched in
-    // step 1 before creating the new block as a child of the last matched
-    // block.
-    if (continued === stack.length) {
-      // No need to `check` whether there’s a container, of `exitContainers`
-      // would be moot.
-      // We can instead immediately `attempt` to parse one.
-      if (!childFlow) {
-        return documentContinued(code)
-      }
-
-      // If we have concrete content, such as block HTML or fenced code,
-      // we can’t have containers “pierce” into them, so we can immediately
-      // start.
-      if (childFlow.currentConstruct && childFlow.currentConstruct.concrete) {
-        return flowStart(code)
-      }
-
-      // If we do have flow, it could still be a blank line,
-      // but we’d be interrupting it w/ a new container if there’s a current
-      // construct.
-      // To do: next major: remove `_gfmTableDynamicInterruptHack` (no longer
-      // needed in micromark-extension-gfm-table@1.0.6).
-      self.interrupt = Boolean(
-        childFlow.currentConstruct && !childFlow._gfmTableDynamicInterruptHack
-      )
-    }
-
-    // Check if there is a new container.
-    self.containerState = {}
-    return effects.check(
-      containerConstruct,
-      thereIsANewContainer,
-      thereIsNoNewContainer
-    )(code)
-  }
-
-  /** @type {State} */
-  function thereIsANewContainer(code) {
-    if (childFlow) closeFlow()
-    exitContainers(continued)
-    return documentContinued(code)
-  }
-
-  /** @type {State} */
-  function thereIsNoNewContainer(code) {
-    self.parser.lazy[self.now().line] = continued !== stack.length
-    lineStartOffset = self.now().offset
-    return flowStart(code)
-  }
-
-  /** @type {State} */
-  function documentContinued(code) {
-    // Try new containers.
-    self.containerState = {}
-    return effects.attempt(
-      containerConstruct,
-      containerContinue,
-      flowStart
-    )(code)
-  }
-
-  /** @type {State} */
-  function containerContinue(code) {
-    continued++
-    stack.push([self.currentConstruct, self.containerState])
-    // Try another.
-    return documentContinued(code)
-  }
-
-  /** @type {State} */
-  function flowStart(code) {
-    if (code === null) {
-      if (childFlow) closeFlow()
-      exitContainers(0)
-      effects.consume(code)
-      return
-    }
-    childFlow = childFlow || self.parser.flow(self.now())
-    effects.enter('chunkFlow', {
-      contentType: 'flow',
-      previous: childToken,
-      _tokenizer: childFlow
-    })
-    return flowContinue(code)
-  }
-
-  /** @type {State} */
-  function flowContinue(code) {
-    if (code === null) {
-      writeToChild(effects.exit('chunkFlow'), true)
-      exitContainers(0)
-      effects.consume(code)
-      return
-    }
-    if (markdownLineEnding(code)) {
-      effects.consume(code)
-      writeToChild(effects.exit('chunkFlow'))
-      // Get ready for the next line.
-      continued = 0
-      self.interrupt = undefined
-      return start
-    }
-    effects.consume(code)
-    return flowContinue
-  }
-
-  /**
-   * @param {Token} token
-   * @param {boolean | undefined} [eof]
-   * @returns {void}
-   */
-  function writeToChild(token, eof) {
-    const stream = self.sliceStream(token)
-    if (eof) stream.push(null)
-    token.previous = childToken
-    if (childToken) childToken.next = token
-    childToken = token
-    childFlow.defineSkip(token.start)
-    childFlow.write(stream)
-
-    // Alright, so we just added a lazy line:
-    //
-    // ```markdown
-    // > a
-    // b.
-    //
-    // Or:
-    //
-    // > ~~~c
-    // d
-    //
-    // Or:
-    //
-    // > | e |
-    // f
-    // ```
-    //
-    // The construct in the second example (fenced code) does not accept lazy
-    // lines, so it marked itself as done at the end of its first line, and
-    // then the content construct parses `d`.
-    // Most constructs in markdown match on the first line: if the first line
-    // forms a construct, a non-lazy line can’t “unmake” it.
-    //
-    // The construct in the third example is potentially a GFM table, and
-    // those are *weird*.
-    // It *could* be a table, from the first line, if the following line
-    // matches a condition.
-    // In this case, that second line is lazy, which “unmakes” the first line
-    // and turns the whole into one content block.
-    //
-    // We’ve now parsed the non-lazy and the lazy line, and can figure out
-    // whether the lazy line started a new flow block.
-    // If it did, we exit the current containers between the two flow blocks.
-    if (self.parser.lazy[token.start.line]) {
-      let index = childFlow.events.length
-      while (index--) {
-        if (
-          // The token starts before the line ending…
-          childFlow.events[index][1].start.offset < lineStartOffset &&
-          // …and either is not ended yet…
-          (!childFlow.events[index][1].end ||
-            // …or ends after it.
-            childFlow.events[index][1].end.offset > lineStartOffset)
-        ) {
-          // Exit: there’s still something open, which means it’s a lazy line
-          // part of something.
-          return
-        }
-      }
-
-      // Note: this algorithm for moving events around is similar to the
-      // algorithm when closing flow in `documentContinue`.
-      const indexBeforeExits = self.events.length
-      let indexBeforeFlow = indexBeforeExits
-      /** @type {boolean | undefined} */
-      let seen
-      /** @type {Point | undefined} */
-      let point
-
-      // Find the previous chunk (the one before the lazy line).
-      while (indexBeforeFlow--) {
-        if (
-          self.events[indexBeforeFlow][0] === 'exit' &&
-          self.events[indexBeforeFlow][1].type === 'chunkFlow'
-        ) {
-          if (seen) {
-            point = self.events[indexBeforeFlow][1].end
-            break
-          }
-          seen = true
-        }
-      }
-      exitContainers(continued)
-
-      // Fix positions.
-      index = indexBeforeExits
-      while (index < self.events.length) {
-        self.events[index][1].end = Object.assign({}, point)
-        index++
-      }
-
-      // Inject the exits earlier (they’re still also at the end).
-      (0,micromark_util_chunked/* splice */.m)(
-        self.events,
-        indexBeforeFlow + 1,
-        0,
-        self.events.slice(indexBeforeExits)
-      )
-
-      // Discard the duplicate exits.
-      self.events.length = index
-    }
-  }
-
-  /**
-   * @param {number} size
-   * @returns {void}
-   */
-  function exitContainers(size) {
-    let index = stack.length
-
-    // Exit open containers.
-    while (index-- > size) {
-      const entry = stack[index]
-      self.containerState = entry[1]
-      entry[0].exit.call(self, effects)
-    }
-    stack.length = size
-  }
-  function closeFlow() {
-    childFlow.write([null])
-    childToken = undefined
-    childFlow = undefined
-    self.containerState._closeFlow = undefined
-  }
-}
-
-/**
- * @this {TokenizeContext}
- * @type {Tokenizer}
- */
-function tokenizeContainer(effects, ok, nok) {
-  // Always populated by defaults.
-
-  return factorySpace(
-    effects,
-    effects.attempt(this.parser.constructs.document, ok, nok),
-    'linePrefix',
-    this.parser.constructs.disable.null.includes('codeIndented') ? undefined : 4
-  )
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/blank-line.js
-var blank_line = __webpack_require__(9283);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/content.js
-var lib_content = __webpack_require__(9987);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/initialize/flow.js
-/**
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').Initializer} Initializer
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- */
-
-
-
-
-/** @type {InitialConstruct} */
-const flow = {
-  tokenize: initializeFlow
-}
-
-/**
- * @this {TokenizeContext}
- * @type {Initializer}
- */
-function initializeFlow(effects) {
-  const self = this
-  const initial = effects.attempt(
-    // Try to parse a blank line.
-    blank_line/* blankLine */.B,
-    atBlankEnding,
-    // Try to parse initial flow (essentially, only code).
-    effects.attempt(
-      this.parser.constructs.flowInitial,
-      afterConstruct,
-      factorySpace(
-        effects,
-        effects.attempt(
-          this.parser.constructs.flow,
-          afterConstruct,
-          effects.attempt(lib_content/* content */.Q, afterConstruct)
-        ),
-        'linePrefix'
-      )
-    )
-  )
-  return initial
-
-  /** @type {State} */
-  function atBlankEnding(code) {
-    if (code === null) {
-      effects.consume(code)
-      return
-    }
-    effects.enter('lineEndingBlank')
-    effects.consume(code)
-    effects.exit('lineEndingBlank')
-    self.currentConstruct = undefined
-    return initial
-  }
-
-  /** @type {State} */
-  function afterConstruct(code) {
-    if (code === null) {
-      effects.consume(code)
-      return
-    }
-    effects.enter('lineEnding')
-    effects.consume(code)
-    effects.exit('lineEnding')
-    self.currentConstruct = undefined
-    return initial
-  }
-}
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/initialize/text.js
-/**
- * @typedef {import('micromark-util-types').Code} Code
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').Initializer} Initializer
- * @typedef {import('micromark-util-types').Resolver} Resolver
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- */
-
-const resolver = {
-  resolveAll: createResolver()
-}
-const string = initializeFactory('string')
-const text_text = initializeFactory('text')
-
-/**
- * @param {'string' | 'text'} field
- * @returns {InitialConstruct}
- */
-function initializeFactory(field) {
-  return {
-    tokenize: initializeText,
-    resolveAll: createResolver(
-      field === 'text' ? resolveAllLineSuffixes : undefined
-    )
-  }
-
-  /**
-   * @this {TokenizeContext}
-   * @type {Initializer}
-   */
-  function initializeText(effects) {
-    const self = this
-    const constructs = this.parser.constructs[field]
-    const text = effects.attempt(constructs, start, notText)
-    return start
-
-    /** @type {State} */
-    function start(code) {
-      return atBreak(code) ? text(code) : notText(code)
-    }
-
-    /** @type {State} */
-    function notText(code) {
-      if (code === null) {
-        effects.consume(code)
-        return
-      }
-      effects.enter('data')
-      effects.consume(code)
-      return data
-    }
-
-    /** @type {State} */
-    function data(code) {
-      if (atBreak(code)) {
-        effects.exit('data')
-        return text(code)
-      }
-
-      // Data.
-      effects.consume(code)
-      return data
-    }
-
-    /**
-     * @param {Code} code
-     * @returns {boolean}
-     */
-    function atBreak(code) {
-      if (code === null) {
-        return true
-      }
-      const list = constructs[code]
-      let index = -1
-      if (list) {
-        // Always populated by defaults.
-
-        while (++index < list.length) {
-          const item = list[index]
-          if (!item.previous || item.previous.call(self, self.previous)) {
-            return true
-          }
-        }
-      }
-      return false
-    }
-  }
-}
-
-/**
- * @param {Resolver | undefined} [extraResolver]
- * @returns {Resolver}
- */
-function createResolver(extraResolver) {
-  return resolveAllText
-
-  /** @type {Resolver} */
-  function resolveAllText(events, context) {
-    let index = -1
-    /** @type {number | undefined} */
-    let enter
-
-    // A rather boring computation (to merge adjacent `data` events) which
-    // improves mm performance by 29%.
-    while (++index <= events.length) {
-      if (enter === undefined) {
-        if (events[index] && events[index][1].type === 'data') {
-          enter = index
-          index++
-        }
-      } else if (!events[index] || events[index][1].type !== 'data') {
-        // Don’t do anything if there is one data token.
-        if (index !== enter + 2) {
-          events[enter][1].end = events[index - 1][1].end
-          events.splice(enter + 2, index - enter - 2)
-          index = enter + 2
-        }
-        enter = undefined
-      }
-    }
-    return extraResolver ? extraResolver(events, context) : events
-  }
-}
-
-/**
- * A rather ugly set of instructions which again looks at chunks in the input
- * stream.
- * The reason to do this here is that it is *much* faster to parse in reverse.
- * And that we can’t hook into `null` to split the line suffix before an EOF.
- * To do: figure out if we can make this into a clean utility, or even in core.
- * As it will be useful for GFMs literal autolink extension (and maybe even
- * tables?)
- *
- * @type {Resolver}
- */
-function resolveAllLineSuffixes(events, context) {
-  let eventIndex = 0 // Skip first.
-
-  while (++eventIndex <= events.length) {
-    if (
-      (eventIndex === events.length ||
-        events[eventIndex][1].type === 'lineEnding') &&
-      events[eventIndex - 1][1].type === 'data'
-    ) {
-      const data = events[eventIndex - 1][1]
-      const chunks = context.sliceStream(data)
-      let index = chunks.length
-      let bufferIndex = -1
-      let size = 0
-      /** @type {boolean | undefined} */
-      let tabs
-      while (index--) {
-        const chunk = chunks[index]
-        if (typeof chunk === 'string') {
-          bufferIndex = chunk.length
-          while (chunk.charCodeAt(bufferIndex - 1) === 32) {
-            size++
-            bufferIndex--
-          }
-          if (bufferIndex) break
-          bufferIndex = -1
-        }
-        // Number
-        else if (chunk === -2) {
-          tabs = true
-          size++
-        } else if (chunk === -1) {
-          // Empty
-        } else {
-          // Replacement character, exit.
-          index++
-          break
-        }
-      }
-      if (size) {
-        const token = {
-          type:
-            eventIndex === events.length || tabs || size < 2
-              ? 'lineSuffix'
-              : 'hardBreakTrailing',
-          start: {
-            line: data.end.line,
-            column: data.end.column - size,
-            offset: data.end.offset - size,
-            _index: data.start._index + index,
-            _bufferIndex: index
-              ? bufferIndex
-              : data.start._bufferIndex + bufferIndex
-          },
-          end: Object.assign({}, data.end)
-        }
-        data.end = Object.assign({}, token.start)
-        if (data.start.offset === data.end.offset) {
-          Object.assign(data, token)
-        } else {
-          events.splice(
-            eventIndex,
-            0,
-            ['enter', token, context],
-            ['exit', token, context]
-          )
-          eventIndex += 2
-        }
-      }
-      eventIndex++
-    }
-  }
-  return events
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-util-resolve-all/index.js
-var micromark_util_resolve_all = __webpack_require__(45535);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/create-tokenizer.js
-/**
- * @typedef {import('micromark-util-types').Chunk} Chunk
- * @typedef {import('micromark-util-types').Code} Code
- * @typedef {import('micromark-util-types').Construct} Construct
- * @typedef {import('micromark-util-types').ConstructRecord} ConstructRecord
- * @typedef {import('micromark-util-types').Effects} Effects
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').ParseContext} ParseContext
- * @typedef {import('micromark-util-types').Point} Point
- * @typedef {import('micromark-util-types').State} State
- * @typedef {import('micromark-util-types').Token} Token
- * @typedef {import('micromark-util-types').TokenType} TokenType
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- */
-
-/**
- * @callback Restore
- * @returns {void}
- *
- * @typedef Info
- * @property {Restore} restore
- * @property {number} from
- *
- * @callback ReturnHandle
- *   Handle a successful run.
- * @param {Construct} construct
- * @param {Info} info
- * @returns {void}
- */
-
-
-
-
-/**
- * Create a tokenizer.
- * Tokenizers deal with one type of data (e.g., containers, flow, text).
- * The parser is the object dealing with it all.
- * `initialize` works like other constructs, except that only its `tokenize`
- * function is used, in which case it doesn’t receive an `ok` or `nok`.
- * `from` can be given to set the point before the first character, although
- * when further lines are indented, they must be set with `defineSkip`.
- *
- * @param {ParseContext} parser
- * @param {InitialConstruct} initialize
- * @param {Omit<Point, '_bufferIndex' | '_index'> | undefined} [from]
- * @returns {TokenizeContext}
- */
-function createTokenizer(parser, initialize, from) {
-  /** @type {Point} */
-  let point = Object.assign(
-    from
-      ? Object.assign({}, from)
-      : {
-          line: 1,
-          column: 1,
-          offset: 0
-        },
-    {
-      _index: 0,
-      _bufferIndex: -1
-    }
-  )
-  /** @type {Record<string, number>} */
-  const columnStart = {}
-  /** @type {Array<Construct>} */
-  const resolveAllConstructs = []
-  /** @type {Array<Chunk>} */
-  let chunks = []
-  /** @type {Array<Token>} */
-  let stack = []
-  /** @type {boolean | undefined} */
-  let consumed = true
-
-  /**
-   * Tools used for tokenizing.
-   *
-   * @type {Effects}
-   */
-  const effects = {
-    consume,
-    enter,
-    exit,
-    attempt: constructFactory(onsuccessfulconstruct),
-    check: constructFactory(onsuccessfulcheck),
-    interrupt: constructFactory(onsuccessfulcheck, {
-      interrupt: true
-    })
-  }
-
-  /**
-   * State and tools for resolving and serializing.
-   *
-   * @type {TokenizeContext}
-   */
-  const context = {
-    previous: null,
-    code: null,
-    containerState: {},
-    events: [],
-    parser,
-    sliceStream,
-    sliceSerialize,
-    now,
-    defineSkip,
-    write
-  }
-
-  /**
-   * The state function.
-   *
-   * @type {State | void}
-   */
-  let state = initialize.tokenize.call(context, effects)
-
-  /**
-   * Track which character we expect to be consumed, to catch bugs.
-   *
-   * @type {Code}
-   */
-  let expectedCode
-  if (initialize.resolveAll) {
-    resolveAllConstructs.push(initialize)
-  }
-  return context
-
-  /** @type {TokenizeContext['write']} */
-  function write(slice) {
-    chunks = (0,micromark_util_chunked/* push */.V)(chunks, slice)
-    main()
-
-    // Exit if we’re not done, resolve might change stuff.
-    if (chunks[chunks.length - 1] !== null) {
-      return []
-    }
-    addResult(initialize, 0)
-
-    // Otherwise, resolve, and exit.
-    context.events = (0,micromark_util_resolve_all/* resolveAll */.W)(resolveAllConstructs, context.events, context)
-    return context.events
-  }
-
-  //
-  // Tools.
-  //
-
-  /** @type {TokenizeContext['sliceSerialize']} */
-  function sliceSerialize(token, expandTabs) {
-    return serializeChunks(sliceStream(token), expandTabs)
-  }
-
-  /** @type {TokenizeContext['sliceStream']} */
-  function sliceStream(token) {
-    return sliceChunks(chunks, token)
-  }
-
-  /** @type {TokenizeContext['now']} */
-  function now() {
-    // This is a hot path, so we clone manually instead of `Object.assign({}, point)`
-    const {line, column, offset, _index, _bufferIndex} = point
-    return {
-      line,
-      column,
-      offset,
-      _index,
-      _bufferIndex
-    }
-  }
-
-  /** @type {TokenizeContext['defineSkip']} */
-  function defineSkip(value) {
-    columnStart[value.line] = value.column
-    accountForPotentialSkip()
-  }
-
-  //
-  // State management.
-  //
-
-  /**
-   * Main loop (note that `_index` and `_bufferIndex` in `point` are modified by
-   * `consume`).
-   * Here is where we walk through the chunks, which either include strings of
-   * several characters, or numerical character codes.
-   * The reason to do this in a loop instead of a call is so the stack can
-   * drain.
-   *
-   * @returns {void}
-   */
-  function main() {
-    /** @type {number} */
-    let chunkIndex
-    while (point._index < chunks.length) {
-      const chunk = chunks[point._index]
-
-      // If we’re in a buffer chunk, loop through it.
-      if (typeof chunk === 'string') {
-        chunkIndex = point._index
-        if (point._bufferIndex < 0) {
-          point._bufferIndex = 0
-        }
-        while (
-          point._index === chunkIndex &&
-          point._bufferIndex < chunk.length
-        ) {
-          go(chunk.charCodeAt(point._bufferIndex))
-        }
-      } else {
-        go(chunk)
-      }
-    }
-  }
-
-  /**
-   * Deal with one code.
-   *
-   * @param {Code} code
-   * @returns {void}
-   */
-  function go(code) {
-    consumed = undefined
-    expectedCode = code
-    state = state(code)
-  }
-
-  /** @type {Effects['consume']} */
-  function consume(code) {
-    if (markdownLineEnding(code)) {
-      point.line++
-      point.column = 1
-      point.offset += code === -3 ? 2 : 1
-      accountForPotentialSkip()
-    } else if (code !== -1) {
-      point.column++
-      point.offset++
-    }
-
-    // Not in a string chunk.
-    if (point._bufferIndex < 0) {
-      point._index++
-    } else {
-      point._bufferIndex++
-
-      // At end of string chunk.
-      // @ts-expect-error Points w/ non-negative `_bufferIndex` reference
-      // strings.
-      if (point._bufferIndex === chunks[point._index].length) {
-        point._bufferIndex = -1
-        point._index++
-      }
-    }
-
-    // Expose the previous character.
-    context.previous = code
-
-    // Mark as consumed.
-    consumed = true
-  }
-
-  /** @type {Effects['enter']} */
-  function enter(type, fields) {
-    /** @type {Token} */
-    // @ts-expect-error Patch instead of assign required fields to help GC.
-    const token = fields || {}
-    token.type = type
-    token.start = now()
-    context.events.push(['enter', token, context])
-    stack.push(token)
-    return token
-  }
-
-  /** @type {Effects['exit']} */
-  function exit(type) {
-    const token = stack.pop()
-    token.end = now()
-    context.events.push(['exit', token, context])
-    return token
-  }
-
-  /**
-   * Use results.
-   *
-   * @type {ReturnHandle}
-   */
-  function onsuccessfulconstruct(construct, info) {
-    addResult(construct, info.from)
-  }
-
-  /**
-   * Discard results.
-   *
-   * @type {ReturnHandle}
-   */
-  function onsuccessfulcheck(_, info) {
-    info.restore()
-  }
-
-  /**
-   * Factory to attempt/check/interrupt.
-   *
-   * @param {ReturnHandle} onreturn
-   * @param {{interrupt?: boolean | undefined} | undefined} [fields]
-   */
-  function constructFactory(onreturn, fields) {
-    return hook
-
-    /**
-     * Handle either an object mapping codes to constructs, a list of
-     * constructs, or a single construct.
-     *
-     * @param {Array<Construct> | Construct | ConstructRecord} constructs
-     * @param {State} returnState
-     * @param {State | undefined} [bogusState]
-     * @returns {State}
-     */
-    function hook(constructs, returnState, bogusState) {
-      /** @type {Array<Construct>} */
-      let listOfConstructs
-      /** @type {number} */
-      let constructIndex
-      /** @type {Construct} */
-      let currentConstruct
-      /** @type {Info} */
-      let info
-      return Array.isArray(constructs) /* c8 ignore next 1 */
-        ? handleListOfConstructs(constructs)
-        : 'tokenize' in constructs
-        ? // @ts-expect-error Looks like a construct.
-          handleListOfConstructs([constructs])
-        : handleMapOfConstructs(constructs)
-
-      /**
-       * Handle a list of construct.
-       *
-       * @param {ConstructRecord} map
-       * @returns {State}
-       */
-      function handleMapOfConstructs(map) {
-        return start
-
-        /** @type {State} */
-        function start(code) {
-          const def = code !== null && map[code]
-          const all = code !== null && map.null
-          const list = [
-            // To do: add more extension tests.
-            /* c8 ignore next 2 */
-            ...(Array.isArray(def) ? def : def ? [def] : []),
-            ...(Array.isArray(all) ? all : all ? [all] : [])
-          ]
-          return handleListOfConstructs(list)(code)
-        }
-      }
-
-      /**
-       * Handle a list of construct.
-       *
-       * @param {Array<Construct>} list
-       * @returns {State}
-       */
-      function handleListOfConstructs(list) {
-        listOfConstructs = list
-        constructIndex = 0
-        if (list.length === 0) {
-          return bogusState
-        }
-        return handleConstruct(list[constructIndex])
-      }
-
-      /**
-       * Handle a single construct.
-       *
-       * @param {Construct} construct
-       * @returns {State}
-       */
-      function handleConstruct(construct) {
-        return start
-
-        /** @type {State} */
-        function start(code) {
-          // To do: not needed to store if there is no bogus state, probably?
-          // Currently doesn’t work because `inspect` in document does a check
-          // w/o a bogus, which doesn’t make sense. But it does seem to help perf
-          // by not storing.
-          info = store()
-          currentConstruct = construct
-          if (!construct.partial) {
-            context.currentConstruct = construct
-          }
-
-          // Always populated by defaults.
-
-          if (
-            construct.name &&
-            context.parser.constructs.disable.null.includes(construct.name)
-          ) {
-            return nok(code)
-          }
-          return construct.tokenize.call(
-            // If we do have fields, create an object w/ `context` as its
-            // prototype.
-            // This allows a “live binding”, which is needed for `interrupt`.
-            fields ? Object.assign(Object.create(context), fields) : context,
-            effects,
-            ok,
-            nok
-          )(code)
-        }
-      }
-
-      /** @type {State} */
-      function ok(code) {
-        consumed = true
-        onreturn(currentConstruct, info)
-        return returnState
-      }
-
-      /** @type {State} */
-      function nok(code) {
-        consumed = true
-        info.restore()
-        if (++constructIndex < listOfConstructs.length) {
-          return handleConstruct(listOfConstructs[constructIndex])
-        }
-        return bogusState
-      }
-    }
-  }
-
-  /**
-   * @param {Construct} construct
-   * @param {number} from
-   * @returns {void}
-   */
-  function addResult(construct, from) {
-    if (construct.resolveAll && !resolveAllConstructs.includes(construct)) {
-      resolveAllConstructs.push(construct)
-    }
-    if (construct.resolve) {
-      (0,micromark_util_chunked/* splice */.m)(
-        context.events,
-        from,
-        context.events.length - from,
-        construct.resolve(context.events.slice(from), context)
-      )
-    }
-    if (construct.resolveTo) {
-      context.events = construct.resolveTo(context.events, context)
-    }
-  }
-
-  /**
-   * Store state.
-   *
-   * @returns {Info}
-   */
-  function store() {
-    const startPoint = now()
-    const startPrevious = context.previous
-    const startCurrentConstruct = context.currentConstruct
-    const startEventsIndex = context.events.length
-    const startStack = Array.from(stack)
-    return {
-      restore,
-      from: startEventsIndex
-    }
-
-    /**
-     * Restore state.
-     *
-     * @returns {void}
-     */
-    function restore() {
-      point = startPoint
-      context.previous = startPrevious
-      context.currentConstruct = startCurrentConstruct
-      context.events.length = startEventsIndex
-      stack = startStack
-      accountForPotentialSkip()
-    }
-  }
-
-  /**
-   * Move the current point a bit forward in the line when it’s on a column
-   * skip.
-   *
-   * @returns {void}
-   */
-  function accountForPotentialSkip() {
-    if (point.line in columnStart && point.column < 2) {
-      point.column = columnStart[point.line]
-      point.offset += columnStart[point.line] - 1
-    }
-  }
-}
-
-/**
- * Get the chunks from a slice of chunks in the range of a token.
- *
- * @param {Array<Chunk>} chunks
- * @param {Pick<Token, 'end' | 'start'>} token
- * @returns {Array<Chunk>}
- */
-function sliceChunks(chunks, token) {
-  const startIndex = token.start._index
-  const startBufferIndex = token.start._bufferIndex
-  const endIndex = token.end._index
-  const endBufferIndex = token.end._bufferIndex
-  /** @type {Array<Chunk>} */
-  let view
-  if (startIndex === endIndex) {
-    // @ts-expect-error `_bufferIndex` is used on string chunks.
-    view = [chunks[startIndex].slice(startBufferIndex, endBufferIndex)]
-  } else {
-    view = chunks.slice(startIndex, endIndex)
-    if (startBufferIndex > -1) {
-      const head = view[0]
-      if (typeof head === 'string') {
-        view[0] = head.slice(startBufferIndex)
-      } else {
-        view.shift()
-      }
-    }
-    if (endBufferIndex > 0) {
-      // @ts-expect-error `_bufferIndex` is used on string chunks.
-      view.push(chunks[endIndex].slice(0, endBufferIndex))
-    }
-  }
-  return view
-}
-
-/**
- * Get the string value of a slice of chunks.
- *
- * @param {Array<Chunk>} chunks
- * @param {boolean | undefined} [expandTabs=false]
- * @returns {string}
- */
-function serializeChunks(chunks, expandTabs) {
-  let index = -1
-  /** @type {Array<string>} */
-  const result = []
-  /** @type {boolean | undefined} */
-  let atTab
-  while (++index < chunks.length) {
-    const chunk = chunks[index]
-    /** @type {string} */
-    let value
-    if (typeof chunk === 'string') {
-      value = chunk
-    } else
-      switch (chunk) {
-        case -5: {
-          value = '\r'
-          break
-        }
-        case -4: {
-          value = '\n'
-          break
-        }
-        case -3: {
-          value = '\r' + '\n'
-          break
-        }
-        case -2: {
-          value = expandTabs ? ' ' : '\t'
-          break
-        }
-        case -1: {
-          if (!expandTabs && atTab) continue
-          value = ' '
-          break
-        }
-        default: {
-          // Currently only replacement character.
-          value = String.fromCharCode(chunk)
-        }
-      }
-    atTab = chunk === -2
-    result.push(value)
-  }
-  return result.join('')
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/list.js
-var list = __webpack_require__(23152);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/block-quote.js
-var block_quote = __webpack_require__(16470);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/definition.js
-var definition = __webpack_require__(52353);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/code-indented.js
-var code_indented = __webpack_require__(58349);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/heading-atx.js
-var heading_atx = __webpack_require__(17546);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/thematic-break.js
-var thematic_break = __webpack_require__(41305);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/setext-underline.js
-var setext_underline = __webpack_require__(75930);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/html-flow.js + 1 modules
-var html_flow = __webpack_require__(30090);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/code-fenced.js
-var code_fenced = __webpack_require__(88782);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/character-reference.js
-var character_reference = __webpack_require__(72357);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/character-escape.js
-var character_escape = __webpack_require__(46145);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/line-ending.js
-var line_ending = __webpack_require__(64588);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/label-start-image.js
-var label_start_image = __webpack_require__(9013);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/attention.js
-var attention = __webpack_require__(24788);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/autolink.js
-var autolink = __webpack_require__(33327);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/html-text.js
-var html_text = __webpack_require__(69789);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/label-start-link.js
-var label_start_link = __webpack_require__(22010);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/hard-break-escape.js
-var hard_break_escape = __webpack_require__(95211);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/label-end.js
-var label_end = __webpack_require__(92380);
-// EXTERNAL MODULE: ./node_modules/micromark-core-commonmark/lib/code-text.js
-var code_text = __webpack_require__(6025);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/constructs.js
-/**
- * @typedef {import('micromark-util-types').Extension} Extension
- */
-
-
-
-
-/** @satisfies {Extension['document']} */
-const constructs_document = {
-  [42]: list/* list */.p,
-  [43]: list/* list */.p,
-  [45]: list/* list */.p,
-  [48]: list/* list */.p,
-  [49]: list/* list */.p,
-  [50]: list/* list */.p,
-  [51]: list/* list */.p,
-  [52]: list/* list */.p,
-  [53]: list/* list */.p,
-  [54]: list/* list */.p,
-  [55]: list/* list */.p,
-  [56]: list/* list */.p,
-  [57]: list/* list */.p,
-  [62]: block_quote/* blockQuote */.i
-}
-
-/** @satisfies {Extension['contentInitial']} */
-const contentInitial = {
-  [91]: definition/* definition */.m
-}
-
-/** @satisfies {Extension['flowInitial']} */
-const flowInitial = {
-  [-2]: code_indented/* codeIndented */.j,
-  [-1]: code_indented/* codeIndented */.j,
-  [32]: code_indented/* codeIndented */.j
-}
-
-/** @satisfies {Extension['flow']} */
-const constructs_flow = {
-  [35]: heading_atx/* headingAtx */.O,
-  [42]: thematic_break/* thematicBreak */.V,
-  [45]: [setext_underline/* setextUnderline */.A, thematic_break/* thematicBreak */.V],
-  [60]: html_flow/* htmlFlow */.G,
-  [61]: setext_underline/* setextUnderline */.A,
-  [95]: thematic_break/* thematicBreak */.V,
-  [96]: code_fenced/* codeFenced */.b,
-  [126]: code_fenced/* codeFenced */.b
-}
-
-/** @satisfies {Extension['string']} */
-const constructs_string = {
-  [38]: character_reference/* characterReference */.L,
-  [92]: character_escape/* characterEscape */.L
-}
-
-/** @satisfies {Extension['text']} */
-const constructs_text = {
-  [-5]: line_ending/* lineEnding */.E,
-  [-4]: line_ending/* lineEnding */.E,
-  [-3]: line_ending/* lineEnding */.E,
-  [33]: label_start_image/* labelStartImage */.u,
-  [38]: character_reference/* characterReference */.L,
-  [42]: attention/* attention */.f,
-  [60]: [autolink/* autolink */.m, html_text/* htmlText */.j],
-  [91]: label_start_link/* labelStartLink */.J,
-  [92]: [hard_break_escape/* hardBreakEscape */.G, character_escape/* characterEscape */.L],
-  [93]: label_end/* labelEnd */.o,
-  [95]: attention/* attention */.f,
-  [96]: code_text/* codeText */.p
-}
-
-/** @satisfies {Extension['insideSpan']} */
-const insideSpan = {
-  null: [attention/* attention */.f, resolver]
-}
-
-/** @satisfies {Extension['attentionMarkers']} */
-const attentionMarkers = {
-  null: [42, 95]
-}
-
-/** @satisfies {Extension['disable']} */
-const disable = {
-  null: []
-}
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/parse.js
-/**
- * @typedef {import('micromark-util-types').Create} Create
- * @typedef {import('micromark-util-types').FullNormalizedExtension} FullNormalizedExtension
- * @typedef {import('micromark-util-types').InitialConstruct} InitialConstruct
- * @typedef {import('micromark-util-types').ParseContext} ParseContext
- * @typedef {import('micromark-util-types').ParseOptions} ParseOptions
- */
-
-
-
-
-
-
-
-
-
-/**
- * @param {ParseOptions | null | undefined} [options]
- * @returns {ParseContext}
- */
-function parse(options) {
-  const settings = options || {}
-  const constructs =
-    /** @type {FullNormalizedExtension} */
-    (0,micromark_util_combine_extensions/* combineExtensions */.y)([constructs_namespaceObject, ...(settings.extensions || [])])
-
-  /** @type {ParseContext} */
-  const parser = {
-    defined: [],
-    lazy: {},
-    constructs,
-    content: create(content),
-    document: create(document_document),
-    flow: create(flow),
-    string: create(string),
-    text: create(text_text)
-  }
-  return parser
-
-  /**
-   * @param {InitialConstruct} initial
-   */
-  function create(initial) {
-    return creator
-    /** @type {Create} */
-    function creator(from) {
-      return createTokenizer(parser, initial, from)
-    }
-  }
-}
-
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/preprocess.js
-/**
- * @typedef {import('micromark-util-types').Chunk} Chunk
- * @typedef {import('micromark-util-types').Code} Code
- * @typedef {import('micromark-util-types').Encoding} Encoding
- * @typedef {import('micromark-util-types').Value} Value
- */
-
-/**
- * @callback Preprocessor
- * @param {Value} value
- * @param {Encoding | null | undefined} [encoding]
- * @param {boolean | null | undefined} [end=false]
- * @returns {Array<Chunk>}
- */
-
-const search = /[\0\t\n\r]/g
-
-/**
- * @returns {Preprocessor}
- */
-function preprocess() {
-  let column = 1
-  let buffer = ''
-  /** @type {boolean | undefined} */
-  let start = true
-  /** @type {boolean | undefined} */
-  let atCarriageReturn
-  return preprocessor
-
-  /** @type {Preprocessor} */
-  function preprocessor(value, encoding, end) {
-    /** @type {Array<Chunk>} */
-    const chunks = []
-    /** @type {RegExpMatchArray | null} */
-    let match
-    /** @type {number} */
-    let next
-    /** @type {number} */
-    let startPosition
-    /** @type {number} */
-    let endPosition
-    /** @type {Code} */
-    let code
-
-    // @ts-expect-error `Buffer` does allow an encoding.
-    value = buffer + value.toString(encoding)
-    startPosition = 0
-    buffer = ''
-    if (start) {
-      // To do: `markdown-rs` actually parses BOMs (byte order mark).
-      if (value.charCodeAt(0) === 65279) {
-        startPosition++
-      }
-      start = undefined
-    }
-    while (startPosition < value.length) {
-      search.lastIndex = startPosition
-      match = search.exec(value)
-      endPosition =
-        match && match.index !== undefined ? match.index : value.length
-      code = value.charCodeAt(endPosition)
-      if (!match) {
-        buffer = value.slice(startPosition)
-        break
-      }
-      if (code === 10 && startPosition === endPosition && atCarriageReturn) {
-        chunks.push(-3)
-        atCarriageReturn = undefined
-      } else {
-        if (atCarriageReturn) {
-          chunks.push(-5)
-          atCarriageReturn = undefined
-        }
-        if (startPosition < endPosition) {
-          chunks.push(value.slice(startPosition, endPosition))
-          column += endPosition - startPosition
-        }
-        switch (code) {
-          case 0: {
-            chunks.push(65533)
-            column++
-            break
-          }
-          case 9: {
-            next = Math.ceil(column / 4) * 4
-            chunks.push(-2)
-            while (column++ < next) chunks.push(-1)
-            break
-          }
-          case 10: {
-            chunks.push(-4)
-            column = 1
-            break
-          }
-          default: {
-            atCarriageReturn = true
-            column = 1
-          }
-        }
-      }
-      startPosition = endPosition + 1
-    }
-    if (end) {
-      if (atCarriageReturn) chunks.push(-5)
-      if (buffer) chunks.push(buffer)
-      chunks.push(null)
-    }
-    return chunks
-  }
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-util-subtokenize/index.js
-var micromark_util_subtokenize = __webpack_require__(55522);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/micromark/lib/postprocess.js
-/**
- * @typedef {import('micromark-util-types').Event} Event
- */
-
-
-
-/**
- * @param {Array<Event>} events
- * @returns {Array<Event>}
- */
-function postprocess(events) {
-  while (!(0,micromark_util_subtokenize/* subtokenize */.w)(events)) {
-    // Empty
-  }
-  return events
-}
-
-// EXTERNAL MODULE: ./node_modules/micromark-util-decode-numeric-character-reference/index.js
-var micromark_util_decode_numeric_character_reference = __webpack_require__(43589);
-// EXTERNAL MODULE: ./node_modules/micromark-util-decode-string/index.js
-var micromark_util_decode_string = __webpack_require__(22177);
-// EXTERNAL MODULE: ./node_modules/micromark-util-normalize-identifier/index.js
-var micromark_util_normalize_identifier = __webpack_require__(9638);
-// EXTERNAL MODULE: ./node_modules/decode-named-character-reference/index.js + 1 modules
-var decode_named_character_reference = __webpack_require__(45511);
-// EXTERNAL MODULE: ./node_modules/unist-util-stringify-position/lib/index.js
-var lib = __webpack_require__(47188);
-;// CONCATENATED MODULE: ./node_modules/mermaid/node_modules/mdast-util-from-markdown/lib/index.js
-/**
- * @typedef {import('micromark-util-types').Encoding} Encoding
- * @typedef {import('micromark-util-types').Event} Event
- * @typedef {import('micromark-util-types').ParseOptions} ParseOptions
- * @typedef {import('micromark-util-types').Token} Token
- * @typedef {import('micromark-util-types').TokenizeContext} TokenizeContext
- * @typedef {import('micromark-util-types').Value} Value
- *
- * @typedef {import('unist').Parent} UnistParent
- * @typedef {import('unist').Point} Point
- *
- * @typedef {import('mdast').PhrasingContent} PhrasingContent
- * @typedef {import('mdast').StaticPhrasingContent} StaticPhrasingContent
- * @typedef {import('mdast').Content} Content
- * @typedef {import('mdast').Break} Break
- * @typedef {import('mdast').Blockquote} Blockquote
- * @typedef {import('mdast').Code} Code
- * @typedef {import('mdast').Definition} Definition
- * @typedef {import('mdast').Emphasis} Emphasis
- * @typedef {import('mdast').Heading} Heading
- * @typedef {import('mdast').HTML} HTML
- * @typedef {import('mdast').Image} Image
- * @typedef {import('mdast').ImageReference} ImageReference
- * @typedef {import('mdast').InlineCode} InlineCode
- * @typedef {import('mdast').Link} Link
- * @typedef {import('mdast').LinkReference} LinkReference
- * @typedef {import('mdast').List} List
- * @typedef {import('mdast').ListItem} ListItem
- * @typedef {import('mdast').Paragraph} Paragraph
- * @typedef {import('mdast').Root} Root
- * @typedef {import('mdast').Strong} Strong
- * @typedef {import('mdast').Text} Text
- * @typedef {import('mdast').ThematicBreak} ThematicBreak
- * @typedef {import('mdast').ReferenceType} ReferenceType
- * @typedef {import('../index.js').CompileData} CompileData
- */
-
-/**
- * @typedef {Root | Content} Node
- * @typedef {Extract<Node, UnistParent>} Parent
- *
- * @typedef {Omit<UnistParent, 'type' | 'children'> & {type: 'fragment', children: Array<PhrasingContent>}} Fragment
- */
-
-/**
- * @callback Transform
- *   Extra transform, to change the AST afterwards.
- * @param {Root} tree
- *   Tree to transform.
- * @returns {Root | undefined | null | void}
- *   New tree or nothing (in which case the current tree is used).
- *
- * @callback Handle
- *   Handle a token.
- * @param {CompileContext} this
- *   Context.
- * @param {Token} token
- *   Current token.
- * @returns {void}
- *   Nothing.
- *
- * @typedef {Record<string, Handle>} Handles
- *   Token types mapping to handles
- *
- * @callback OnEnterError
- *   Handle the case where the `right` token is open, but it is closed (by the
- *   `left` token) or because we reached the end of the document.
- * @param {Omit<CompileContext, 'sliceSerialize'>} this
- *   Context.
- * @param {Token | undefined} left
- *   Left token.
- * @param {Token} right
- *   Right token.
- * @returns {void}
- *   Nothing.
- *
- * @callback OnExitError
- *   Handle the case where the `right` token is open but it is closed by
- *   exiting the `left` token.
- * @param {Omit<CompileContext, 'sliceSerialize'>} this
- *   Context.
- * @param {Token} left
- *   Left token.
- * @param {Token} right
- *   Right token.
- * @returns {void}
- *   Nothing.
- *
- * @typedef {[Token, OnEnterError | undefined]} TokenTuple
- *   Open token on the stack, with an optional error handler for when
- *   that token isn’t closed properly.
- */
-
-/**
- * @typedef Config
- *   Configuration.
- *
- *   We have our defaults, but extensions will add more.
- * @property {Array<string>} canContainEols
- *   Token types where line endings are used.
- * @property {Handles} enter
- *   Opening handles.
- * @property {Handles} exit
- *   Closing handles.
- * @property {Array<Transform>} transforms
- *   Tree transforms.
- *
- * @typedef {Partial<Config>} Extension
- *   Change how markdown tokens from micromark are turned into mdast.
- *
- * @typedef CompileContext
- *   mdast compiler context.
- * @property {Array<Node | Fragment>} stack
- *   Stack of nodes.
- * @property {Array<TokenTuple>} tokenStack
- *   Stack of tokens.
- * @property {<Key extends keyof CompileData>(key: Key) => CompileData[Key]} getData
- *   Get data from the key/value store.
- * @property {<Key extends keyof CompileData>(key: Key, value?: CompileData[Key]) => void} setData
- *   Set data into the key/value store.
- * @property {(this: CompileContext) => void} buffer
- *   Capture some of the output data.
- * @property {(this: CompileContext) => string} resume
- *   Stop capturing and access the output data.
- * @property {<Kind extends Node>(this: CompileContext, node: Kind, token: Token, onError?: OnEnterError) => Kind} enter
- *   Enter a token.
- * @property {(this: CompileContext, token: Token, onError?: OnExitError) => Node} exit
- *   Exit a token.
- * @property {TokenizeContext['sliceSerialize']} sliceSerialize
- *   Get the string value of a token.
- * @property {Config} config
- *   Configuration.
- *
- * @typedef FromMarkdownOptions
- *   Configuration for how to build mdast.
- * @property {Array<Extension | Array<Extension>> | null | undefined} [mdastExtensions]
- *   Extensions for this utility to change how tokens are turned into a tree.
- *
- * @typedef {ParseOptions & FromMarkdownOptions} Options
- *   Configuration.
- */
-
-// To do: micromark: create a registry of tokens?
-// To do: next major: don’t return given `Node` from `enter`.
-// To do: next major: remove setter/getter.
-
-
-
-
-
-
-
-
-
-
-const own = {}.hasOwnProperty
-
-/**
- * @param value
- *   Markdown to parse.
- * @param encoding
- *   Character encoding for when `value` is `Buffer`.
- * @param options
- *   Configuration.
- * @returns
- *   mdast tree.
- */
-const fromMarkdown =
-  /**
-   * @type {(
-   *   ((value: Value, encoding: Encoding, options?: Options | null | undefined) => Root) &
-   *   ((value: Value, options?: Options | null | undefined) => Root)
-   * )}
-   */
-
-  /**
-   * @param {Value} value
-   * @param {Encoding | Options | null | undefined} [encoding]
-   * @param {Options | null | undefined} [options]
-   * @returns {Root}
-   */
-  function (value, encoding, options) {
-    if (typeof encoding !== 'string') {
-      options = encoding
-      encoding = undefined
-    }
-    return compiler(options)(
-      postprocess(
-        parse(options).document().write(preprocess()(value, encoding, true))
-      )
-    )
-  }
-
-/**
- * Note this compiler only understand complete buffering, not streaming.
- *
- * @param {Options | null | undefined} [options]
- */
-function compiler(options) {
-  /** @type {Config} */
-  const config = {
-    transforms: [],
-    canContainEols: ['emphasis', 'fragment', 'heading', 'paragraph', 'strong'],
-    enter: {
-      autolink: opener(link),
-      autolinkProtocol: onenterdata,
-      autolinkEmail: onenterdata,
-      atxHeading: opener(heading),
-      blockQuote: opener(blockQuote),
-      characterEscape: onenterdata,
-      characterReference: onenterdata,
-      codeFenced: opener(codeFlow),
-      codeFencedFenceInfo: buffer,
-      codeFencedFenceMeta: buffer,
-      codeIndented: opener(codeFlow, buffer),
-      codeText: opener(codeText, buffer),
-      codeTextData: onenterdata,
-      data: onenterdata,
-      codeFlowValue: onenterdata,
-      definition: opener(definition),
-      definitionDestinationString: buffer,
-      definitionLabelString: buffer,
-      definitionTitleString: buffer,
-      emphasis: opener(emphasis),
-      hardBreakEscape: opener(hardBreak),
-      hardBreakTrailing: opener(hardBreak),
-      htmlFlow: opener(html, buffer),
-      htmlFlowData: onenterdata,
-      htmlText: opener(html, buffer),
-      htmlTextData: onenterdata,
-      image: opener(image),
-      label: buffer,
-      link: opener(link),
-      listItem: opener(listItem),
-      listItemValue: onenterlistitemvalue,
-      listOrdered: opener(list, onenterlistordered),
-      listUnordered: opener(list),
-      paragraph: opener(paragraph),
-      reference: onenterreference,
-      referenceString: buffer,
-      resourceDestinationString: buffer,
-      resourceTitleString: buffer,
-      setextHeading: opener(heading),
-      strong: opener(strong),
-      thematicBreak: opener(thematicBreak)
-    },
-    exit: {
-      atxHeading: closer(),
-      atxHeadingSequence: onexitatxheadingsequence,
-      autolink: closer(),
-      autolinkEmail: onexitautolinkemail,
-      autolinkProtocol: onexitautolinkprotocol,
-      blockQuote: closer(),
-      characterEscapeValue: onexitdata,
-      characterReferenceMarkerHexadecimal: onexitcharacterreferencemarker,
-      characterReferenceMarkerNumeric: onexitcharacterreferencemarker,
-      characterReferenceValue: onexitcharacterreferencevalue,
-      codeFenced: closer(onexitcodefenced),
-      codeFencedFence: onexitcodefencedfence,
-      codeFencedFenceInfo: onexitcodefencedfenceinfo,
-      codeFencedFenceMeta: onexitcodefencedfencemeta,
-      codeFlowValue: onexitdata,
-      codeIndented: closer(onexitcodeindented),
-      codeText: closer(onexitcodetext),
-      codeTextData: onexitdata,
-      data: onexitdata,
-      definition: closer(),
-      definitionDestinationString: onexitdefinitiondestinationstring,
-      definitionLabelString: onexitdefinitionlabelstring,
-      definitionTitleString: onexitdefinitiontitlestring,
-      emphasis: closer(),
-      hardBreakEscape: closer(onexithardbreak),
-      hardBreakTrailing: closer(onexithardbreak),
-      htmlFlow: closer(onexithtmlflow),
-      htmlFlowData: onexitdata,
-      htmlText: closer(onexithtmltext),
-      htmlTextData: onexitdata,
-      image: closer(onexitimage),
-      label: onexitlabel,
-      labelText: onexitlabeltext,
-      lineEnding: onexitlineending,
-      link: closer(onexitlink),
-      listItem: closer(),
-      listOrdered: closer(),
-      listUnordered: closer(),
-      paragraph: closer(),
-      referenceString: onexitreferencestring,
-      resourceDestinationString: onexitresourcedestinationstring,
-      resourceTitleString: onexitresourcetitlestring,
-      resource: onexitresource,
-      setextHeading: closer(onexitsetextheading),
-      setextHeadingLineSequence: onexitsetextheadinglinesequence,
-      setextHeadingText: onexitsetextheadingtext,
-      strong: closer(),
-      thematicBreak: closer()
-    }
-  }
-  configure(config, (options || {}).mdastExtensions || [])
-
-  /** @type {CompileData} */
-  const data = {}
-  return compile
-
-  /**
-   * Turn micromark events into an mdast tree.
-   *
-   * @param {Array<Event>} events
-   *   Events.
-   * @returns {Root}
-   *   mdast tree.
-   */
-  function compile(events) {
-    /** @type {Root} */
-    let tree = {
-      type: 'root',
-      children: []
-    }
-    /** @type {Omit<CompileContext, 'sliceSerialize'>} */
-    const context = {
-      stack: [tree],
-      tokenStack: [],
-      config,
-      enter,
-      exit,
-      buffer,
-      resume,
-      setData,
-      getData
-    }
-    /** @type {Array<number>} */
-    const listStack = []
-    let index = -1
-    while (++index < events.length) {
-      // We preprocess lists to add `listItem` tokens, and to infer whether
-      // items the list itself are spread out.
-      if (
-        events[index][1].type === 'listOrdered' ||
-        events[index][1].type === 'listUnordered'
-      ) {
-        if (events[index][0] === 'enter') {
-          listStack.push(index)
-        } else {
-          const tail = listStack.pop()
-          index = prepareList(events, tail, index)
-        }
-      }
-    }
-    index = -1
-    while (++index < events.length) {
-      const handler = config[events[index][0]]
-      if (own.call(handler, events[index][1].type)) {
-        handler[events[index][1].type].call(
-          Object.assign(
-            {
-              sliceSerialize: events[index][2].sliceSerialize
-            },
-            context
-          ),
-          events[index][1]
-        )
-      }
-    }
-
-    // Handle tokens still being open.
-    if (context.tokenStack.length > 0) {
-      const tail = context.tokenStack[context.tokenStack.length - 1]
-      const handler = tail[1] || defaultOnError
-      handler.call(context, undefined, tail[0])
-    }
-
-    // Figure out `root` position.
-    tree.position = {
-      start: point(
-        events.length > 0
-          ? events[0][1].start
-          : {
-              line: 1,
-              column: 1,
-              offset: 0
-            }
-      ),
-      end: point(
-        events.length > 0
-          ? events[events.length - 2][1].end
-          : {
-              line: 1,
-              column: 1,
-              offset: 0
-            }
-      )
-    }
-
-    // Call transforms.
-    index = -1
-    while (++index < config.transforms.length) {
-      tree = config.transforms[index](tree) || tree
-    }
-    return tree
-  }
-
-  /**
-   * @param {Array<Event>} events
-   * @param {number} start
-   * @param {number} length
-   * @returns {number}
-   */
-  function prepareList(events, start, length) {
-    let index = start - 1
-    let containerBalance = -1
-    let listSpread = false
-    /** @type {Token | undefined} */
-    let listItem
-    /** @type {number | undefined} */
-    let lineIndex
-    /** @type {number | undefined} */
-    let firstBlankLineIndex
-    /** @type {boolean | undefined} */
-    let atMarker
-    while (++index <= length) {
-      const event = events[index]
-      if (
-        event[1].type === 'listUnordered' ||
-        event[1].type === 'listOrdered' ||
-        event[1].type === 'blockQuote'
-      ) {
-        if (event[0] === 'enter') {
-          containerBalance++
-        } else {
-          containerBalance--
-        }
-        atMarker = undefined
-      } else if (event[1].type === 'lineEndingBlank') {
-        if (event[0] === 'enter') {
-          if (
-            listItem &&
-            !atMarker &&
-            !containerBalance &&
-            !firstBlankLineIndex
-          ) {
-            firstBlankLineIndex = index
-          }
-          atMarker = undefined
-        }
-      } else if (
-        event[1].type === 'linePrefix' ||
-        event[1].type === 'listItemValue' ||
-        event[1].type === 'listItemMarker' ||
-        event[1].type === 'listItemPrefix' ||
-        event[1].type === 'listItemPrefixWhitespace'
-      ) {
-        // Empty.
-      } else {
-        atMarker = undefined
-      }
-      if (
-        (!containerBalance &&
-          event[0] === 'enter' &&
-          event[1].type === 'listItemPrefix') ||
-        (containerBalance === -1 &&
-          event[0] === 'exit' &&
-          (event[1].type === 'listUnordered' ||
-            event[1].type === 'listOrdered'))
-      ) {
-        if (listItem) {
-          let tailIndex = index
-          lineIndex = undefined
-          while (tailIndex--) {
-            const tailEvent = events[tailIndex]
-            if (
-              tailEvent[1].type === 'lineEnding' ||
-              tailEvent[1].type === 'lineEndingBlank'
-            ) {
-              if (tailEvent[0] === 'exit') continue
-              if (lineIndex) {
-                events[lineIndex][1].type = 'lineEndingBlank'
-                listSpread = true
-              }
-              tailEvent[1].type = 'lineEnding'
-              lineIndex = tailIndex
-            } else if (
-              tailEvent[1].type === 'linePrefix' ||
-              tailEvent[1].type === 'blockQuotePrefix' ||
-              tailEvent[1].type === 'blockQuotePrefixWhitespace' ||
-              tailEvent[1].type === 'blockQuoteMarker' ||
-              tailEvent[1].type === 'listItemIndent'
-            ) {
-              // Empty
-            } else {
-              break
-            }
-          }
-          if (
-            firstBlankLineIndex &&
-            (!lineIndex || firstBlankLineIndex < lineIndex)
-          ) {
-            listItem._spread = true
-          }
-
-          // Fix position.
-          listItem.end = Object.assign(
-            {},
-            lineIndex ? events[lineIndex][1].start : event[1].end
-          )
-          events.splice(lineIndex || index, 0, ['exit', listItem, event[2]])
-          index++
-          length++
-        }
-
-        // Create a new list item.
-        if (event[1].type === 'listItemPrefix') {
-          listItem = {
-            type: 'listItem',
-            _spread: false,
-            start: Object.assign({}, event[1].start),
-            // @ts-expect-error: we’ll add `end` in a second.
-            end: undefined
-          }
-          // @ts-expect-error: `listItem` is most definitely defined, TS...
-          events.splice(index, 0, ['enter', listItem, event[2]])
-          index++
-          length++
-          firstBlankLineIndex = undefined
-          atMarker = true
-        }
-      }
-    }
-    events[start][1]._spread = listSpread
-    return length
-  }
-
-  /**
-   * Set data.
-   *
-   * @template {keyof CompileData} Key
-   *   Field type.
-   * @param {Key} key
-   *   Key of field.
-   * @param {CompileData[Key]} [value]
-   *   New value.
-   * @returns {void}
-   *   Nothing.
-   */
-  function setData(key, value) {
-    data[key] = value
-  }
-
-  /**
-   * Get data.
-   *
-   * @template {keyof CompileData} Key
-   *   Field type.
-   * @param {Key} key
-   *   Key of field.
-   * @returns {CompileData[Key]}
-   *   Value.
-   */
-  function getData(key) {
-    return data[key]
-  }
-
-  /**
-   * Create an opener handle.
-   *
-   * @param {(token: Token) => Node} create
-   *   Create a node.
-   * @param {Handle} [and]
-   *   Optional function to also run.
-   * @returns {Handle}
-   *   Handle.
-   */
-  function opener(create, and) {
-    return open
-
-    /**
-     * @this {CompileContext}
-     * @param {Token} token
-     * @returns {void}
-     */
-    function open(token) {
-      enter.call(this, create(token), token)
-      if (and) and.call(this, token)
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   * @returns {void}
-   */
-  function buffer() {
-    this.stack.push({
-      type: 'fragment',
-      children: []
-    })
-  }
-
-  /**
-   * @template {Node} Kind
-   *   Node type.
-   * @this {CompileContext}
-   *   Context.
-   * @param {Kind} node
-   *   Node to enter.
-   * @param {Token} token
-   *   Corresponding token.
-   * @param {OnEnterError | undefined} [errorHandler]
-   *   Handle the case where this token is open, but it is closed by something else.
-   * @returns {Kind}
-   *   The given node.
-   */
-  function enter(node, token, errorHandler) {
-    const parent = this.stack[this.stack.length - 1]
-    // @ts-expect-error: Assume `Node` can exist as a child of `parent`.
-    parent.children.push(node)
-    this.stack.push(node)
-    this.tokenStack.push([token, errorHandler])
-    // @ts-expect-error: `end` will be patched later.
-    node.position = {
-      start: point(token.start)
-    }
-    return node
-  }
-
-  /**
-   * Create a closer handle.
-   *
-   * @param {Handle} [and]
-   *   Optional function to also run.
-   * @returns {Handle}
-   *   Handle.
-   */
-  function closer(and) {
-    return close
-
-    /**
-     * @this {CompileContext}
-     * @param {Token} token
-     * @returns {void}
-     */
-    function close(token) {
-      if (and) and.call(this, token)
-      exit.call(this, token)
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   *   Context.
-   * @param {Token} token
-   *   Corresponding token.
-   * @param {OnExitError | undefined} [onExitError]
-   *   Handle the case where another token is open.
-   * @returns {Node}
-   *   The closed node.
-   */
-  function exit(token, onExitError) {
-    const node = this.stack.pop()
-    const open = this.tokenStack.pop()
-    if (!open) {
-      throw new Error(
-        'Cannot close `' +
-          token.type +
-          '` (' +
-          (0,lib/* stringifyPosition */.L)({
-            start: token.start,
-            end: token.end
-          }) +
-          '): it’s not open'
-      )
-    } else if (open[0].type !== token.type) {
-      if (onExitError) {
-        onExitError.call(this, token, open[0])
-      } else {
-        const handler = open[1] || defaultOnError
-        handler.call(this, token, open[0])
-      }
-    }
-    node.position.end = point(token.end)
-    return node
-  }
-
-  /**
-   * @this {CompileContext}
-   * @returns {string}
-   */
-  function resume() {
-    return lib_toString(this.stack.pop())
-  }
-
-  //
-  // Handlers.
-  //
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onenterlistordered() {
-    setData('expectingFirstListItemValue', true)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onenterlistitemvalue(token) {
-    if (getData('expectingFirstListItemValue')) {
-      const ancestor = this.stack[this.stack.length - 2]
-      ancestor.start = Number.parseInt(this.sliceSerialize(token), 10)
-      setData('expectingFirstListItemValue')
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcodefencedfenceinfo() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.lang = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcodefencedfencemeta() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.meta = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcodefencedfence() {
-    // Exit if this is the closing fence.
-    if (getData('flowCodeInside')) return
-    this.buffer()
-    setData('flowCodeInside', true)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcodefenced() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.value = data.replace(/^(\r?\n|\r)|(\r?\n|\r)$/g, '')
-    setData('flowCodeInside')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcodeindented() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.value = data.replace(/(\r?\n|\r)$/g, '')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitdefinitionlabelstring(token) {
-    const label = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.label = label
-    node.identifier = (0,micromark_util_normalize_identifier/* normalizeIdentifier */.B)(
-      this.sliceSerialize(token)
-    ).toLowerCase()
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitdefinitiontitlestring() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.title = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitdefinitiondestinationstring() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.url = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitatxheadingsequence(token) {
-    const node = this.stack[this.stack.length - 1]
-    if (!node.depth) {
-      const depth = this.sliceSerialize(token).length
-      node.depth = depth
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitsetextheadingtext() {
-    setData('setextHeadingSlurpLineEnding', true)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitsetextheadinglinesequence(token) {
-    const node = this.stack[this.stack.length - 1]
-    node.depth = this.sliceSerialize(token).charCodeAt(0) === 61 ? 1 : 2
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitsetextheading() {
-    setData('setextHeadingSlurpLineEnding')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onenterdata(token) {
-    const node = this.stack[this.stack.length - 1]
-    let tail = node.children[node.children.length - 1]
-    if (!tail || tail.type !== 'text') {
-      // Add a new text node.
-      tail = text()
-      // @ts-expect-error: we’ll add `end` later.
-      tail.position = {
-        start: point(token.start)
-      }
-      // @ts-expect-error: Assume `parent` accepts `text`.
-      node.children.push(tail)
-    }
-    this.stack.push(tail)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitdata(token) {
-    const tail = this.stack.pop()
-    tail.value += this.sliceSerialize(token)
-    tail.position.end = point(token.end)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitlineending(token) {
-    const context = this.stack[this.stack.length - 1]
-    // If we’re at a hard break, include the line ending in there.
-    if (getData('atHardBreak')) {
-      const tail = context.children[context.children.length - 1]
-      tail.position.end = point(token.end)
-      setData('atHardBreak')
-      return
-    }
-    if (
-      !getData('setextHeadingSlurpLineEnding') &&
-      config.canContainEols.includes(context.type)
-    ) {
-      onenterdata.call(this, token)
-      onexitdata.call(this, token)
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexithardbreak() {
-    setData('atHardBreak', true)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexithtmlflow() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.value = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexithtmltext() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.value = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitcodetext() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.value = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitlink() {
-    const node = this.stack[this.stack.length - 1]
-    // Note: there are also `identifier` and `label` fields on this link node!
-    // These are used / cleaned here.
-    // To do: clean.
-    if (getData('inReference')) {
-      /** @type {ReferenceType} */
-      const referenceType = getData('referenceType') || 'shortcut'
-      node.type += 'Reference'
-      // @ts-expect-error: mutate.
-      node.referenceType = referenceType
-      // @ts-expect-error: mutate.
-      delete node.url
-      delete node.title
-    } else {
-      // @ts-expect-error: mutate.
-      delete node.identifier
-      // @ts-expect-error: mutate.
-      delete node.label
-    }
-    setData('referenceType')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitimage() {
-    const node = this.stack[this.stack.length - 1]
-    // Note: there are also `identifier` and `label` fields on this link node!
-    // These are used / cleaned here.
-    // To do: clean.
-    if (getData('inReference')) {
-      /** @type {ReferenceType} */
-      const referenceType = getData('referenceType') || 'shortcut'
-      node.type += 'Reference'
-      // @ts-expect-error: mutate.
-      node.referenceType = referenceType
-      // @ts-expect-error: mutate.
-      delete node.url
-      delete node.title
-    } else {
-      // @ts-expect-error: mutate.
-      delete node.identifier
-      // @ts-expect-error: mutate.
-      delete node.label
-    }
-    setData('referenceType')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitlabeltext(token) {
-    const string = this.sliceSerialize(token)
-    const ancestor = this.stack[this.stack.length - 2]
-    // @ts-expect-error: stash this on the node, as it might become a reference
-    // later.
-    ancestor.label = (0,micromark_util_decode_string/* decodeString */.s)(string)
-    // @ts-expect-error: same as above.
-    ancestor.identifier = (0,micromark_util_normalize_identifier/* normalizeIdentifier */.B)(string).toLowerCase()
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitlabel() {
-    const fragment = this.stack[this.stack.length - 1]
-    const value = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    // Assume a reference.
-    setData('inReference', true)
-    if (node.type === 'link') {
-      /** @type {Array<StaticPhrasingContent>} */
-      // @ts-expect-error: Assume static phrasing content.
-      const children = fragment.children
-      node.children = children
-    } else {
-      node.alt = value
-    }
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitresourcedestinationstring() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.url = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitresourcetitlestring() {
-    const data = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    node.title = data
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitresource() {
-    setData('inReference')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onenterreference() {
-    setData('referenceType', 'collapsed')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitreferencestring(token) {
-    const label = this.resume()
-    const node = this.stack[this.stack.length - 1]
-    // @ts-expect-error: stash this on the node, as it might become a reference
-    // later.
-    node.label = label
-    // @ts-expect-error: same as above.
-    node.identifier = (0,micromark_util_normalize_identifier/* normalizeIdentifier */.B)(
-      this.sliceSerialize(token)
-    ).toLowerCase()
-    setData('referenceType', 'full')
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-
-  function onexitcharacterreferencemarker(token) {
-    setData('characterReferenceType', token.type)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitcharacterreferencevalue(token) {
-    const data = this.sliceSerialize(token)
-    const type = getData('characterReferenceType')
-    /** @type {string} */
-    let value
-    if (type) {
-      value = (0,micromark_util_decode_numeric_character_reference/* decodeNumericCharacterReference */.C)(
-        data,
-        type === 'characterReferenceMarkerNumeric' ? 10 : 16
-      )
-      setData('characterReferenceType')
-    } else {
-      const result = (0,decode_named_character_reference/* decodeNamedCharacterReference */.s)(data)
-      value = result
-    }
-    const tail = this.stack.pop()
-    tail.value += value
-    tail.position.end = point(token.end)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitautolinkprotocol(token) {
-    onexitdata.call(this, token)
-    const node = this.stack[this.stack.length - 1]
-    node.url = this.sliceSerialize(token)
-  }
-
-  /**
-   * @this {CompileContext}
-   * @type {Handle}
-   */
-  function onexitautolinkemail(token) {
-    onexitdata.call(this, token)
-    const node = this.stack[this.stack.length - 1]
-    node.url = 'mailto:' + this.sliceSerialize(token)
-  }
-
-  //
-  // Creaters.
-  //
-
-  /** @returns {Blockquote} */
-  function blockQuote() {
-    return {
-      type: 'blockquote',
-      children: []
-    }
-  }
-
-  /** @returns {Code} */
-  function codeFlow() {
-    return {
-      type: 'code',
-      lang: null,
-      meta: null,
-      value: ''
-    }
-  }
-
-  /** @returns {InlineCode} */
-  function codeText() {
-    return {
-      type: 'inlineCode',
-      value: ''
-    }
-  }
-
-  /** @returns {Definition} */
-  function definition() {
-    return {
-      type: 'definition',
-      identifier: '',
-      label: null,
-      title: null,
-      url: ''
-    }
-  }
-
-  /** @returns {Emphasis} */
-  function emphasis() {
-    return {
-      type: 'emphasis',
-      children: []
-    }
-  }
-
-  /** @returns {Heading} */
-  function heading() {
-    // @ts-expect-error `depth` will be set later.
-    return {
-      type: 'heading',
-      depth: undefined,
-      children: []
-    }
-  }
-
-  /** @returns {Break} */
-  function hardBreak() {
-    return {
-      type: 'break'
-    }
-  }
-
-  /** @returns {HTML} */
-  function html() {
-    return {
-      type: 'html',
-      value: ''
-    }
-  }
-
-  /** @returns {Image} */
-  function image() {
-    return {
-      type: 'image',
-      title: null,
-      url: '',
-      alt: null
-    }
-  }
-
-  /** @returns {Link} */
-  function link() {
-    return {
-      type: 'link',
-      title: null,
-      url: '',
-      children: []
-    }
-  }
-
-  /**
-   * @param {Token} token
-   * @returns {List}
-   */
-  function list(token) {
-    return {
-      type: 'list',
-      ordered: token.type === 'listOrdered',
-      start: null,
-      spread: token._spread,
-      children: []
-    }
-  }
-
-  /**
-   * @param {Token} token
-   * @returns {ListItem}
-   */
-  function listItem(token) {
-    return {
-      type: 'listItem',
-      spread: token._spread,
-      checked: null,
-      children: []
-    }
-  }
-
-  /** @returns {Paragraph} */
-  function paragraph() {
-    return {
-      type: 'paragraph',
-      children: []
-    }
-  }
-
-  /** @returns {Strong} */
-  function strong() {
-    return {
-      type: 'strong',
-      children: []
-    }
-  }
-
-  /** @returns {Text} */
-  function text() {
-    return {
-      type: 'text',
-      value: ''
-    }
-  }
-
-  /** @returns {ThematicBreak} */
-  function thematicBreak() {
-    return {
-      type: 'thematicBreak'
-    }
-  }
-}
-
-/**
- * Copy a point-like value.
- *
- * @param {Point} d
- *   Point-like value.
- * @returns {Point}
- *   unist point.
- */
-function point(d) {
-  return {
-    line: d.line,
-    column: d.column,
-    offset: d.offset
-  }
-}
-
-/**
- * @param {Config} combined
- * @param {Array<Extension | Array<Extension>>} extensions
- * @returns {void}
- */
-function configure(combined, extensions) {
-  let index = -1
-  while (++index < extensions.length) {
-    const value = extensions[index]
-    if (Array.isArray(value)) {
-      configure(combined, value)
-    } else {
-      extension(combined, value)
-    }
-  }
-}
-
-/**
- * @param {Config} combined
- * @param {Extension} extension
- * @returns {void}
- */
-function extension(combined, extension) {
-  /** @type {keyof Extension} */
-  let key
-  for (key in extension) {
-    if (own.call(extension, key)) {
-      if (key === 'canContainEols') {
-        const right = extension[key]
-        if (right) {
-          combined[key].push(...right)
-        }
-      } else if (key === 'transforms') {
-        const right = extension[key]
-        if (right) {
-          combined[key].push(...right)
-        }
-      } else if (key === 'enter' || key === 'exit') {
-        const right = extension[key]
-        if (right) {
-          Object.assign(combined[key], right)
-        }
-      }
-    }
-  }
-}
-
-/** @type {OnEnterError} */
-function defaultOnError(left, right) {
-  if (left) {
-    throw new Error(
-      'Cannot close `' +
-        left.type +
-        '` (' +
-        (0,lib/* stringifyPosition */.L)({
-          start: left.start,
-          end: left.end
-        }) +
-        '): a different token (`' +
-        right.type +
-        '`, ' +
-        (0,lib/* stringifyPosition */.L)({
-          start: right.start,
-          end: right.end
-        }) +
-        ') is open'
-    )
-  } else {
-    throw new Error(
-      'Cannot close document, a token (`' +
-        right.type +
-        '`, ' +
-        (0,lib/* stringifyPosition */.L)({
-          start: right.start,
-          end: right.end
-        }) +
-        ') is still open'
-    )
-  }
-}
-
-// EXTERNAL MODULE: ./node_modules/ts-dedent/esm/index.js
-var esm = __webpack_require__(60513);
-;// CONCATENATED MODULE: ./node_modules/mermaid/dist/createText-ca0c5216.js
-
-
-
-function preprocessMarkdown(markdown) {
-  const withoutMultipleNewlines = markdown.replace(/\n{2,}/g, "\n");
-  const withoutExtraSpaces = (0,esm/* dedent */.T)(withoutMultipleNewlines);
-  return withoutExtraSpaces;
-}
-function markdownToLines(markdown) {
-  const preprocessedMarkdown = preprocessMarkdown(markdown);
-  const { children } = fromMarkdown(preprocessedMarkdown);
-  const lines = [[]];
-  let currentLine = 0;
-  function processNode(node, parentType = "normal") {
-    if (node.type === "text") {
-      const textLines = node.value.split("\n");
-      textLines.forEach((textLine, index) => {
-        if (index !== 0) {
-          currentLine++;
-          lines.push([]);
-        }
-        textLine.split(" ").forEach((word) => {
-          if (word) {
-            lines[currentLine].push({ content: word, type: parentType });
-          }
-        });
-      });
-    } else if (node.type === "strong" || node.type === "emphasis") {
-      node.children.forEach((contentNode) => {
-        processNode(contentNode, node.type);
-      });
-    }
-  }
-  children.forEach((treeNode) => {
-    if (treeNode.type === "paragraph") {
-      treeNode.children.forEach((contentNode) => {
-        processNode(contentNode);
-      });
-    }
-  });
-  return lines;
-}
-function markdownToHTML(markdown) {
-  const { children } = fromMarkdown(markdown);
-  function output(node) {
-    if (node.type === "text") {
-      return node.value.replace(/\n/g, "<br/>");
-    } else if (node.type === "strong") {
-      return `<strong>${node.children.map(output).join("")}</strong>`;
-    } else if (node.type === "emphasis") {
-      return `<em>${node.children.map(output).join("")}</em>`;
-    } else if (node.type === "paragraph") {
-      return `<p>${node.children.map(output).join("")}</p>`;
-    }
-    return `Unsupported markdown: ${node.type}`;
-  }
-  return children.map(output).join("");
-}
-function splitTextToChars(text) {
-  if (Intl.Segmenter) {
-    return [...new Intl.Segmenter().segment(text)].map((s) => s.segment);
-  }
-  return [...text];
-}
-function splitWordToFitWidth(checkFit, word) {
-  const characters = splitTextToChars(word.content);
-  return splitWordToFitWidthRecursion(checkFit, [], characters, word.type);
-}
-function splitWordToFitWidthRecursion(checkFit, usedChars, remainingChars, type) {
-  if (remainingChars.length === 0) {
-    return [
-      { content: usedChars.join(""), type },
-      { content: "", type }
-    ];
-  }
-  const [nextChar, ...rest] = remainingChars;
-  const newWord = [...usedChars, nextChar];
-  if (checkFit([{ content: newWord.join(""), type }])) {
-    return splitWordToFitWidthRecursion(checkFit, newWord, rest, type);
-  }
-  if (usedChars.length === 0 && nextChar) {
-    usedChars.push(nextChar);
-    remainingChars.shift();
-  }
-  return [
-    { content: usedChars.join(""), type },
-    { content: remainingChars.join(""), type }
-  ];
-}
-function splitLineToFitWidth(line, checkFit) {
-  if (line.some(({ content }) => content.includes("\n"))) {
-    throw new Error("splitLineToFitWidth does not support newlines in the line");
-  }
-  return splitLineToFitWidthRecursion(line, checkFit);
-}
-function splitLineToFitWidthRecursion(words, checkFit, lines = [], newLine = []) {
-  if (words.length === 0) {
-    if (newLine.length > 0) {
-      lines.push(newLine);
-    }
-    return lines.length > 0 ? lines : [];
-  }
-  let joiner = "";
-  if (words[0].content === " ") {
-    joiner = " ";
-    words.shift();
-  }
-  const nextWord = words.shift() ?? { content: " ", type: "normal" };
-  const lineWithNextWord = [...newLine];
-  if (joiner !== "") {
-    lineWithNextWord.push({ content: joiner, type: "normal" });
-  }
-  lineWithNextWord.push(nextWord);
-  if (checkFit(lineWithNextWord)) {
-    return splitLineToFitWidthRecursion(words, checkFit, lines, lineWithNextWord);
-  }
-  if (newLine.length > 0) {
-    lines.push(newLine);
-    words.unshift(nextWord);
-  } else if (nextWord.content) {
-    const [line, rest] = splitWordToFitWidth(checkFit, nextWord);
-    lines.push([line]);
-    if (rest.content) {
-      words.unshift(rest);
-    }
-  }
-  return splitLineToFitWidthRecursion(words, checkFit, lines);
-}
-function applyStyle(dom, styleFn) {
-  if (styleFn) {
-    dom.attr("style", styleFn);
-  }
-}
-function addHtmlSpan(element, node, width, classes, addBackground = false) {
-  const fo = element.append("foreignObject");
-  const div = fo.append("xhtml:div");
-  const label = node.label;
-  const labelClass = node.isNode ? "nodeLabel" : "edgeLabel";
-  div.html(
-    `
-    <span class="${labelClass} ${classes}" ` + (node.labelStyle ? 'style="' + node.labelStyle + '"' : "") + ">" + label + "</span>"
-  );
-  applyStyle(div, node.labelStyle);
-  div.style("display", "table-cell");
-  div.style("white-space", "nowrap");
-  div.style("max-width", width + "px");
-  div.attr("xmlns", "http://www.w3.org/1999/xhtml");
-  if (addBackground) {
-    div.attr("class", "labelBkg");
-  }
-  let bbox = div.node().getBoundingClientRect();
-  if (bbox.width === width) {
-    div.style("display", "table");
-    div.style("white-space", "break-spaces");
-    div.style("width", width + "px");
-    bbox = div.node().getBoundingClientRect();
-  }
-  fo.style("width", bbox.width);
-  fo.style("height", bbox.height);
-  return fo.node();
-}
-function createTspan(textElement, lineIndex, lineHeight) {
-  return textElement.append("tspan").attr("class", "text-outer-tspan").attr("x", 0).attr("y", lineIndex * lineHeight - 0.1 + "em").attr("dy", lineHeight + "em");
-}
-function computeWidthOfText(parentNode, lineHeight, line) {
-  const testElement = parentNode.append("text");
-  const testSpan = createTspan(testElement, 1, lineHeight);
-  updateTextContentAndStyles(testSpan, line);
-  const textLength = testSpan.node().getComputedTextLength();
-  testElement.remove();
-  return textLength;
-}
-function computeDimensionOfText(parentNode, lineHeight, text) {
-  var _a;
-  const testElement = parentNode.append("text");
-  const testSpan = createTspan(testElement, 1, lineHeight);
-  updateTextContentAndStyles(testSpan, [{ content: text, type: "normal" }]);
-  const textDimension = (_a = testSpan.node()) == null ? void 0 : _a.getBoundingClientRect();
-  if (textDimension) {
-    testElement.remove();
-  }
-  return textDimension;
-}
-function createFormattedText(width, g, structuredText, addBackground = false) {
-  const lineHeight = 1.1;
-  const labelGroup = g.append("g");
-  const bkg = labelGroup.insert("rect").attr("class", "background");
-  const textElement = labelGroup.append("text").attr("y", "-10.1");
-  let lineIndex = 0;
-  for (const line of structuredText) {
-    const checkWidth = (line2) => computeWidthOfText(labelGroup, lineHeight, line2) <= width;
-    const linesUnderWidth = checkWidth(line) ? [line] : splitLineToFitWidth(line, checkWidth);
-    for (const preparedLine of linesUnderWidth) {
-      const tspan = createTspan(textElement, lineIndex, lineHeight);
-      updateTextContentAndStyles(tspan, preparedLine);
-      lineIndex++;
-    }
-  }
-  if (addBackground) {
-    const bbox = textElement.node().getBBox();
-    const padding = 2;
-    bkg.attr("x", -padding).attr("y", -padding).attr("width", bbox.width + 2 * padding).attr("height", bbox.height + 2 * padding);
-    return labelGroup.node();
-  } else {
-    return textElement.node();
-  }
-}
-function updateTextContentAndStyles(tspan, wrappedLine) {
-  tspan.text("");
-  wrappedLine.forEach((word, index) => {
-    const innerTspan = tspan.append("tspan").attr("font-style", word.type === "emphasis" ? "italic" : "normal").attr("class", "text-inner-tspan").attr("font-weight", word.type === "strong" ? "bold" : "normal");
-    if (index === 0) {
-      innerTspan.text(word.content);
-    } else {
-      innerTspan.text(" " + word.content);
-    }
-  });
-}
-const createText = (el, text = "", {
-  style = "",
-  isTitle = false,
-  classes = "",
-  useHtmlLabels = true,
-  isNode = true,
-  width = 200,
-  addSvgBackground = false
-} = {}) => {
-  mermaid_6dc72991.l.info("createText", text, style, isTitle, classes, useHtmlLabels, isNode, addSvgBackground);
-  if (useHtmlLabels) {
-    const htmlText = markdownToHTML(text);
-    const node = {
-      isNode,
-      label: (0,mermaid_6dc72991.M)(htmlText).replace(
-        /fa[blrs]?:fa-[\w-]+/g,
-        // cspell: disable-line
-        (s) => `<i class='${s.replace(":", " ")}'></i>`
-      ),
-      labelStyle: style.replace("fill:", "color:")
-    };
-    const vertexNode = addHtmlSpan(el, node, width, classes, addSvgBackground);
-    return vertexNode;
-  } else {
-    const structuredText = markdownToLines(text);
-    const svgLabel = createFormattedText(width, el, structuredText, addSvgBackground);
-    return svgLabel;
-  }
-};
-
-
-
-/***/ }),
-
-/***/ 98055:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   a: () => (/* binding */ insertMarkers$1),
-/* harmony export */   b: () => (/* binding */ clear$1),
-/* harmony export */   c: () => (/* binding */ createLabel$1),
-/* harmony export */   d: () => (/* binding */ clear),
-/* harmony export */   e: () => (/* binding */ insertNode),
-/* harmony export */   f: () => (/* binding */ insertEdgeLabel),
-/* harmony export */   g: () => (/* binding */ getSubGraphTitleMargins),
-/* harmony export */   h: () => (/* binding */ insertEdge),
-/* harmony export */   i: () => (/* binding */ intersectRect$1),
-/* harmony export */   j: () => (/* binding */ positionEdgeLabel),
-/* harmony export */   k: () => (/* binding */ getLineFunctionsWithOffset),
-/* harmony export */   l: () => (/* binding */ labelHelper),
-/* harmony export */   m: () => (/* binding */ addEdgeMarkers),
-/* harmony export */   p: () => (/* binding */ positionNode),
-/* harmony export */   s: () => (/* binding */ setNodeElem),
-/* harmony export */   u: () => (/* binding */ updateNodeBounds)
-/* harmony export */ });
-/* harmony import */ var _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(99702);
-/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26312);
-/* harmony import */ var _createText_ca0c5216_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(91185);
-
-
-
-const insertMarkers = (elem, markerArray, type, id) => {
-  markerArray.forEach((markerName) => {
-    markers[markerName](elem, type, id);
-  });
-};
-const extension = (elem, type, id) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.trace("Making markers for ", id);
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-extensionStart").attr("class", "marker extension " + type).attr("refX", 18).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 1,7 L18,13 V 1 Z");
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-extensionEnd").attr("class", "marker extension " + type).attr("refX", 1).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 1,1 V 13 L18,7 Z");
-};
-const composition = (elem, type, id) => {
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-compositionStart").attr("class", "marker composition " + type).attr("refX", 18).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-compositionEnd").attr("class", "marker composition " + type).attr("refX", 1).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
-};
-const aggregation = (elem, type, id) => {
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-aggregationStart").attr("class", "marker aggregation " + type).attr("refX", 18).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-aggregationEnd").attr("class", "marker aggregation " + type).attr("refX", 1).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L1,7 L9,1 Z");
-};
-const dependency = (elem, type, id) => {
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-dependencyStart").attr("class", "marker dependency " + type).attr("refX", 6).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("path").attr("d", "M 5,7 L9,13 L1,7 L9,1 Z");
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-dependencyEnd").attr("class", "marker dependency " + type).attr("refX", 13).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 28).attr("orient", "auto").append("path").attr("d", "M 18,7 L9,13 L14,7 L9,1 Z");
-};
-const lollipop = (elem, type, id) => {
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-lollipopStart").attr("class", "marker lollipop " + type).attr("refX", 13).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("circle").attr("stroke", "black").attr("fill", "transparent").attr("cx", 7).attr("cy", 7).attr("r", 6);
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-lollipopEnd").attr("class", "marker lollipop " + type).attr("refX", 1).attr("refY", 7).attr("markerWidth", 190).attr("markerHeight", 240).attr("orient", "auto").append("circle").attr("stroke", "black").attr("fill", "transparent").attr("cx", 7).attr("cy", 7).attr("r", 6);
-};
-const point = (elem, type, id) => {
-  elem.append("marker").attr("id", id + "_" + type + "-pointEnd").attr("class", "marker " + type).attr("viewBox", "0 0 10 10").attr("refX", 6).attr("refY", 5).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 12).attr("markerHeight", 12).attr("orient", "auto").append("path").attr("d", "M 0 0 L 10 5 L 0 10 z").attr("class", "arrowMarkerPath").style("stroke-width", 1).style("stroke-dasharray", "1,0");
-  elem.append("marker").attr("id", id + "_" + type + "-pointStart").attr("class", "marker " + type).attr("viewBox", "0 0 10 10").attr("refX", 4.5).attr("refY", 5).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 12).attr("markerHeight", 12).attr("orient", "auto").append("path").attr("d", "M 0 5 L 10 10 L 10 0 z").attr("class", "arrowMarkerPath").style("stroke-width", 1).style("stroke-dasharray", "1,0");
-};
-const circle$1 = (elem, type, id) => {
-  elem.append("marker").attr("id", id + "_" + type + "-circleEnd").attr("class", "marker " + type).attr("viewBox", "0 0 10 10").attr("refX", 11).attr("refY", 5).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 11).attr("markerHeight", 11).attr("orient", "auto").append("circle").attr("cx", "5").attr("cy", "5").attr("r", "5").attr("class", "arrowMarkerPath").style("stroke-width", 1).style("stroke-dasharray", "1,0");
-  elem.append("marker").attr("id", id + "_" + type + "-circleStart").attr("class", "marker " + type).attr("viewBox", "0 0 10 10").attr("refX", -1).attr("refY", 5).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 11).attr("markerHeight", 11).attr("orient", "auto").append("circle").attr("cx", "5").attr("cy", "5").attr("r", "5").attr("class", "arrowMarkerPath").style("stroke-width", 1).style("stroke-dasharray", "1,0");
-};
-const cross = (elem, type, id) => {
-  elem.append("marker").attr("id", id + "_" + type + "-crossEnd").attr("class", "marker cross " + type).attr("viewBox", "0 0 11 11").attr("refX", 12).attr("refY", 5.2).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 11).attr("markerHeight", 11).attr("orient", "auto").append("path").attr("d", "M 1,1 l 9,9 M 10,1 l -9,9").attr("class", "arrowMarkerPath").style("stroke-width", 2).style("stroke-dasharray", "1,0");
-  elem.append("marker").attr("id", id + "_" + type + "-crossStart").attr("class", "marker cross " + type).attr("viewBox", "0 0 11 11").attr("refX", -1).attr("refY", 5.2).attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 11).attr("markerHeight", 11).attr("orient", "auto").append("path").attr("d", "M 1,1 l 9,9 M 10,1 l -9,9").attr("class", "arrowMarkerPath").style("stroke-width", 2).style("stroke-dasharray", "1,0");
-};
-const barb = (elem, type, id) => {
-  elem.append("defs").append("marker").attr("id", id + "_" + type + "-barbEnd").attr("refX", 19).attr("refY", 7).attr("markerWidth", 20).attr("markerHeight", 14).attr("markerUnits", "strokeWidth").attr("orient", "auto").append("path").attr("d", "M 19,7 L9,13 L14,7 L9,1 Z");
-};
-const markers = {
-  extension,
-  composition,
-  aggregation,
-  dependency,
-  lollipop,
-  point,
-  circle: circle$1,
-  cross,
-  barb
-};
-const insertMarkers$1 = insertMarkers;
-function applyStyle(dom, styleFn) {
-  if (styleFn) {
-    dom.attr("style", styleFn);
-  }
-}
-function addHtmlLabel(node) {
-  const fo = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(document.createElementNS("http://www.w3.org/2000/svg", "foreignObject"));
-  const div = fo.append("xhtml:div");
-  const label = node.label;
-  const labelClass = node.isNode ? "nodeLabel" : "edgeLabel";
-  div.html(
-    '<span class="' + labelClass + '" ' + (node.labelStyle ? 'style="' + node.labelStyle + '"' : "") + ">" + label + "</span>"
-  );
-  applyStyle(div, node.labelStyle);
-  div.style("display", "inline-block");
-  div.style("white-space", "nowrap");
-  div.attr("xmlns", "http://www.w3.org/1999/xhtml");
-  return fo.node();
-}
-const createLabel = (_vertexText, style, isTitle, isNode) => {
-  let vertexText = _vertexText || "";
-  if (typeof vertexText === "object") {
-    vertexText = vertexText[0];
-  }
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    vertexText = vertexText.replace(/\\n|\n/g, "<br />");
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("vertexText" + vertexText);
-    const node = {
-      isNode,
-      label: (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.M)(vertexText).replace(
-        /fa[blrs]?:fa-[\w-]+/g,
-        // cspell: disable-line
-        (s) => `<i class='${s.replace(":", " ")}'></i>`
-      ),
-      labelStyle: style.replace("fill:", "color:")
-    };
-    let vertexNode = addHtmlLabel(node);
-    return vertexNode;
-  } else {
-    const svgLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    svgLabel.setAttribute("style", style.replace("color:", "fill:"));
-    let rows = [];
-    if (typeof vertexText === "string") {
-      rows = vertexText.split(/\\n|\n|<br\s*\/?>/gi);
-    } else if (Array.isArray(vertexText)) {
-      rows = vertexText;
-    } else {
-      rows = [];
-    }
-    for (const row of rows) {
-      const tspan = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
-      tspan.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space", "preserve");
-      tspan.setAttribute("dy", "1em");
-      tspan.setAttribute("x", "0");
-      if (isTitle) {
-        tspan.setAttribute("class", "title-row");
-      } else {
-        tspan.setAttribute("class", "row");
-      }
-      tspan.textContent = row.trim();
-      svgLabel.appendChild(tspan);
-    }
-    return svgLabel;
-  }
-};
-const createLabel$1 = createLabel;
-const labelHelper = async (parent, node, _classes, isNode) => {
-  let classes;
-  const useHtmlLabels = node.useHtmlLabels || (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels);
-  if (!_classes) {
-    classes = "node default";
-  } else {
-    classes = _classes;
-  }
-  const shapeSvg = parent.insert("g").attr("class", classes).attr("id", node.domId || node.id);
-  const label = shapeSvg.insert("g").attr("class", "label").attr("style", node.labelStyle);
-  let labelText;
-  if (node.labelText === void 0) {
-    labelText = "";
-  } else {
-    labelText = typeof node.labelText === "string" ? node.labelText : node.labelText[0];
-  }
-  const textNode = label.node();
-  let text;
-  if (node.labelType === "markdown") {
-    text = (0,_createText_ca0c5216_js__WEBPACK_IMPORTED_MODULE_2__.a)(label, (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.d)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.M)(labelText), (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)()), {
-      useHtmlLabels,
-      width: node.width || (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.wrappingWidth,
-      classes: "markdown-node-label"
-    });
-  } else {
-    text = textNode.appendChild(
-      createLabel$1(
-        (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.d)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.M)(labelText), (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)()),
-        node.labelStyle,
-        false,
-        isNode
-      )
-    );
-  }
-  let bbox = text.getBBox();
-  const halfPadding = node.padding / 2;
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    const div = text.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(text);
-    const images = div.getElementsByTagName("img");
-    if (images) {
-      const noImgText = labelText.replace(/<img[^>]*>/g, "").trim() === "";
-      await Promise.all(
-        [...images].map(
-          (img) => new Promise((res) => {
-            function setupImage() {
-              img.style.display = "flex";
-              img.style.flexDirection = "column";
-              if (noImgText) {
-                const bodyFontSize = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().fontSize ? (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().fontSize : window.getComputedStyle(document.body).fontSize;
-                const enlargingFactor = 5;
-                const width = parseInt(bodyFontSize, 10) * enlargingFactor + "px";
-                img.style.minWidth = width;
-                img.style.maxWidth = width;
-              } else {
-                img.style.width = "100%";
-              }
-              res(img);
-            }
-            setTimeout(() => {
-              if (img.complete) {
-                setupImage();
-              }
-            });
-            img.addEventListener("error", setupImage);
-            img.addEventListener("load", setupImage);
-          })
-        )
-      );
-    }
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  if (useHtmlLabels) {
-    label.attr("transform", "translate(" + -bbox.width / 2 + ", " + -bbox.height / 2 + ")");
-  } else {
-    label.attr("transform", "translate(0, " + -bbox.height / 2 + ")");
-  }
-  if (node.centerLabel) {
-    label.attr("transform", "translate(" + -bbox.width / 2 + ", " + -bbox.height / 2 + ")");
-  }
-  label.insert("rect", ":first-child");
-  return { shapeSvg, bbox, halfPadding, label };
-};
-const updateNodeBounds = (node, element) => {
-  const bbox = element.node().getBBox();
-  node.width = bbox.width;
-  node.height = bbox.height;
-};
-function insertPolygonShape(parent, w, h, points) {
-  return parent.insert("polygon", ":first-child").attr(
-    "points",
-    points.map(function(d) {
-      return d.x + "," + d.y;
-    }).join(" ")
-  ).attr("class", "label-container").attr("transform", "translate(" + -w / 2 + "," + h / 2 + ")");
-}
-function intersectNode(node, point2) {
-  return node.intersect(point2);
-}
-function intersectEllipse(node, rx, ry, point2) {
-  var cx = node.x;
-  var cy = node.y;
-  var px = cx - point2.x;
-  var py = cy - point2.y;
-  var det = Math.sqrt(rx * rx * py * py + ry * ry * px * px);
-  var dx = Math.abs(rx * ry * px / det);
-  if (point2.x < cx) {
-    dx = -dx;
-  }
-  var dy = Math.abs(rx * ry * py / det);
-  if (point2.y < cy) {
-    dy = -dy;
-  }
-  return { x: cx + dx, y: cy + dy };
-}
-function intersectCircle(node, rx, point2) {
-  return intersectEllipse(node, rx, rx, point2);
-}
-function intersectLine(p1, p2, q1, q2) {
-  var a1, a2, b1, b2, c1, c2;
-  var r1, r2, r3, r4;
-  var denom, offset, num;
-  var x, y;
-  a1 = p2.y - p1.y;
-  b1 = p1.x - p2.x;
-  c1 = p2.x * p1.y - p1.x * p2.y;
-  r3 = a1 * q1.x + b1 * q1.y + c1;
-  r4 = a1 * q2.x + b1 * q2.y + c1;
-  if (r3 !== 0 && r4 !== 0 && sameSign(r3, r4)) {
-    return;
-  }
-  a2 = q2.y - q1.y;
-  b2 = q1.x - q2.x;
-  c2 = q2.x * q1.y - q1.x * q2.y;
-  r1 = a2 * p1.x + b2 * p1.y + c2;
-  r2 = a2 * p2.x + b2 * p2.y + c2;
-  if (r1 !== 0 && r2 !== 0 && sameSign(r1, r2)) {
-    return;
-  }
-  denom = a1 * b2 - a2 * b1;
-  if (denom === 0) {
-    return;
-  }
-  offset = Math.abs(denom / 2);
-  num = b1 * c2 - b2 * c1;
-  x = num < 0 ? (num - offset) / denom : (num + offset) / denom;
-  num = a2 * c1 - a1 * c2;
-  y = num < 0 ? (num - offset) / denom : (num + offset) / denom;
-  return { x, y };
-}
-function sameSign(r1, r2) {
-  return r1 * r2 > 0;
-}
-function intersectPolygon(node, polyPoints, point2) {
-  var x1 = node.x;
-  var y1 = node.y;
-  var intersections = [];
-  var minX = Number.POSITIVE_INFINITY;
-  var minY = Number.POSITIVE_INFINITY;
-  if (typeof polyPoints.forEach === "function") {
-    polyPoints.forEach(function(entry) {
-      minX = Math.min(minX, entry.x);
-      minY = Math.min(minY, entry.y);
-    });
-  } else {
-    minX = Math.min(minX, polyPoints.x);
-    minY = Math.min(minY, polyPoints.y);
-  }
-  var left = x1 - node.width / 2 - minX;
-  var top = y1 - node.height / 2 - minY;
-  for (var i = 0; i < polyPoints.length; i++) {
-    var p1 = polyPoints[i];
-    var p2 = polyPoints[i < polyPoints.length - 1 ? i + 1 : 0];
-    var intersect2 = intersectLine(
-      node,
-      point2,
-      { x: left + p1.x, y: top + p1.y },
-      { x: left + p2.x, y: top + p2.y }
-    );
-    if (intersect2) {
-      intersections.push(intersect2);
-    }
-  }
-  if (!intersections.length) {
-    return node;
-  }
-  if (intersections.length > 1) {
-    intersections.sort(function(p, q) {
-      var pdx = p.x - point2.x;
-      var pdy = p.y - point2.y;
-      var distp = Math.sqrt(pdx * pdx + pdy * pdy);
-      var qdx = q.x - point2.x;
-      var qdy = q.y - point2.y;
-      var distq = Math.sqrt(qdx * qdx + qdy * qdy);
-      return distp < distq ? -1 : distp === distq ? 0 : 1;
-    });
-  }
-  return intersections[0];
-}
-const intersectRect = (node, point2) => {
-  var x = node.x;
-  var y = node.y;
-  var dx = point2.x - x;
-  var dy = point2.y - y;
-  var w = node.width / 2;
-  var h = node.height / 2;
-  var sx, sy;
-  if (Math.abs(dy) * w > Math.abs(dx) * h) {
-    if (dy < 0) {
-      h = -h;
-    }
-    sx = dy === 0 ? 0 : h * dx / dy;
-    sy = h;
-  } else {
-    if (dx < 0) {
-      w = -w;
-    }
-    sx = w;
-    sy = dx === 0 ? 0 : w * dy / dx;
-  }
-  return { x: x + sx, y: y + sy };
-};
-const intersectRect$1 = intersectRect;
-const intersect = {
-  node: intersectNode,
-  circle: intersectCircle,
-  ellipse: intersectEllipse,
-  polygon: intersectPolygon,
-  rect: intersectRect$1
-};
-const note = async (parent, node) => {
-  const useHtmlLabels = node.useHtmlLabels || (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels;
-  if (!useHtmlLabels) {
-    node.centerLabel = true;
-  }
-  const { shapeSvg, bbox, halfPadding } = await labelHelper(
-    parent,
-    node,
-    "node " + node.classes,
-    true
-  );
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Classes = ", node.classes);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  rect2.attr("rx", node.rx).attr("ry", node.ry).attr("x", -bbox.width / 2 - halfPadding).attr("y", -bbox.height / 2 - halfPadding).attr("width", bbox.width + node.padding).attr("height", bbox.height + node.padding);
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const note$1 = note;
-const expandAndDeduplicateDirections = (directions) => {
-  const uniqueDirections = /* @__PURE__ */ new Set();
-  for (const direction of directions) {
-    switch (direction) {
-      case "x":
-        uniqueDirections.add("right");
-        uniqueDirections.add("left");
-        break;
-      case "y":
-        uniqueDirections.add("up");
-        uniqueDirections.add("down");
-        break;
-      default:
-        uniqueDirections.add(direction);
-        break;
-    }
-  }
-  return uniqueDirections;
-};
-const getArrowPoints = (duplicatedDirections, bbox, node) => {
-  const directions = expandAndDeduplicateDirections(duplicatedDirections);
-  const f = 2;
-  const height = bbox.height + 2 * node.padding;
-  const midpoint = height / f;
-  const width = bbox.width + 2 * midpoint + node.padding;
-  const padding = node.padding / 2;
-  if (directions.has("right") && directions.has("left") && directions.has("up") && directions.has("down")) {
-    return [
-      // Bottom
-      { x: 0, y: 0 },
-      { x: midpoint, y: 0 },
-      { x: width / 2, y: 2 * padding },
-      { x: width - midpoint, y: 0 },
-      { x: width, y: 0 },
-      // Right
-      { x: width, y: -height / 3 },
-      { x: width + 2 * padding, y: -height / 2 },
-      { x: width, y: -2 * height / 3 },
-      { x: width, y: -height },
-      // Top
-      { x: width - midpoint, y: -height },
-      { x: width / 2, y: -height - 2 * padding },
-      { x: midpoint, y: -height },
-      // Left
-      { x: 0, y: -height },
-      { x: 0, y: -2 * height / 3 },
-      { x: -2 * padding, y: -height / 2 },
-      { x: 0, y: -height / 3 }
-    ];
-  }
-  if (directions.has("right") && directions.has("left") && directions.has("up")) {
-    return [
-      { x: midpoint, y: 0 },
-      { x: width - midpoint, y: 0 },
-      { x: width, y: -height / 2 },
-      { x: width - midpoint, y: -height },
-      { x: midpoint, y: -height },
-      { x: 0, y: -height / 2 }
-    ];
-  }
-  if (directions.has("right") && directions.has("left") && directions.has("down")) {
-    return [
-      { x: 0, y: 0 },
-      { x: midpoint, y: -height },
-      { x: width - midpoint, y: -height },
-      { x: width, y: 0 }
-    ];
-  }
-  if (directions.has("right") && directions.has("up") && directions.has("down")) {
-    return [
-      { x: 0, y: 0 },
-      { x: width, y: -midpoint },
-      { x: width, y: -height + midpoint },
-      { x: 0, y: -height }
-    ];
-  }
-  if (directions.has("left") && directions.has("up") && directions.has("down")) {
-    return [
-      { x: width, y: 0 },
-      { x: 0, y: -midpoint },
-      { x: 0, y: -height + midpoint },
-      { x: width, y: -height }
-    ];
-  }
-  if (directions.has("right") && directions.has("left")) {
-    return [
-      { x: midpoint, y: 0 },
-      { x: midpoint, y: -padding },
-      { x: width - midpoint, y: -padding },
-      { x: width - midpoint, y: 0 },
-      { x: width, y: -height / 2 },
-      { x: width - midpoint, y: -height },
-      { x: width - midpoint, y: -height + padding },
-      { x: midpoint, y: -height + padding },
-      { x: midpoint, y: -height },
-      { x: 0, y: -height / 2 }
-    ];
-  }
-  if (directions.has("up") && directions.has("down")) {
-    return [
-      // Bottom center
-      { x: width / 2, y: 0 },
-      // Left pont of bottom arrow
-      { x: 0, y: -padding },
-      { x: midpoint, y: -padding },
-      // Left top over vertical section
-      { x: midpoint, y: -height + padding },
-      { x: 0, y: -height + padding },
-      // Top of arrow
-      { x: width / 2, y: -height },
-      { x: width, y: -height + padding },
-      // Top of right vertical bar
-      { x: width - midpoint, y: -height + padding },
-      { x: width - midpoint, y: -padding },
-      { x: width, y: -padding }
-    ];
-  }
-  if (directions.has("right") && directions.has("up")) {
-    return [
-      { x: 0, y: 0 },
-      { x: width, y: -midpoint },
-      { x: 0, y: -height }
-    ];
-  }
-  if (directions.has("right") && directions.has("down")) {
-    return [
-      { x: 0, y: 0 },
-      { x: width, y: 0 },
-      { x: 0, y: -height }
-    ];
-  }
-  if (directions.has("left") && directions.has("up")) {
-    return [
-      { x: width, y: 0 },
-      { x: 0, y: -midpoint },
-      { x: width, y: -height }
-    ];
-  }
-  if (directions.has("left") && directions.has("down")) {
-    return [
-      { x: width, y: 0 },
-      { x: 0, y: 0 },
-      { x: width, y: -height }
-    ];
-  }
-  if (directions.has("right")) {
-    return [
-      { x: midpoint, y: -padding },
-      { x: midpoint, y: -padding },
-      { x: width - midpoint, y: -padding },
-      { x: width - midpoint, y: 0 },
-      { x: width, y: -height / 2 },
-      { x: width - midpoint, y: -height },
-      { x: width - midpoint, y: -height + padding },
-      // top left corner of arrow
-      { x: midpoint, y: -height + padding },
-      { x: midpoint, y: -height + padding }
-    ];
-  }
-  if (directions.has("left")) {
-    return [
-      { x: midpoint, y: 0 },
-      { x: midpoint, y: -padding },
-      // Two points, the right corners
-      { x: width - midpoint, y: -padding },
-      { x: width - midpoint, y: -height + padding },
-      { x: midpoint, y: -height + padding },
-      { x: midpoint, y: -height },
-      { x: 0, y: -height / 2 }
-    ];
-  }
-  if (directions.has("up")) {
-    return [
-      // Bottom center
-      { x: midpoint, y: -padding },
-      // Left top over vertical section
-      { x: midpoint, y: -height + padding },
-      { x: 0, y: -height + padding },
-      // Top of arrow
-      { x: width / 2, y: -height },
-      { x: width, y: -height + padding },
-      // Top of right vertical bar
-      { x: width - midpoint, y: -height + padding },
-      { x: width - midpoint, y: -padding }
-    ];
-  }
-  if (directions.has("down")) {
-    return [
-      // Bottom center
-      { x: width / 2, y: 0 },
-      // Left pont of bottom arrow
-      { x: 0, y: -padding },
-      { x: midpoint, y: -padding },
-      // Left top over vertical section
-      { x: midpoint, y: -height + padding },
-      { x: width - midpoint, y: -height + padding },
-      { x: width - midpoint, y: -padding },
-      { x: width, y: -padding }
-    ];
-  }
-  return [{ x: 0, y: 0 }];
-};
-const formatClass = (str) => {
-  if (str) {
-    return " " + str;
-  }
-  return "";
-};
-const getClassesFromNode = (node, otherClasses) => {
-  return `${otherClasses ? otherClasses : "node default"}${formatClass(node.classes)} ${formatClass(
-    node.class
-  )}`;
-};
-const question = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const s = w + h;
-  const points = [
-    { x: s / 2, y: 0 },
-    { x: s, y: -s / 2 },
-    { x: s / 2, y: -s },
-    { x: 0, y: -s / 2 }
-  ];
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Question main (Circle)");
-  const questionElem = insertPolygonShape(shapeSvg, s, s, points);
-  questionElem.attr("style", node.style);
-  updateNodeBounds(node, questionElem);
-  node.intersect = function(point2) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.warn("Intersect called");
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const choice = (parent, node) => {
-  const shapeSvg = parent.insert("g").attr("class", "node default").attr("id", node.domId || node.id);
-  const s = 28;
-  const points = [
-    { x: 0, y: s / 2 },
-    { x: s / 2, y: 0 },
-    { x: 0, y: -s / 2 },
-    { x: -s / 2, y: 0 }
-  ];
-  const choice2 = shapeSvg.insert("polygon", ":first-child").attr(
-    "points",
-    points.map(function(d) {
-      return d.x + "," + d.y;
-    }).join(" ")
-  );
-  choice2.attr("class", "state-start").attr("r", 7).attr("width", 28).attr("height", 28);
-  node.width = 28;
-  node.height = 28;
-  node.intersect = function(point2) {
-    return intersect.circle(node, 14, point2);
-  };
-  return shapeSvg;
-};
-const hexagon = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const f = 4;
-  const h = bbox.height + node.padding;
-  const m = h / f;
-  const w = bbox.width + 2 * m + node.padding;
-  const points = [
-    { x: m, y: 0 },
-    { x: w - m, y: 0 },
-    { x: w, y: -h / 2 },
-    { x: w - m, y: -h },
-    { x: m, y: -h },
-    { x: 0, y: -h / 2 }
-  ];
-  const hex = insertPolygonShape(shapeSvg, w, h, points);
-  hex.attr("style", node.style);
-  updateNodeBounds(node, hex);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const block_arrow = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(parent, node, void 0, true);
-  const f = 2;
-  const h = bbox.height + 2 * node.padding;
-  const m = h / f;
-  const w = bbox.width + 2 * m + node.padding;
-  const points = getArrowPoints(node.directions, bbox, node);
-  const blockArrow = insertPolygonShape(shapeSvg, w, h, points);
-  blockArrow.attr("style", node.style);
-  updateNodeBounds(node, blockArrow);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const rect_left_inv_arrow = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: -h / 2, y: 0 },
-    { x: w, y: 0 },
-    { x: w, y: -h },
-    { x: -h / 2, y: -h },
-    { x: 0, y: -h / 2 }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  node.width = w + h;
-  node.height = h;
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const lean_right = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(parent, node, getClassesFromNode(node), true);
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: -2 * h / 6, y: 0 },
-    { x: w - h / 6, y: 0 },
-    { x: w + 2 * h / 6, y: -h },
-    { x: h / 6, y: -h }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const lean_left = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: 2 * h / 6, y: 0 },
-    { x: w + h / 6, y: 0 },
-    { x: w - 2 * h / 6, y: -h },
-    { x: -h / 6, y: -h }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const trapezoid = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: -2 * h / 6, y: 0 },
-    { x: w + 2 * h / 6, y: 0 },
-    { x: w - h / 6, y: -h },
-    { x: h / 6, y: -h }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const inv_trapezoid = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: h / 6, y: 0 },
-    { x: w - h / 6, y: 0 },
-    { x: w + 2 * h / 6, y: -h },
-    { x: -2 * h / 6, y: -h }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const rect_right_inv_arrow = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: 0, y: 0 },
-    { x: w + h / 2, y: 0 },
-    { x: w, y: -h / 2 },
-    { x: w + h / 2, y: -h },
-    { x: 0, y: -h }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const cylinder = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const rx = w / 2;
-  const ry = rx / (2.5 + w / 50);
-  const h = bbox.height + ry + node.padding;
-  const shape = "M 0," + ry + " a " + rx + "," + ry + " 0,0,0 " + w + " 0 a " + rx + "," + ry + " 0,0,0 " + -w + " 0 l 0," + h + " a " + rx + "," + ry + " 0,0,0 " + w + " 0 l 0," + -h;
-  const el = shapeSvg.attr("label-offset-y", ry).insert("path", ":first-child").attr("style", node.style).attr("d", shape).attr("transform", "translate(" + -w / 2 + "," + -(h / 2 + ry) + ")");
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    const pos = intersect.rect(node, point2);
-    const x = pos.x - node.x;
-    if (rx != 0 && (Math.abs(x) < node.width / 2 || Math.abs(x) == node.width / 2 && Math.abs(pos.y - node.y) > node.height / 2 - ry)) {
-      let y = ry * ry * (1 - x * x / (rx * rx));
-      if (y != 0) {
-        y = Math.sqrt(y);
-      }
-      y = ry - y;
-      if (point2.y - node.y > 0) {
-        y = -y;
-      }
-      pos.y += y;
-    }
-    return pos;
-  };
-  return shapeSvg;
-};
-const rect = async (parent, node) => {
-  const { shapeSvg, bbox, halfPadding } = await labelHelper(
-    parent,
-    node,
-    "node " + node.classes + " " + node.class,
-    true
-  );
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const totalWidth = node.positioned ? node.width : bbox.width + node.padding;
-  const totalHeight = node.positioned ? node.height : bbox.height + node.padding;
-  const x = node.positioned ? -totalWidth / 2 : -bbox.width / 2 - halfPadding;
-  const y = node.positioned ? -totalHeight / 2 : -bbox.height / 2 - halfPadding;
-  rect2.attr("class", "basic label-container").attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("x", x).attr("y", y).attr("width", totalWidth).attr("height", totalHeight);
-  if (node.props) {
-    const propKeys = new Set(Object.keys(node.props));
-    if (node.props.borders) {
-      applyNodePropertyBorders(rect2, node.props.borders, totalWidth, totalHeight);
-      propKeys.delete("borders");
-    }
-    propKeys.forEach((propKey) => {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.warn(`Unknown node property ${propKey}`);
-    });
-  }
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const composite = async (parent, node) => {
-  const { shapeSvg, bbox, halfPadding } = await labelHelper(
-    parent,
-    node,
-    "node " + node.classes,
-    true
-  );
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const totalWidth = node.positioned ? node.width : bbox.width + node.padding;
-  const totalHeight = node.positioned ? node.height : bbox.height + node.padding;
-  const x = node.positioned ? -totalWidth / 2 : -bbox.width / 2 - halfPadding;
-  const y = node.positioned ? -totalHeight / 2 : -bbox.height / 2 - halfPadding;
-  rect2.attr("class", "basic cluster composite label-container").attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("x", x).attr("y", y).attr("width", totalWidth).attr("height", totalHeight);
-  if (node.props) {
-    const propKeys = new Set(Object.keys(node.props));
-    if (node.props.borders) {
-      applyNodePropertyBorders(rect2, node.props.borders, totalWidth, totalHeight);
-      propKeys.delete("borders");
-    }
-    propKeys.forEach((propKey) => {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.warn(`Unknown node property ${propKey}`);
-    });
-  }
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const labelRect = async (parent, node) => {
-  const { shapeSvg } = await labelHelper(parent, node, "label", true);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.trace("Classes = ", node.class);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const totalWidth = 0;
-  const totalHeight = 0;
-  rect2.attr("width", totalWidth).attr("height", totalHeight);
-  shapeSvg.attr("class", "label edgeLabel");
-  if (node.props) {
-    const propKeys = new Set(Object.keys(node.props));
-    if (node.props.borders) {
-      applyNodePropertyBorders(rect2, node.props.borders, totalWidth, totalHeight);
-      propKeys.delete("borders");
-    }
-    propKeys.forEach((propKey) => {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.warn(`Unknown node property ${propKey}`);
-    });
-  }
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-function applyNodePropertyBorders(rect2, borders, totalWidth, totalHeight) {
-  const strokeDashArray = [];
-  const addBorder = (length) => {
-    strokeDashArray.push(length, 0);
-  };
-  const skipBorder = (length) => {
-    strokeDashArray.push(0, length);
-  };
-  if (borders.includes("t")) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("add top border");
-    addBorder(totalWidth);
-  } else {
-    skipBorder(totalWidth);
-  }
-  if (borders.includes("r")) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("add right border");
-    addBorder(totalHeight);
-  } else {
-    skipBorder(totalHeight);
-  }
-  if (borders.includes("b")) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("add bottom border");
-    addBorder(totalWidth);
-  } else {
-    skipBorder(totalWidth);
-  }
-  if (borders.includes("l")) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("add left border");
-    addBorder(totalHeight);
-  } else {
-    skipBorder(totalHeight);
-  }
-  rect2.attr("stroke-dasharray", strokeDashArray.join(" "));
-}
-const rectWithTitle = (parent, node) => {
-  let classes;
-  if (!node.classes) {
-    classes = "node default";
-  } else {
-    classes = "node " + node.classes;
-  }
-  const shapeSvg = parent.insert("g").attr("class", classes).attr("id", node.domId || node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const innerLine = shapeSvg.insert("line");
-  const label = shapeSvg.insert("g").attr("class", "label");
-  const text2 = node.labelText.flat ? node.labelText.flat() : node.labelText;
-  let title = "";
-  if (typeof text2 === "object") {
-    title = text2[0];
-  } else {
-    title = text2;
-  }
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Label text abc79", title, text2, typeof text2 === "object");
-  const text = label.node().appendChild(createLabel$1(title, node.labelStyle, true, true));
-  let bbox = { width: 0, height: 0 };
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    const div = text.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(text);
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Text 2", text2);
-  const textRows = text2.slice(1, text2.length);
-  let titleBox = text.getBBox();
-  const descr = label.node().appendChild(
-    createLabel$1(textRows.join ? textRows.join("<br/>") : textRows, node.labelStyle, true, true)
-  );
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    const div = descr.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(descr);
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  const halfPadding = node.padding / 2;
-  (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(descr).attr(
-    "transform",
-    "translate( " + // (titleBox.width - bbox.width) / 2 +
-    (bbox.width > titleBox.width ? 0 : (titleBox.width - bbox.width) / 2) + ", " + (titleBox.height + halfPadding + 5) + ")"
-  );
-  (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(text).attr(
-    "transform",
-    "translate( " + // (titleBox.width - bbox.width) / 2 +
-    (bbox.width < titleBox.width ? 0 : -(titleBox.width - bbox.width) / 2) + ", 0)"
-  );
-  bbox = label.node().getBBox();
-  label.attr(
-    "transform",
-    "translate(" + -bbox.width / 2 + ", " + (-bbox.height / 2 - halfPadding + 3) + ")"
-  );
-  rect2.attr("class", "outer title-state").attr("x", -bbox.width / 2 - halfPadding).attr("y", -bbox.height / 2 - halfPadding).attr("width", bbox.width + node.padding).attr("height", bbox.height + node.padding);
-  innerLine.attr("class", "divider").attr("x1", -bbox.width / 2 - halfPadding).attr("x2", bbox.width / 2 + halfPadding).attr("y1", -bbox.height / 2 - halfPadding + titleBox.height + halfPadding).attr("y2", -bbox.height / 2 - halfPadding + titleBox.height + halfPadding);
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const stadium = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const h = bbox.height + node.padding;
-  const w = bbox.width + h / 4 + node.padding;
-  const rect2 = shapeSvg.insert("rect", ":first-child").attr("style", node.style).attr("rx", h / 2).attr("ry", h / 2).attr("x", -w / 2).attr("y", -h / 2).attr("width", w).attr("height", h);
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const circle = async (parent, node) => {
-  const { shapeSvg, bbox, halfPadding } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const circle2 = shapeSvg.insert("circle", ":first-child");
-  circle2.attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("r", bbox.width / 2 + halfPadding).attr("width", bbox.width + node.padding).attr("height", bbox.height + node.padding);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Circle main");
-  updateNodeBounds(node, circle2);
-  node.intersect = function(point2) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("Circle intersect", node, bbox.width / 2 + halfPadding, point2);
-    return intersect.circle(node, bbox.width / 2 + halfPadding, point2);
-  };
-  return shapeSvg;
-};
-const doublecircle = async (parent, node) => {
-  const { shapeSvg, bbox, halfPadding } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const gap = 5;
-  const circleGroup = shapeSvg.insert("g", ":first-child");
-  const outerCircle = circleGroup.insert("circle");
-  const innerCircle = circleGroup.insert("circle");
-  circleGroup.attr("class", node.class);
-  outerCircle.attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("r", bbox.width / 2 + halfPadding + gap).attr("width", bbox.width + node.padding + gap * 2).attr("height", bbox.height + node.padding + gap * 2);
-  innerCircle.attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("r", bbox.width / 2 + halfPadding).attr("width", bbox.width + node.padding).attr("height", bbox.height + node.padding);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("DoubleCircle main");
-  updateNodeBounds(node, outerCircle);
-  node.intersect = function(point2) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.info("DoubleCircle intersect", node, bbox.width / 2 + halfPadding + gap, point2);
-    return intersect.circle(node, bbox.width / 2 + halfPadding + gap, point2);
-  };
-  return shapeSvg;
-};
-const subroutine = async (parent, node) => {
-  const { shapeSvg, bbox } = await labelHelper(
-    parent,
-    node,
-    getClassesFromNode(node, void 0),
-    true
-  );
-  const w = bbox.width + node.padding;
-  const h = bbox.height + node.padding;
-  const points = [
-    { x: 0, y: 0 },
-    { x: w, y: 0 },
-    { x: w, y: -h },
-    { x: 0, y: -h },
-    { x: 0, y: 0 },
-    { x: -8, y: 0 },
-    { x: w + 8, y: 0 },
-    { x: w + 8, y: -h },
-    { x: -8, y: -h },
-    { x: -8, y: 0 }
-  ];
-  const el = insertPolygonShape(shapeSvg, w, h, points);
-  el.attr("style", node.style);
-  updateNodeBounds(node, el);
-  node.intersect = function(point2) {
-    return intersect.polygon(node, points, point2);
-  };
-  return shapeSvg;
-};
-const start = (parent, node) => {
-  const shapeSvg = parent.insert("g").attr("class", "node default").attr("id", node.domId || node.id);
-  const circle2 = shapeSvg.insert("circle", ":first-child");
-  circle2.attr("class", "state-start").attr("r", 7).attr("width", 14).attr("height", 14);
-  updateNodeBounds(node, circle2);
-  node.intersect = function(point2) {
-    return intersect.circle(node, 7, point2);
-  };
-  return shapeSvg;
-};
-const forkJoin = (parent, node, dir) => {
-  const shapeSvg = parent.insert("g").attr("class", "node default").attr("id", node.domId || node.id);
-  let width = 70;
-  let height = 10;
-  if (dir === "LR") {
-    width = 10;
-    height = 70;
-  }
-  const shape = shapeSvg.append("rect").attr("x", -1 * width / 2).attr("y", -1 * height / 2).attr("width", width).attr("height", height).attr("class", "fork-join");
-  updateNodeBounds(node, shape);
-  node.height = node.height + node.padding / 2;
-  node.width = node.width + node.padding / 2;
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const end = (parent, node) => {
-  const shapeSvg = parent.insert("g").attr("class", "node default").attr("id", node.domId || node.id);
-  const innerCircle = shapeSvg.insert("circle", ":first-child");
-  const circle2 = shapeSvg.insert("circle", ":first-child");
-  circle2.attr("class", "state-start").attr("r", 7).attr("width", 14).attr("height", 14);
-  innerCircle.attr("class", "state-end").attr("r", 5).attr("width", 10).attr("height", 10);
-  updateNodeBounds(node, circle2);
-  node.intersect = function(point2) {
-    return intersect.circle(node, 7, point2);
-  };
-  return shapeSvg;
-};
-const class_box = (parent, node) => {
-  const halfPadding = node.padding / 2;
-  const rowPadding = 4;
-  const lineHeight = 8;
-  let classes;
-  if (!node.classes) {
-    classes = "node default";
-  } else {
-    classes = "node " + node.classes;
-  }
-  const shapeSvg = parent.insert("g").attr("class", classes).attr("id", node.domId || node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const topLine = shapeSvg.insert("line");
-  const bottomLine = shapeSvg.insert("line");
-  let maxWidth = 0;
-  let maxHeight = rowPadding;
-  const labelContainer = shapeSvg.insert("g").attr("class", "label");
-  let verticalPos = 0;
-  const hasInterface = node.classData.annotations && node.classData.annotations[0];
-  const interfaceLabelText = node.classData.annotations[0] ? "«" + node.classData.annotations[0] + "»" : "";
-  const interfaceLabel = labelContainer.node().appendChild(createLabel$1(interfaceLabelText, node.labelStyle, true, true));
-  let interfaceBBox = interfaceLabel.getBBox();
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    const div = interfaceLabel.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(interfaceLabel);
-    interfaceBBox = div.getBoundingClientRect();
-    dv.attr("width", interfaceBBox.width);
-    dv.attr("height", interfaceBBox.height);
-  }
-  if (node.classData.annotations[0]) {
-    maxHeight += interfaceBBox.height + rowPadding;
-    maxWidth += interfaceBBox.width;
-  }
-  let classTitleString = node.classData.label;
-  if (node.classData.type !== void 0 && node.classData.type !== "") {
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels) {
-      classTitleString += "&lt;" + node.classData.type + "&gt;";
-    } else {
-      classTitleString += "<" + node.classData.type + ">";
-    }
-  }
-  const classTitleLabel = labelContainer.node().appendChild(createLabel$1(classTitleString, node.labelStyle, true, true));
-  (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(classTitleLabel).attr("class", "classTitle");
-  let classTitleBBox = classTitleLabel.getBBox();
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-    const div = classTitleLabel.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(classTitleLabel);
-    classTitleBBox = div.getBoundingClientRect();
-    dv.attr("width", classTitleBBox.width);
-    dv.attr("height", classTitleBBox.height);
-  }
-  maxHeight += classTitleBBox.height + rowPadding;
-  if (classTitleBBox.width > maxWidth) {
-    maxWidth = classTitleBBox.width;
-  }
-  const classAttributes = [];
-  node.classData.members.forEach((member) => {
-    const parsedInfo = member.getDisplayDetails();
-    let parsedText = parsedInfo.displayText;
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels) {
-      parsedText = parsedText.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    }
-    const lbl = labelContainer.node().appendChild(
-      createLabel$1(
-        parsedText,
-        parsedInfo.cssStyle ? parsedInfo.cssStyle : node.labelStyle,
-        true,
-        true
-      )
-    );
-    let bbox = lbl.getBBox();
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-      const div = lbl.children[0];
-      const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(lbl);
-      bbox = div.getBoundingClientRect();
-      dv.attr("width", bbox.width);
-      dv.attr("height", bbox.height);
-    }
-    if (bbox.width > maxWidth) {
-      maxWidth = bbox.width;
-    }
-    maxHeight += bbox.height + rowPadding;
-    classAttributes.push(lbl);
-  });
-  maxHeight += lineHeight;
-  const classMethods = [];
-  node.classData.methods.forEach((member) => {
-    const parsedInfo = member.getDisplayDetails();
-    let displayText = parsedInfo.displayText;
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels) {
-      displayText = displayText.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    }
-    const lbl = labelContainer.node().appendChild(
-      createLabel$1(
-        displayText,
-        parsedInfo.cssStyle ? parsedInfo.cssStyle : node.labelStyle,
-        true,
-        true
-      )
-    );
-    let bbox = lbl.getBBox();
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels)) {
-      const div = lbl.children[0];
-      const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(lbl);
-      bbox = div.getBoundingClientRect();
-      dv.attr("width", bbox.width);
-      dv.attr("height", bbox.height);
-    }
-    if (bbox.width > maxWidth) {
-      maxWidth = bbox.width;
-    }
-    maxHeight += bbox.height + rowPadding;
-    classMethods.push(lbl);
-  });
-  maxHeight += lineHeight;
-  if (hasInterface) {
-    let diffX2 = (maxWidth - interfaceBBox.width) / 2;
-    (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(interfaceLabel).attr(
-      "transform",
-      "translate( " + (-1 * maxWidth / 2 + diffX2) + ", " + -1 * maxHeight / 2 + ")"
-    );
-    verticalPos = interfaceBBox.height + rowPadding;
-  }
-  let diffX = (maxWidth - classTitleBBox.width) / 2;
-  (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(classTitleLabel).attr(
-    "transform",
-    "translate( " + (-1 * maxWidth / 2 + diffX) + ", " + (-1 * maxHeight / 2 + verticalPos) + ")"
-  );
-  verticalPos += classTitleBBox.height + rowPadding;
-  topLine.attr("class", "divider").attr("x1", -maxWidth / 2 - halfPadding).attr("x2", maxWidth / 2 + halfPadding).attr("y1", -maxHeight / 2 - halfPadding + lineHeight + verticalPos).attr("y2", -maxHeight / 2 - halfPadding + lineHeight + verticalPos);
-  verticalPos += lineHeight;
-  classAttributes.forEach((lbl) => {
-    (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(lbl).attr(
-      "transform",
-      "translate( " + -maxWidth / 2 + ", " + (-1 * maxHeight / 2 + verticalPos + lineHeight / 2) + ")"
-    );
-    const memberBBox = lbl == null ? void 0 : lbl.getBBox();
-    verticalPos += ((memberBBox == null ? void 0 : memberBBox.height) ?? 0) + rowPadding;
-  });
-  verticalPos += lineHeight;
-  bottomLine.attr("class", "divider").attr("x1", -maxWidth / 2 - halfPadding).attr("x2", maxWidth / 2 + halfPadding).attr("y1", -maxHeight / 2 - halfPadding + lineHeight + verticalPos).attr("y2", -maxHeight / 2 - halfPadding + lineHeight + verticalPos);
-  verticalPos += lineHeight;
-  classMethods.forEach((lbl) => {
-    (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(lbl).attr(
-      "transform",
-      "translate( " + -maxWidth / 2 + ", " + (-1 * maxHeight / 2 + verticalPos) + ")"
-    );
-    const memberBBox = lbl == null ? void 0 : lbl.getBBox();
-    verticalPos += ((memberBBox == null ? void 0 : memberBBox.height) ?? 0) + rowPadding;
-  });
-  rect2.attr("style", node.style).attr("class", "outer title-state").attr("x", -maxWidth / 2 - halfPadding).attr("y", -(maxHeight / 2) - halfPadding).attr("width", maxWidth + node.padding).attr("height", maxHeight + node.padding);
-  updateNodeBounds(node, rect2);
-  node.intersect = function(point2) {
-    return intersect.rect(node, point2);
-  };
-  return shapeSvg;
-};
-const shapes = {
-  rhombus: question,
-  composite,
-  question,
-  rect,
-  labelRect,
-  rectWithTitle,
-  choice,
-  circle,
-  doublecircle,
-  stadium,
-  hexagon,
-  block_arrow,
-  rect_left_inv_arrow,
-  lean_right,
-  lean_left,
-  trapezoid,
-  inv_trapezoid,
-  rect_right_inv_arrow,
-  cylinder,
-  start,
-  end,
-  note: note$1,
-  subroutine,
-  fork: forkJoin,
-  join: forkJoin,
-  class_box
-};
-let nodeElems = {};
-const insertNode = async (elem, node, dir) => {
-  let newEl;
-  let el;
-  if (node.link) {
-    let target;
-    if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().securityLevel === "sandbox") {
-      target = "_top";
-    } else if (node.linkTarget) {
-      target = node.linkTarget || "_blank";
-    }
-    newEl = elem.insert("svg:a").attr("xlink:href", node.link).attr("target", target);
-    el = await shapes[node.shape](newEl, node, dir);
-  } else {
-    el = await shapes[node.shape](elem, node, dir);
-    newEl = el;
-  }
-  if (node.tooltip) {
-    el.attr("title", node.tooltip);
-  }
-  if (node.class) {
-    el.attr("class", "node default " + node.class);
-  }
-  newEl.attr("data-node", "true");
-  newEl.attr("data-id", node.id);
-  nodeElems[node.id] = newEl;
-  if (node.haveCallback) {
-    nodeElems[node.id].attr("class", nodeElems[node.id].attr("class") + " clickable");
-  }
-  return newEl;
-};
-const setNodeElem = (elem, node) => {
-  nodeElems[node.id] = elem;
-};
-const clear$1 = () => {
-  nodeElems = {};
-};
-const positionNode = (node) => {
-  const el = nodeElems[node.id];
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.trace(
-    "Transforming node",
-    node.diff,
-    node,
-    "translate(" + (node.x - node.width / 2 - 5) + ", " + node.width / 2 + ")"
-  );
-  const padding = 8;
-  const diff = node.diff || 0;
-  if (node.clusterNode) {
-    el.attr(
-      "transform",
-      "translate(" + (node.x + diff - node.width / 2) + ", " + (node.y - node.height / 2 - padding) + ")"
-    );
-  } else {
-    el.attr("transform", "translate(" + node.x + ", " + node.y + ")");
-  }
-  return diff;
-};
-const getSubGraphTitleMargins = ({
-  flowchart
-}) => {
-  var _a, _b;
-  const subGraphTitleTopMargin = ((_a = flowchart == null ? void 0 : flowchart.subGraphTitleMargin) == null ? void 0 : _a.top) ?? 0;
-  const subGraphTitleBottomMargin = ((_b = flowchart == null ? void 0 : flowchart.subGraphTitleMargin) == null ? void 0 : _b.bottom) ?? 0;
-  const subGraphTitleTotalMargin = subGraphTitleTopMargin + subGraphTitleBottomMargin;
-  return {
-    subGraphTitleTopMargin,
-    subGraphTitleBottomMargin,
-    subGraphTitleTotalMargin
-  };
-};
-const markerOffsets = {
-  aggregation: 18,
-  extension: 18,
-  composition: 18,
-  dependency: 6,
-  lollipop: 13.5,
-  arrow_point: 5.3
-};
-function calculateDeltaAndAngle(point1, point2) {
-  if (point1 === void 0 || point2 === void 0) {
-    return { angle: 0, deltaX: 0, deltaY: 0 };
-  }
-  point1 = pointTransformer(point1);
-  point2 = pointTransformer(point2);
-  const [x1, y1] = [point1.x, point1.y];
-  const [x2, y2] = [point2.x, point2.y];
-  const deltaX = x2 - x1;
-  const deltaY = y2 - y1;
-  return { angle: Math.atan(deltaY / deltaX), deltaX, deltaY };
-}
-const pointTransformer = (data) => {
-  if (Array.isArray(data)) {
-    return { x: data[0], y: data[1] };
-  }
-  return data;
-};
-const getLineFunctionsWithOffset = (edge) => {
-  return {
-    x: function(d, i, data) {
-      let offset = 0;
-      if (i === 0 && Object.hasOwn(markerOffsets, edge.arrowTypeStart)) {
-        const { angle, deltaX } = calculateDeltaAndAngle(data[0], data[1]);
-        offset = markerOffsets[edge.arrowTypeStart] * Math.cos(angle) * (deltaX >= 0 ? 1 : -1);
-      } else if (i === data.length - 1 && Object.hasOwn(markerOffsets, edge.arrowTypeEnd)) {
-        const { angle, deltaX } = calculateDeltaAndAngle(
-          data[data.length - 1],
-          data[data.length - 2]
-        );
-        offset = markerOffsets[edge.arrowTypeEnd] * Math.cos(angle) * (deltaX >= 0 ? 1 : -1);
-      }
-      return pointTransformer(d).x + offset;
-    },
-    y: function(d, i, data) {
-      let offset = 0;
-      if (i === 0 && Object.hasOwn(markerOffsets, edge.arrowTypeStart)) {
-        const { angle, deltaY } = calculateDeltaAndAngle(data[0], data[1]);
-        offset = markerOffsets[edge.arrowTypeStart] * Math.abs(Math.sin(angle)) * (deltaY >= 0 ? 1 : -1);
-      } else if (i === data.length - 1 && Object.hasOwn(markerOffsets, edge.arrowTypeEnd)) {
-        const { angle, deltaY } = calculateDeltaAndAngle(
-          data[data.length - 1],
-          data[data.length - 2]
-        );
-        offset = markerOffsets[edge.arrowTypeEnd] * Math.abs(Math.sin(angle)) * (deltaY >= 0 ? 1 : -1);
-      }
-      return pointTransformer(d).y + offset;
-    }
-  };
-};
-const addEdgeMarkers = (svgPath, edge, url, id, diagramType) => {
-  if (edge.arrowTypeStart) {
-    addEdgeMarker(svgPath, "start", edge.arrowTypeStart, url, id, diagramType);
-  }
-  if (edge.arrowTypeEnd) {
-    addEdgeMarker(svgPath, "end", edge.arrowTypeEnd, url, id, diagramType);
-  }
-};
-const arrowTypesMap = {
-  arrow_cross: "cross",
-  arrow_point: "point",
-  arrow_barb: "barb",
-  arrow_circle: "circle",
-  aggregation: "aggregation",
-  extension: "extension",
-  composition: "composition",
-  dependency: "dependency",
-  lollipop: "lollipop"
-};
-const addEdgeMarker = (svgPath, position, arrowType, url, id, diagramType) => {
-  const endMarkerType = arrowTypesMap[arrowType];
-  if (!endMarkerType) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.warn(`Unknown arrow type: ${arrowType}`);
-    return;
-  }
-  const suffix = position === "start" ? "Start" : "End";
-  svgPath.attr(`marker-${position}`, `url(${url}#${id}_${diagramType}-${endMarkerType}${suffix})`);
-};
-let edgeLabels = {};
-let terminalLabels = {};
-const clear = () => {
-  edgeLabels = {};
-  terminalLabels = {};
-};
-const insertEdgeLabel = (elem, edge) => {
-  const useHtmlLabels = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.m)((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels);
-  const labelElement = edge.labelType === "markdown" ? (0,_createText_ca0c5216_js__WEBPACK_IMPORTED_MODULE_2__.a)(elem, edge.label, {
-    style: edge.labelStyle,
-    useHtmlLabels,
-    addSvgBackground: true
-  }) : createLabel$1(edge.label, edge.labelStyle);
-  const edgeLabel = elem.insert("g").attr("class", "edgeLabel");
-  const label = edgeLabel.insert("g").attr("class", "label");
-  label.node().appendChild(labelElement);
-  let bbox = labelElement.getBBox();
-  if (useHtmlLabels) {
-    const div = labelElement.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .select */ .Ltv)(labelElement);
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  label.attr("transform", "translate(" + -bbox.width / 2 + ", " + -bbox.height / 2 + ")");
-  edgeLabels[edge.id] = edgeLabel;
-  edge.width = bbox.width;
-  edge.height = bbox.height;
-  let fo;
-  if (edge.startLabelLeft) {
-    const startLabelElement = createLabel$1(edge.startLabelLeft, edge.labelStyle);
-    const startEdgeLabelLeft = elem.insert("g").attr("class", "edgeTerminals");
-    const inner = startEdgeLabelLeft.insert("g").attr("class", "inner");
-    fo = inner.node().appendChild(startLabelElement);
-    const slBox = startLabelElement.getBBox();
-    inner.attr("transform", "translate(" + -slBox.width / 2 + ", " + -slBox.height / 2 + ")");
-    if (!terminalLabels[edge.id]) {
-      terminalLabels[edge.id] = {};
-    }
-    terminalLabels[edge.id].startLeft = startEdgeLabelLeft;
-    setTerminalWidth(fo, edge.startLabelLeft);
-  }
-  if (edge.startLabelRight) {
-    const startLabelElement = createLabel$1(edge.startLabelRight, edge.labelStyle);
-    const startEdgeLabelRight = elem.insert("g").attr("class", "edgeTerminals");
-    const inner = startEdgeLabelRight.insert("g").attr("class", "inner");
-    fo = startEdgeLabelRight.node().appendChild(startLabelElement);
-    inner.node().appendChild(startLabelElement);
-    const slBox = startLabelElement.getBBox();
-    inner.attr("transform", "translate(" + -slBox.width / 2 + ", " + -slBox.height / 2 + ")");
-    if (!terminalLabels[edge.id]) {
-      terminalLabels[edge.id] = {};
-    }
-    terminalLabels[edge.id].startRight = startEdgeLabelRight;
-    setTerminalWidth(fo, edge.startLabelRight);
-  }
-  if (edge.endLabelLeft) {
-    const endLabelElement = createLabel$1(edge.endLabelLeft, edge.labelStyle);
-    const endEdgeLabelLeft = elem.insert("g").attr("class", "edgeTerminals");
-    const inner = endEdgeLabelLeft.insert("g").attr("class", "inner");
-    fo = inner.node().appendChild(endLabelElement);
-    const slBox = endLabelElement.getBBox();
-    inner.attr("transform", "translate(" + -slBox.width / 2 + ", " + -slBox.height / 2 + ")");
-    endEdgeLabelLeft.node().appendChild(endLabelElement);
-    if (!terminalLabels[edge.id]) {
-      terminalLabels[edge.id] = {};
-    }
-    terminalLabels[edge.id].endLeft = endEdgeLabelLeft;
-    setTerminalWidth(fo, edge.endLabelLeft);
-  }
-  if (edge.endLabelRight) {
-    const endLabelElement = createLabel$1(edge.endLabelRight, edge.labelStyle);
-    const endEdgeLabelRight = elem.insert("g").attr("class", "edgeTerminals");
-    const inner = endEdgeLabelRight.insert("g").attr("class", "inner");
-    fo = inner.node().appendChild(endLabelElement);
-    const slBox = endLabelElement.getBBox();
-    inner.attr("transform", "translate(" + -slBox.width / 2 + ", " + -slBox.height / 2 + ")");
-    endEdgeLabelRight.node().appendChild(endLabelElement);
-    if (!terminalLabels[edge.id]) {
-      terminalLabels[edge.id] = {};
-    }
-    terminalLabels[edge.id].endRight = endEdgeLabelRight;
-    setTerminalWidth(fo, edge.endLabelRight);
-  }
-  return labelElement;
-};
-function setTerminalWidth(fo, value) {
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.htmlLabels && fo) {
-    fo.style.width = value.length * 9 + "px";
-    fo.style.height = "12px";
-  }
-}
-const positionEdgeLabel = (edge, paths) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("Moving label abc88 ", edge.id, edge.label, edgeLabels[edge.id], paths);
-  let path = paths.updatedPath ? paths.updatedPath : paths.originalPath;
-  const siteConfig = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)();
-  const { subGraphTitleTotalMargin } = getSubGraphTitleMargins(siteConfig);
-  if (edge.label) {
-    const el = edgeLabels[edge.id];
-    let x = edge.x;
-    let y = edge.y;
-    if (path) {
-      const pos = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.u.calcLabelPosition(path);
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug(
-        "Moving label " + edge.label + " from (",
-        x,
-        ",",
-        y,
-        ") to (",
-        pos.x,
-        ",",
-        pos.y,
-        ") abc88"
-      );
-      if (paths.updatedPath) {
-        x = pos.x;
-        y = pos.y;
-      }
-    }
-    el.attr("transform", `translate(${x}, ${y + subGraphTitleTotalMargin / 2})`);
-  }
-  if (edge.startLabelLeft) {
-    const el = terminalLabels[edge.id].startLeft;
-    let x = edge.x;
-    let y = edge.y;
-    if (path) {
-      const pos = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.u.calcTerminalLabelPosition(edge.arrowTypeStart ? 10 : 0, "start_left", path);
-      x = pos.x;
-      y = pos.y;
-    }
-    el.attr("transform", `translate(${x}, ${y})`);
-  }
-  if (edge.startLabelRight) {
-    const el = terminalLabels[edge.id].startRight;
-    let x = edge.x;
-    let y = edge.y;
-    if (path) {
-      const pos = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.u.calcTerminalLabelPosition(
-        edge.arrowTypeStart ? 10 : 0,
-        "start_right",
-        path
-      );
-      x = pos.x;
-      y = pos.y;
-    }
-    el.attr("transform", `translate(${x}, ${y})`);
-  }
-  if (edge.endLabelLeft) {
-    const el = terminalLabels[edge.id].endLeft;
-    let x = edge.x;
-    let y = edge.y;
-    if (path) {
-      const pos = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.u.calcTerminalLabelPosition(edge.arrowTypeEnd ? 10 : 0, "end_left", path);
-      x = pos.x;
-      y = pos.y;
-    }
-    el.attr("transform", `translate(${x}, ${y})`);
-  }
-  if (edge.endLabelRight) {
-    const el = terminalLabels[edge.id].endRight;
-    let x = edge.x;
-    let y = edge.y;
-    if (path) {
-      const pos = _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.u.calcTerminalLabelPosition(edge.arrowTypeEnd ? 10 : 0, "end_right", path);
-      x = pos.x;
-      y = pos.y;
-    }
-    el.attr("transform", `translate(${x}, ${y})`);
-  }
-};
-const outsideNode = (node, point2) => {
-  const x = node.x;
-  const y = node.y;
-  const dx = Math.abs(point2.x - x);
-  const dy = Math.abs(point2.y - y);
-  const w = node.width / 2;
-  const h = node.height / 2;
-  if (dx >= w || dy >= h) {
-    return true;
-  }
-  return false;
-};
-const intersection = (node, outsidePoint, insidePoint) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug(`intersection calc abc89:
-  outsidePoint: ${JSON.stringify(outsidePoint)}
-  insidePoint : ${JSON.stringify(insidePoint)}
-  node        : x:${node.x} y:${node.y} w:${node.width} h:${node.height}`);
-  const x = node.x;
-  const y = node.y;
-  const dx = Math.abs(x - insidePoint.x);
-  const w = node.width / 2;
-  let r = insidePoint.x < outsidePoint.x ? w - dx : w + dx;
-  const h = node.height / 2;
-  const Q = Math.abs(outsidePoint.y - insidePoint.y);
-  const R = Math.abs(outsidePoint.x - insidePoint.x);
-  if (Math.abs(y - outsidePoint.y) * w > Math.abs(x - outsidePoint.x) * h) {
-    let q = insidePoint.y < outsidePoint.y ? outsidePoint.y - h - y : y - h - outsidePoint.y;
-    r = R * q / Q;
-    const res = {
-      x: insidePoint.x < outsidePoint.x ? insidePoint.x + r : insidePoint.x - R + r,
-      y: insidePoint.y < outsidePoint.y ? insidePoint.y + Q - q : insidePoint.y - Q + q
-    };
-    if (r === 0) {
-      res.x = outsidePoint.x;
-      res.y = outsidePoint.y;
-    }
-    if (R === 0) {
-      res.x = outsidePoint.x;
-    }
-    if (Q === 0) {
-      res.y = outsidePoint.y;
-    }
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug(`abc89 topp/bott calc, Q ${Q}, q ${q}, R ${R}, r ${r}`, res);
-    return res;
-  } else {
-    if (insidePoint.x < outsidePoint.x) {
-      r = outsidePoint.x - w - x;
-    } else {
-      r = x - w - outsidePoint.x;
-    }
-    let q = Q * r / R;
-    let _x = insidePoint.x < outsidePoint.x ? insidePoint.x + R - r : insidePoint.x - R + r;
-    let _y = insidePoint.y < outsidePoint.y ? insidePoint.y + q : insidePoint.y - q;
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug(`sides calc abc89, Q ${Q}, q ${q}, R ${R}, r ${r}`, { _x, _y });
-    if (r === 0) {
-      _x = outsidePoint.x;
-      _y = outsidePoint.y;
-    }
-    if (R === 0) {
-      _x = outsidePoint.x;
-    }
-    if (Q === 0) {
-      _y = outsidePoint.y;
-    }
-    return { x: _x, y: _y };
-  }
-};
-const cutPathAtIntersect = (_points, boundaryNode) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("abc88 cutPathAtIntersect", _points, boundaryNode);
-  let points = [];
-  let lastPointOutside = _points[0];
-  let isInside = false;
-  _points.forEach((point2) => {
-    if (!outsideNode(boundaryNode, point2) && !isInside) {
-      const inter = intersection(boundaryNode, lastPointOutside, point2);
-      let pointPresent = false;
-      points.forEach((p) => {
-        pointPresent = pointPresent || p.x === inter.x && p.y === inter.y;
-      });
-      if (!points.some((e) => e.x === inter.x && e.y === inter.y)) {
-        points.push(inter);
-      }
-      isInside = true;
-    } else {
-      lastPointOutside = point2;
-      if (!isInside) {
-        points.push(point2);
-      }
-    }
-  });
-  return points;
-};
-const insertEdge = function(elem, e, edge, clusterDb, diagramType, graph, id) {
-  let points = edge.points;
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("abc88 InsertEdge: edge=", edge, "e=", e);
-  let pointsHasChanged = false;
-  const tail = graph.node(e.v);
-  var head = graph.node(e.w);
-  if ((head == null ? void 0 : head.intersect) && (tail == null ? void 0 : tail.intersect)) {
-    points = points.slice(1, edge.points.length - 1);
-    points.unshift(tail.intersect(points[0]));
-    points.push(head.intersect(points[points.length - 1]));
-  }
-  if (edge.toCluster) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("to cluster abc88", clusterDb[edge.toCluster]);
-    points = cutPathAtIntersect(edge.points, clusterDb[edge.toCluster].node);
-    pointsHasChanged = true;
-  }
-  if (edge.fromCluster) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.l.debug("from cluster abc88", clusterDb[edge.fromCluster]);
-    points = cutPathAtIntersect(points.reverse(), clusterDb[edge.fromCluster].node).reverse();
-    pointsHasChanged = true;
-  }
-  const lineData = points.filter((p) => !Number.isNaN(p.y));
-  let curve = d3__WEBPACK_IMPORTED_MODULE_0__/* .curveBasis */ .qrM;
-  if (edge.curve && (diagramType === "graph" || diagramType === "flowchart")) {
-    curve = edge.curve;
-  }
-  const { x, y } = getLineFunctionsWithOffset(edge);
-  const lineFunction = (0,d3__WEBPACK_IMPORTED_MODULE_0__/* .line */ .n8j)().x(x).y(y).curve(curve);
-  let strokeClasses;
-  switch (edge.thickness) {
-    case "normal":
-      strokeClasses = "edge-thickness-normal";
-      break;
-    case "thick":
-      strokeClasses = "edge-thickness-thick";
-      break;
-    case "invisible":
-      strokeClasses = "edge-thickness-thick";
-      break;
-    default:
-      strokeClasses = "";
-  }
-  switch (edge.pattern) {
-    case "solid":
-      strokeClasses += " edge-pattern-solid";
-      break;
-    case "dotted":
-      strokeClasses += " edge-pattern-dotted";
-      break;
-    case "dashed":
-      strokeClasses += " edge-pattern-dashed";
-      break;
-  }
-  const svgPath = elem.append("path").attr("d", lineFunction(lineData)).attr("id", edge.id).attr("class", " " + strokeClasses + (edge.classes ? " " + edge.classes : "")).attr("style", edge.style);
-  let url = "";
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().flowchart.arrowMarkerAbsolute || (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_1__.c)().state.arrowMarkerAbsolute) {
-    url = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.search;
-    url = url.replace(/\(/g, "\\(");
-    url = url.replace(/\)/g, "\\)");
-  }
-  addEdgeMarkers(svgPath, edge, url, id, diagramType);
-  let paths = {};
-  if (pointsHasChanged) {
-    paths.updatedPath = points;
-  }
-  paths.originalPath = edge.points;
-  return paths;
-};
-
-
-
-/***/ }),
-
-/***/ 12983:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   r: () => (/* binding */ render)
-/* harmony export */ });
-/* harmony import */ var dagre_d3_es_src_dagre_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21176);
-/* harmony import */ var dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14075);
-/* harmony import */ var _edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(98055);
-/* harmony import */ var _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(99702);
-/* harmony import */ var dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(697);
-/* harmony import */ var _createText_ca0c5216_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(91185);
-/* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(26312);
-
-
-
-
-
-
-
-let clusterDb = {};
-let descendants = {};
-let parents = {};
-const clear$1 = () => {
-  descendants = {};
-  parents = {};
-  clusterDb = {};
-};
-const isDescendant = (id, ancestorId) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("In isDescendant", ancestorId, " ", id, " = ", descendants[ancestorId].includes(id));
-  if (descendants[ancestorId].includes(id)) {
-    return true;
-  }
-  return false;
-};
-const edgeInCluster = (edge, clusterId) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Descendants of ", clusterId, " is ", descendants[clusterId]);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge is ", edge);
-  if (edge.v === clusterId) {
-    return false;
-  }
-  if (edge.w === clusterId) {
-    return false;
-  }
-  if (!descendants[clusterId]) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Tilt, ", clusterId, ",not in descendants");
-    return false;
-  }
-  return descendants[clusterId].includes(edge.v) || isDescendant(edge.v, clusterId) || isDescendant(edge.w, clusterId) || descendants[clusterId].includes(edge.w);
-};
-const copy = (clusterId, graph, newGraph, rootId) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(
-    "Copying children of ",
-    clusterId,
-    "root",
-    rootId,
-    "data",
-    graph.node(clusterId),
-    rootId
-  );
-  const nodes = graph.children(clusterId) || [];
-  if (clusterId !== rootId) {
-    nodes.push(clusterId);
-  }
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Copying (nodes) clusterId", clusterId, "nodes", nodes);
-  nodes.forEach((node) => {
-    if (graph.children(node).length > 0) {
-      copy(node, graph, newGraph, rootId);
-    } else {
-      const data = graph.node(node);
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("cp ", node, " to ", rootId, " with parent ", clusterId);
-      newGraph.setNode(node, data);
-      if (rootId !== graph.parent(node)) {
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Setting parent", node, graph.parent(node));
-        newGraph.setParent(node, graph.parent(node));
-      }
-      if (clusterId !== rootId && node !== clusterId) {
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Setting parent", node, clusterId);
-        newGraph.setParent(node, clusterId);
-      } else {
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("In copy ", clusterId, "root", rootId, "data", graph.node(clusterId), rootId);
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug(
-          "Not Setting parent for node=",
-          node,
-          "cluster!==rootId",
-          clusterId !== rootId,
-          "node!==clusterId",
-          node !== clusterId
-        );
-      }
-      const edges = graph.edges(node);
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Copying Edges", edges);
-      edges.forEach((edge) => {
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge", edge);
-        const data2 = graph.edge(edge.v, edge.w, edge.name);
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge data", data2, rootId);
-        try {
-          if (edgeInCluster(edge, rootId)) {
-            _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Copying as ", edge.v, edge.w, data2, edge.name);
-            newGraph.setEdge(edge.v, edge.w, data2, edge.name);
-            _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("newGraph edges ", newGraph.edges(), newGraph.edge(newGraph.edges()[0]));
-          } else {
-            _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info(
-              "Skipping copy of edge ",
-              edge.v,
-              "-->",
-              edge.w,
-              " rootId: ",
-              rootId,
-              " clusterId:",
-              clusterId
-            );
-          }
-        } catch (e) {
-          _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.error(e);
-        }
-      });
-    }
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Removing node", node);
-    graph.removeNode(node);
-  });
-};
-const extractDescendants = (id, graph) => {
-  const children = graph.children(id);
-  let res = [...children];
-  for (const child of children) {
-    parents[child] = id;
-    res = [...res, ...extractDescendants(child, graph)];
-  }
-  return res;
-};
-const findNonClusterChild = (id, graph) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Searching", id);
-  const children = graph.children(id);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Searching children of id ", id, children);
-  if (children.length < 1) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("This is a valid node", id);
-    return id;
-  }
-  for (const child of children) {
-    const _id = findNonClusterChild(child, graph);
-    if (_id) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Found replacement for", id, " => ", _id);
-      return _id;
-    }
-  }
-};
-const getAnchorId = (id) => {
-  if (!clusterDb[id]) {
-    return id;
-  }
-  if (!clusterDb[id].externalConnections) {
-    return id;
-  }
-  if (clusterDb[id]) {
-    return clusterDb[id].id;
-  }
-  return id;
-};
-const adjustClustersAndEdges = (graph, depth) => {
-  if (!graph || depth > 10) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Opting out, no graph ");
-    return;
-  } else {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Opting in, graph ");
-  }
-  graph.nodes().forEach(function(id) {
-    const children = graph.children(id);
-    if (children.length > 0) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(
-        "Cluster identified",
-        id,
-        " Replacement id in edges: ",
-        findNonClusterChild(id, graph)
-      );
-      descendants[id] = extractDescendants(id, graph);
-      clusterDb[id] = { id: findNonClusterChild(id, graph), clusterData: graph.node(id) };
-    }
-  });
-  graph.nodes().forEach(function(id) {
-    const children = graph.children(id);
-    const edges = graph.edges();
-    if (children.length > 0) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Cluster identified", id, descendants);
-      edges.forEach((edge) => {
-        if (edge.v !== id && edge.w !== id) {
-          const d1 = isDescendant(edge.v, id);
-          const d2 = isDescendant(edge.w, id);
-          if (d1 ^ d2) {
-            _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Edge: ", edge, " leaves cluster ", id);
-            _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Descendants of XXX ", id, ": ", descendants[id]);
-            clusterDb[id].externalConnections = true;
-          }
-        }
-      });
-    } else {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Not a cluster ", id, descendants);
-    }
-  });
-  for (let id of Object.keys(clusterDb)) {
-    const nonClusterChild = clusterDb[id].id;
-    const parent = graph.parent(nonClusterChild);
-    if (parent !== id && clusterDb[parent] && !clusterDb[parent].externalConnections) {
-      clusterDb[id].id = parent;
-    }
-  }
-  graph.edges().forEach(function(e) {
-    const edge = graph.edge(e);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(e));
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(graph.edge(e)));
-    let v = e.v;
-    let w = e.w;
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(
-      "Fix XXX",
-      clusterDb,
-      "ids:",
-      e.v,
-      e.w,
-      "Translating: ",
-      clusterDb[e.v],
-      " --- ",
-      clusterDb[e.w]
-    );
-    if (clusterDb[e.v] && clusterDb[e.w] && clusterDb[e.v] === clusterDb[e.w]) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Fixing and trixing link to self - removing XXX", e.v, e.w, e.name);
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Fixing and trixing - removing XXX", e.v, e.w, e.name);
-      v = getAnchorId(e.v);
-      w = getAnchorId(e.w);
-      graph.removeEdge(e.v, e.w, e.name);
-      const specialId = e.w + "---" + e.v;
-      graph.setNode(specialId, {
-        domId: specialId,
-        id: specialId,
-        labelStyle: "",
-        labelText: edge.label,
-        padding: 0,
-        shape: "labelRect",
-        style: ""
-      });
-      const edge1 = structuredClone(edge);
-      const edge2 = structuredClone(edge);
-      edge1.label = "";
-      edge1.arrowTypeEnd = "none";
-      edge2.label = "";
-      edge1.fromCluster = e.v;
-      edge2.toCluster = e.v;
-      graph.setEdge(v, specialId, edge1, e.name + "-cyclic-special");
-      graph.setEdge(specialId, w, edge2, e.name + "-cyclic-special");
-    } else if (clusterDb[e.v] || clusterDb[e.w]) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Fixing and trixing - removing XXX", e.v, e.w, e.name);
-      v = getAnchorId(e.v);
-      w = getAnchorId(e.w);
-      graph.removeEdge(e.v, e.w, e.name);
-      if (v !== e.v) {
-        const parent = graph.parent(v);
-        clusterDb[parent].externalConnections = true;
-        edge.fromCluster = e.v;
-      }
-      if (w !== e.w) {
-        const parent = graph.parent(w);
-        clusterDb[parent].externalConnections = true;
-        edge.toCluster = e.w;
-      }
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Fix Replacing with XXX", v, w, e.name);
-      graph.setEdge(v, w, edge, e.name);
-    }
-  });
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Adjusted Graph", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph));
-  extractor(graph, 0);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace(clusterDb);
-};
-const extractor = (graph, depth) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("extractor - ", depth, dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph), graph.children("D"));
-  if (depth > 10) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.error("Bailing out");
-    return;
-  }
-  let nodes = graph.nodes();
-  let hasChildren = false;
-  for (const node of nodes) {
-    const children = graph.children(node);
-    hasChildren = hasChildren || children.length > 0;
-  }
-  if (!hasChildren) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Done, no node has children", graph.nodes());
-    return;
-  }
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Nodes = ", nodes, depth);
-  for (const node of nodes) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug(
-      "Extracting node",
-      node,
-      clusterDb,
-      clusterDb[node] && !clusterDb[node].externalConnections,
-      !graph.parent(node),
-      graph.node(node),
-      graph.children("D"),
-      " Depth ",
-      depth
-    );
-    if (!clusterDb[node]) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Not a cluster", node, depth);
-    } else if (!clusterDb[node].externalConnections && // !graph.parent(node) &&
-    graph.children(node) && graph.children(node).length > 0) {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(
-        "Cluster without external connections, without a parent and with children",
-        node,
-        depth
-      );
-      const graphSettings = graph.graph();
-      let dir = graphSettings.rankdir === "TB" ? "LR" : "TB";
-      if (clusterDb[node] && clusterDb[node].clusterData && clusterDb[node].clusterData.dir) {
-        dir = clusterDb[node].clusterData.dir;
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Fixing dir", clusterDb[node].clusterData.dir, dir);
-      }
-      const clusterGraph = new dagre_d3_es_src_graphlib_index_js__WEBPACK_IMPORTED_MODULE_2__/* .Graph */ .T({
-        multigraph: true,
-        compound: true
-      }).setGraph({
-        rankdir: dir,
-        // Todo: set proper spacing
-        nodesep: 50,
-        ranksep: 50,
-        marginx: 8,
-        marginy: 8
-      }).setDefaultEdgeLabel(function() {
-        return {};
-      });
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Old graph before copy", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph));
-      copy(node, graph, clusterGraph, node);
-      graph.setNode(node, {
-        clusterNode: true,
-        id: node,
-        clusterData: clusterDb[node].clusterData,
-        labelText: clusterDb[node].labelText,
-        graph: clusterGraph
-      });
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("New graph after copy node: (", node, ")", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(clusterGraph));
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug("Old graph after copy", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph));
-    } else {
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(
-        "Cluster ** ",
-        node,
-        " **not meeting the criteria !externalConnections:",
-        !clusterDb[node].externalConnections,
-        " no parent: ",
-        !graph.parent(node),
-        " children ",
-        graph.children(node) && graph.children(node).length > 0,
-        graph.children("D"),
-        depth
-      );
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.debug(clusterDb);
-    }
-  }
-  nodes = graph.nodes();
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("New list of nodes", nodes);
-  for (const node of nodes) {
-    const data = graph.node(node);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn(" Now next level", node, data);
-    if (data.clusterNode) {
-      extractor(data.graph, depth + 1);
-    }
-  }
-};
-const sorter = (graph, nodes) => {
-  if (nodes.length === 0) {
-    return [];
-  }
-  let result = Object.assign(nodes);
-  nodes.forEach((node) => {
-    const children = graph.children(node);
-    const sorted = sorter(graph, children);
-    result = [...result, ...sorted];
-  });
-  return result;
-};
-const sortNodesByHierarchy = (graph) => sorter(graph, graph.children());
-const rect = (parent, node) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Creating subgraph rect for ", node.id, node);
-  const siteConfig = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.c)();
-  const shapeSvg = parent.insert("g").attr("class", "cluster" + (node.class ? " " + node.class : "")).attr("id", node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const useHtmlLabels = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.m)(siteConfig.flowchart.htmlLabels);
-  const label = shapeSvg.insert("g").attr("class", "cluster-label");
-  const text = node.labelType === "markdown" ? (0,_createText_ca0c5216_js__WEBPACK_IMPORTED_MODULE_5__.a)(label, node.labelText, { style: node.labelStyle, useHtmlLabels }) : label.node().appendChild((0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.c)(node.labelText, node.labelStyle, void 0, true));
-  let bbox = text.getBBox();
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.m)(siteConfig.flowchart.htmlLabels)) {
-    const div = text.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_3__/* .select */ .Ltv)(text);
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  const padding = 0 * node.padding;
-  const halfPadding = padding / 2;
-  const width = node.width <= bbox.width + padding ? bbox.width + padding : node.width;
-  if (node.width <= bbox.width + padding) {
-    node.diff = (bbox.width - node.width) / 2 - node.padding / 2;
-  } else {
-    node.diff = -node.padding / 2;
-  }
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Data ", node, JSON.stringify(node));
-  rect2.attr("style", node.style).attr("rx", node.rx).attr("ry", node.ry).attr("x", node.x - width / 2).attr("y", node.y - node.height / 2 - halfPadding).attr("width", width).attr("height", node.height + padding);
-  const { subGraphTitleTopMargin } = (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.g)(siteConfig);
-  if (useHtmlLabels) {
-    label.attr(
-      "transform",
-      // This puts the label on top of the box instead of inside it
-      `translate(${node.x - bbox.width / 2}, ${node.y - node.height / 2 + subGraphTitleTopMargin})`
-    );
-  } else {
-    label.attr(
-      "transform",
-      // This puts the label on top of the box instead of inside it
-      `translate(${node.x}, ${node.y - node.height / 2 + subGraphTitleTopMargin})`
-    );
-  }
-  const rectBox = rect2.node().getBBox();
-  node.width = rectBox.width;
-  node.height = rectBox.height;
-  node.intersect = function(point) {
-    return (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.i)(node, point);
-  };
-  return shapeSvg;
-};
-const noteGroup = (parent, node) => {
-  const shapeSvg = parent.insert("g").attr("class", "note-cluster").attr("id", node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const padding = 0 * node.padding;
-  const halfPadding = padding / 2;
-  rect2.attr("rx", node.rx).attr("ry", node.ry).attr("x", node.x - node.width / 2 - halfPadding).attr("y", node.y - node.height / 2 - halfPadding).attr("width", node.width + padding).attr("height", node.height + padding).attr("fill", "none");
-  const rectBox = rect2.node().getBBox();
-  node.width = rectBox.width;
-  node.height = rectBox.height;
-  node.intersect = function(point) {
-    return (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.i)(node, point);
-  };
-  return shapeSvg;
-};
-const roundedWithTitle = (parent, node) => {
-  const siteConfig = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.c)();
-  const shapeSvg = parent.insert("g").attr("class", node.classes).attr("id", node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const label = shapeSvg.insert("g").attr("class", "cluster-label");
-  const innerRect = shapeSvg.append("rect");
-  const text = label.node().appendChild((0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.c)(node.labelText, node.labelStyle, void 0, true));
-  let bbox = text.getBBox();
-  if ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.m)(siteConfig.flowchart.htmlLabels)) {
-    const div = text.children[0];
-    const dv = (0,d3__WEBPACK_IMPORTED_MODULE_3__/* .select */ .Ltv)(text);
-    bbox = div.getBoundingClientRect();
-    dv.attr("width", bbox.width);
-    dv.attr("height", bbox.height);
-  }
-  bbox = text.getBBox();
-  const padding = 0 * node.padding;
-  const halfPadding = padding / 2;
-  const width = node.width <= bbox.width + node.padding ? bbox.width + node.padding : node.width;
-  if (node.width <= bbox.width + node.padding) {
-    node.diff = (bbox.width + node.padding * 0 - node.width) / 2;
-  } else {
-    node.diff = -node.padding / 2;
-  }
-  rect2.attr("class", "outer").attr("x", node.x - width / 2 - halfPadding).attr("y", node.y - node.height / 2 - halfPadding).attr("width", width + padding).attr("height", node.height + padding);
-  innerRect.attr("class", "inner").attr("x", node.x - width / 2 - halfPadding).attr("y", node.y - node.height / 2 - halfPadding + bbox.height - 1).attr("width", width + padding).attr("height", node.height + padding - bbox.height - 3);
-  const { subGraphTitleTopMargin } = (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.g)(siteConfig);
-  label.attr(
-    "transform",
-    `translate(${node.x - bbox.width / 2}, ${node.y - node.height / 2 - node.padding / 3 + ((0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.m)(siteConfig.flowchart.htmlLabels) ? 5 : 3) + subGraphTitleTopMargin})`
-  );
-  const rectBox = rect2.node().getBBox();
-  node.height = rectBox.height;
-  node.intersect = function(point) {
-    return (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.i)(node, point);
-  };
-  return shapeSvg;
-};
-const divider = (parent, node) => {
-  const shapeSvg = parent.insert("g").attr("class", node.classes).attr("id", node.id);
-  const rect2 = shapeSvg.insert("rect", ":first-child");
-  const padding = 0 * node.padding;
-  const halfPadding = padding / 2;
-  rect2.attr("class", "divider").attr("x", node.x - node.width / 2 - halfPadding).attr("y", node.y - node.height / 2).attr("width", node.width + padding).attr("height", node.height + padding);
-  const rectBox = rect2.node().getBBox();
-  node.width = rectBox.width;
-  node.height = rectBox.height;
-  node.diff = -node.padding / 2;
-  node.intersect = function(point) {
-    return (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.i)(node, point);
-  };
-  return shapeSvg;
-};
-const shapes = { rect, roundedWithTitle, noteGroup, divider };
-let clusterElems = {};
-const insertCluster = (elem, node) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Inserting cluster");
-  const shape = node.shape || "rect";
-  clusterElems[node.id] = shapes[shape](elem, node);
-};
-const clear = () => {
-  clusterElems = {};
-};
-const recursiveRender = async (_elem, graph, diagramType, id, parentCluster, siteConfig) => {
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Graph in recursive render: XXX", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph), parentCluster);
-  const dir = graph.graph().rankdir;
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Dir in recursive render - dir:", dir);
-  const elem = _elem.insert("g").attr("class", "root");
-  if (!graph.nodes()) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("No nodes found for", graph);
-  } else {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Recursive render XXX", graph.nodes());
-  }
-  if (graph.edges().length > 0) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Recursive edges", graph.edge(graph.edges()[0]));
-  }
-  const clusters = elem.insert("g").attr("class", "clusters");
-  const edgePaths = elem.insert("g").attr("class", "edgePaths");
-  const edgeLabels = elem.insert("g").attr("class", "edgeLabels");
-  const nodes = elem.insert("g").attr("class", "nodes");
-  await Promise.all(
-    graph.nodes().map(async function(v) {
-      const node = graph.node(v);
-      if (parentCluster !== void 0) {
-        const data = JSON.parse(JSON.stringify(parentCluster.clusterData));
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Setting data for cluster XXX (", v, ") ", data, parentCluster);
-        graph.setNode(parentCluster.id, data);
-        if (!graph.parent(v)) {
-          _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.trace("Setting parent", v, parentCluster.id);
-          graph.setParent(v, parentCluster.id, data);
-        }
-      }
-      _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("(Insert) Node XXX" + v + ": " + JSON.stringify(graph.node(v)));
-      if (node && node.clusterNode) {
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Cluster identified", v, node.width, graph.node(v));
-        const o = await recursiveRender(
-          nodes,
-          node.graph,
-          diagramType,
-          id,
-          graph.node(v),
-          siteConfig
-        );
-        const newEl = o.elem;
-        (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.u)(node, newEl);
-        node.diff = o.diff || 0;
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Node bounds (abc123)", v, node, node.width, node.x, node.y);
-        (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.s)(newEl, node);
-        _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Recursive render complete ", newEl, node);
-      } else {
-        if (graph.children(v).length > 0) {
-          _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Cluster - the non recursive path XXX", v, node.id, node, graph);
-          _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info(findNonClusterChild(node.id, graph));
-          clusterDb[node.id] = { id: findNonClusterChild(node.id, graph), node };
-        } else {
-          _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Node - the non recursive path", v, node.id, node);
-          await (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.e)(nodes, graph.node(v), dir);
-        }
-      }
-    })
-  );
-  graph.edges().forEach(function(e) {
-    const edge = graph.edge(e.v, e.w, e.name);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(e));
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge " + e.v + " -> " + e.w + ": ", e, " ", JSON.stringify(graph.edge(e)));
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Fix", clusterDb, "ids:", e.v, e.w, "Translating: ", clusterDb[e.v], clusterDb[e.w]);
-    (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.f)(edgeLabels, edge);
-  });
-  graph.edges().forEach(function(e) {
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(e));
-  });
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("#############################################");
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("###                Layout                 ###");
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("#############################################");
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info(graph);
-  (0,dagre_d3_es_src_dagre_index_js__WEBPACK_IMPORTED_MODULE_0__/* .layout */ .Zp)(graph);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Graph after layout:", dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph));
-  let diff = 0;
-  const { subGraphTitleTotalMargin } = (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.g)(siteConfig);
-  sortNodesByHierarchy(graph).forEach(function(v) {
-    const node = graph.node(v);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Position " + v + ": " + JSON.stringify(graph.node(v)));
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info(
-      "Position " + v + ": (" + node.x,
-      "," + node.y,
-      ") width: ",
-      node.width,
-      " height: ",
-      node.height
-    );
-    if (node && node.clusterNode) {
-      node.y += subGraphTitleTotalMargin;
-      (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.p)(node);
-    } else {
-      if (graph.children(v).length > 0) {
-        node.height += subGraphTitleTotalMargin;
-        insertCluster(clusters, node);
-        clusterDb[node.id].node = node;
-      } else {
-        node.y += subGraphTitleTotalMargin / 2;
-        (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.p)(node);
-      }
-    }
-  });
-  graph.edges().forEach(function(e) {
-    const edge = graph.edge(e);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info("Edge " + e.v + " -> " + e.w + ": " + JSON.stringify(edge), edge);
-    edge.points.forEach((point) => point.y += subGraphTitleTotalMargin / 2);
-    const paths = (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.h)(edgePaths, e, edge, clusterDb, diagramType, graph, id);
-    (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.j)(edge, paths);
-  });
-  graph.nodes().forEach(function(v) {
-    const n = graph.node(v);
-    _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.info(v, n.type, n.diff);
-    if (n.type === "group") {
-      diff = n.diff;
-    }
-  });
-  return { elem, diff };
-};
-const render = async (elem, graph, markers, diagramType, id) => {
-  (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.a)(elem, markers, diagramType, id);
-  (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.b)();
-  (0,_edges_066a5561_js__WEBPACK_IMPORTED_MODULE_6__.d)();
-  clear();
-  clear$1();
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Graph at first:", JSON.stringify(dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph)));
-  adjustClustersAndEdges(graph);
-  _mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.l.warn("Graph after:", JSON.stringify(dagre_d3_es_src_graphlib_json_js__WEBPACK_IMPORTED_MODULE_1__/* .write */ .M(graph)));
-  const siteConfig = (0,_mermaid_6dc72991_js__WEBPACK_IMPORTED_MODULE_4__.c)();
-  await recursiveRender(elem, graph, diagramType, id, void 0, siteConfig);
 };
 
 
